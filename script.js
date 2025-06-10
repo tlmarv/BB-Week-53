@@ -3,9 +3,9 @@ let quizData = [];
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
-let answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
-let explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
-let selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
+let answeredQuestions;
+let explanationsShown;
+let selectedAnswers;
 
 // DOM Elements
 const questionText = document.getElementById("question-text");
