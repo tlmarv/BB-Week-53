@@ -18,29 +18,37 @@ const questionList = document.getElementById("question-list");
 const quizContainer = document.querySelector(".quiz-content");
 const resultsContainer = document.getElementById("results-container");
 
-//Fetch Quiz Data
 fetch('questions.json')
     .then(response => response.json())
     .then(data => {
-        // Add an 'answered' property to each question to track whether it's been answered
         quizData = data;
+
+        // Reinitialize storage arrays now that we know quizData length
+        answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
+        explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
+        selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
+
+        // Load sidebar questions
+        quizData.forEach((_, index) => {
+            const listItem = document.createElement("li");
+            listItem.textContent = index + 1;
+            listItem.classList.add("question-bubble");
+            listItem.onclick = () => loadQuestion(index);
+            listItem.setAttribute("data-index", index);
+            questionList.appendChild(listItem);
+        });
+
+        // Load first question
+        loadQuestion(0);
     })
     .catch(error => console.error('Error loading quiz data:', error));
+
 
 // Display Hotkey Info Popup
 window.onload = function() {
     alert("Welcome to the quiz!\n\nHotkeys Available:\n- Space: Next Question\n- B: Previous Question\n- 1-5: Select Answer Choices\n Anki remotes should be compatible! \n\nGood luck!");
 };
 
-// Load Questions into Sidebar
-quizData.forEach((_, index) => {
-    const listItem = document.createElement("li");
-    listItem.textContent = index + 1;
-    listItem.classList.add("question-bubble");
-    listItem.onclick = () => loadQuestion(index);
-    listItem.setAttribute("data-index", index);
-    questionList.appendChild(listItem);
-});
 
 // Load Question
 function loadQuestion(index) {
