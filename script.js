@@ -167,5 +167,3 @@ document.addEventListener("keydown", function(event) {
     }
 });
 
-// Load First Question on Start
-loadQuestion(0);
