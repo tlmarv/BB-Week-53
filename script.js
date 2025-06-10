@@ -24,7 +24,6 @@ fetch('questions.json')
     .then(data => {
         // Add an 'answered' property to each question to track whether it's been answered
         quizData = data;
-        loadQuestion();  // Load the first question after fetching and randomizing
     })
     .catch(error => console.error('Error loading quiz data:', error));
 
