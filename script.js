@@ -45,7 +45,7 @@ quizData.forEach((_, index) => {
 // Load Question
 function loadQuestion(index) {
     if (index >= quizData.length) {
-        showResults();
+        showResultsPopup();
         return;
     }
 
