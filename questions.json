@@ -300,30 +300,6 @@
   "explanation": "This patient has primary hyperparathyroidism (elevated calcium, elevated PTH). The question asks for the most appropriate management *at this time* based on current guidelines. While parathyroidectomy is the definitive treatment for primary hyperparathyroidism, it is typically recommended based on specific indications. According to the provided material (slide 13 and 14), indications for surgery include serum calcium >1 mg/dL above upper limit of normal, creatinine clearance <60 ml/min, bone mineral density T score < -2.5, radiologic evidence of vertebral fracture, 24-hour urinary calcium >400 mg with increased stone risk, presence of nephrolithiasis or nephrocalcinosis, or age <50 years. This patient's serum calcium is only slightly above normal (10.9 mg/dL, so <1 mg/dL above normal upper limit of 10.5 mg/dL), his creatinine clearance is 75 ml/min (not <60), his T-score is -1.8 (not < -2.5), he has no history of stones or fractures, and he is older than 50. Therefore, he does not meet current surgical criteria. In the absence of surgical indications, observation with twice-yearly clinical evaluation, ensuring adequate hydration, avoiding thiazide diuretics and extreme calcium diets, and possibly bisphosphonates, is the appropriate management. Bisphosphonates and calcimimetics are medical therapies that may be used, but initial management without surgical indication often begins with observation if the patient remains asymptomatic and does not meet surgical criteria. Dietary calcium restriction is generally not recommended in primary hyperparathyroidism as it can worsen bone health."
 },
   {
-    "question": "A 40-year-old man presents with a 6-month history of muscle weakness, fatigue, and headaches. He has new-onset hypertension that has been difficult to control despite multiple antihypertensive medications. His serum potassium is consistently low (3.0 mEq/L, normal 3.5-5.0 mEq/L) while his serum sodium is normal. Plasma renin activity is found to be suppressed, and plasma aldosterone levels are elevated. An abdominal CT scan reveals a 2.5 cm unilateral adrenal mass. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Secondary hyperaldosteronism due to renal artery stenosis",
-      "Adrenal cortical carcinoma",
-      "Cushing's syndrome",
-      "Primary hyperaldosteronism (Conn syndrome)",
-      "Congenital adrenal hyperplasia"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient presents with a classic triad of hypertension, hypokalemia, and normal serum sodium, coupled with suppressed renin and elevated aldosterone. These findings are diagnostic of primary hyperaldosteronism, often referred to as Conn syndrome when caused by an adrenal adenoma. The presence of a unilateral adrenal mass on CT scan supports this diagnosis. Secondary hyperaldosteronism due to renal artery stenosis would present with elevated renin due to decreased renal perfusion. Adrenal cortical carcinoma could produce aldosterone, but it's less common as a sole manifestation and typically presents with more aggressive features or other hormone excesses, and the mass is often much larger. Cushing's syndrome involves cortisol excess and presents with different clinical features (e.g., central obesity, moon facies, striae) and different lab profiles (elevated cortisol, suppressed ACTH). Congenital adrenal hyperplasia involves deficiencies in steroid synthesis enzymes and presents differently, often earlier in life."
-  },
-  {
-    "question": "A 2-year-old boy presents with severe developmental delay, feeding difficulties, and episodes of dehydration. Physical examination reveals ambiguous genitalia, hyponatremia, and hyperkalemia. His parents report that he was born with external genitalia that made gender assignment difficult. Laboratory studies reveal low serum cortisol and aldosterone levels, and significantly elevated 17-hydroxyprogesterone. This clinical picture is most consistent with a deficiency in which of the following adrenal enzymes?",
-    "choices": [
-      "11-beta-hydroxylase (CYP11B1)",
-      "17-alpha-hydroxylase (CYP17A1)",
-      "21-hydroxylase (CYP21A2)",
-      "3-beta-hydroxysteroid dehydrogenase (HSD3B2)",
-      "Cholesterol desmolase (CYP11A1)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient's presentation with ambiguous genitalia, salt-wasting (hyponatremia, hyperkalemia, dehydration, feeding difficulties, weight loss) , and low cortisol and aldosterone is characteristic of the severe, salt-wasting form of congenital adrenal hyperplasia (CAH). The most common cause of CAH, accounting for over 90% of cases, is 21-hydroxylase (CYP21A2) deficiency. This enzyme deficiency blocks the synthesis pathways to cortisol and aldosterone, leading to their deficiency, while steroid precursors are shunted towards androgen production, causing virilization (ambiguous genitalia in females, enlarged genitalia in males). Elevated 17-hydroxyprogesterone is a hallmark of this deficiency. Other enzyme deficiencies like 11-beta-hydroxylase would also cause virilization but typically lead to hypertension due to deoxycorticosterone accumulation. 17-alpha-hydroxylase deficiency causes hypertension and hypokalemia with impaired sex steroid synthesis. 3-beta-hydroxysteroid dehydrogenase deficiency impairs synthesis of all major steroids, leading to ambiguous genitalia in both sexes and salt wasting. Cholesterol desmolase deficiency is a very rare and severe form affecting all steroid synthesis, typically lethal early in life."
-  },
-  {
     "question": "A 60-year-old man presents to the emergency department with episodic headaches, profuse sweating, and a feeling of 'impending doom.' These episodes occur several times a week and are often triggered by exertion or emotional stress. His blood pressure during an episode is 220/120 mmHg. Which of the following laboratory findings would be most specific for the diagnosis of this patient's underlying condition?",
     "choices": [
       "Elevated serum cortisol and suppressed ACTH",
@@ -334,18 +310,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "The patient's clinical presentation with paroxysmal hypertension, headaches, profuse sweating, and anxiety is highly suggestive of a pheochromocytoma. Pheochromocytomas are tumors of chromaffin cells of the adrenal medulla that secrete excessive catecholamines (norepinephrine and epinephrine). The most specific laboratory test for diagnosing a pheochromocytoma is the measurement of elevated catecholamine metabolites, such as metanephrines and normetanephrines, in a 24-hour urine collection or plasma. Elevated serum cortisol and suppressed ACTH would indicate ACTH-independent Cushing syndrome. Low serum potassium and suppressed plasma renin activity are characteristic of primary hyperaldosteronism. Elevated serum ACTH and hyperpigmentation are signs of primary adrenal insufficiency (Addison's disease) or ACTH-dependent Cushing's disease with very high ACTH. High plasma aldosterone and high plasma renin activity are characteristic of secondary hyperaldosteronism."
-  },
-  {
-    "question": "A 68-year-old woman with a history of long-standing adrenal insufficiency, initially diagnosed at age 35, presents with chronic fatigue, weight loss, and diffuse skin hyperpigmentation. She reports that her family has a history of thyroid problems. Laboratory results show: low plasma cortisol, low plasma aldosterone, high plasma ACTH, high plasma MSH, low serum sodium, and high serum potassium. She is currently on hydrocortisone and fludrocortisone replacement therapy. Given her history and current findings, what is the most likely etiology of her adrenal insufficiency?",
-    "choices": [
-      "Tuberculosis of the adrenal glands",
-      "Metastatic carcinoma to the adrenal glands",
-      "Pituitary adenoma leading to secondary adrenal insufficiency",
-      "Autoimmune adrenalitis",
-      "Adrenal hemorrhage (Waterhouse-Friderichsen Syndrome)"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient's clinical picture of chronic adrenal insufficiency (fatigue, weight loss, hypotension, hyponatremia, hyperkalemia)  with high ACTH and prominent skin hyperpigmentation (due to elevated MSH co-secreted with ACTH)  indicates primary adrenal insufficiency. The long-standing nature of the disease and the presence of skin hyperpigmentation strongly favor a chronic cause. Autoimmune adrenalitis is the most common cause of primary chronic adrenal insufficiency in developed countries (60-70% of cases). The family history of thyroid problems further supports an autoimmune predisposition, as autoimmune adrenalitis can be part of autoimmune polyglandular syndromes (APS). Tuberculosis of the adrenal glands can cause primary adrenal insufficiency, but it is less common in developed countries. Metastatic carcinoma to the adrenal glands can also cause insufficiency but is usually seen in the context of advanced cancer and is less likely to be the cause of long-standing primary adrenal insufficiency diagnosed at a younger age. A pituitary adenoma would lead to secondary adrenal insufficiency, which would present with low ACTH and typically no hyperpigmentation, and usually preserved aldosterone. Adrenal hemorrhage (Waterhouse-Friderichsen Syndrome) is a cause of acute primary adrenal insufficiency, often seen in the context of severe infections like meningococcemia, not a chronic presentation."
   },
   {
     "question": "A 40-year-old man presents with a 6-month history of muscle weakness, fatigue, and headaches. He has new-onset hypertension that has been difficult to control despite multiple antihypertensive medications. His serum potassium is consistently low (3.0 mEq/L, normal 3.5-5.0 mEq/L) while his serum sodium is normal. Plasma renin activity is found to be suppressed, and plasma aldosterone levels are elevated. An abdominal CT scan reveals a 2.5 cm unilateral adrenal mass. Which of the following is the most likely diagnosis?",
@@ -370,18 +334,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "This patient's presentation with ambiguous genitalia, salt-wasting (hyponatremia, hyperkalemia, dehydration, feeding difficulties, weight loss), and low cortisol and aldosterone is characteristic of the severe, salt-wasting form of congenital adrenal hyperplasia (CAH). The most common cause of CAH, accounting for over 90% of cases, is 21-hydroxylase (CYP21A2) deficiency. This enzyme deficiency blocks the synthesis pathways to cortisol and aldosterone, leading to their deficiency, while steroid precursors are shunted towards androgen production, causing virilization (ambiguous genitalia in females, enlarged genitalia in males). Elevated 17-hydroxyprogesterone is a hallmark of this deficiency. Other enzyme deficiencies like 11-beta-hydroxylase would also cause virilization but typically lead to hypertension due to deoxycorticosterone accumulation. 17-alpha-hydroxylase deficiency causes hypertension and hypokalemia with impaired sex steroid synthesis. 3-beta-hydroxysteroid dehydrogenase deficiency impairs synthesis of all major steroids, leading to ambiguous genitalia in both sexes and salt wasting. Cholesterol desmolase deficiency is a very rare and severe form affecting all steroid synthesis, typically lethal early in life."
-  },
-  {
-    "question": "A 60-year-old man presents to the emergency department with episodic headaches, profuse sweating, and a feeling of 'impending doom.' These episodes occur several times a week and are often triggered by exertion or emotional stress. His blood pressure during an episode is 220/120 mmHg. Which of the following laboratory findings would be most specific for the diagnosis of this patient's underlying condition?",
-    "choices": [
-      "Elevated serum cortisol and suppressed ACTH",
-      "Low serum potassium and suppressed plasma renin activity",
-      "Elevated 24-hour urinary metanephrines and normetanephrines",
-      "Elevated serum ACTH and hyperpigmentation",
-      "High plasma aldosterone and high plasma renin activity"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The patient's clinical presentation with paroxysmal hypertension, headaches, profuse sweating, and anxiety is highly suggestive of a pheochromocytoma. Pheochromocytomas are tumors of chromaffin cells of the adrenal medulla that secrete excessive catecholamines (norepinephrine and epinephrine). The most specific laboratory test for diagnosing a pheochromocytoma is the measurement of elevated catecholamine metabolites, such as metanephrines and normetanephrines, in a 24-hour urine collection or plasma. Elevated serum cortisol and suppressed ACTH would indicate ACTH-independent Cushing syndrome. Low serum potassium and suppressed plasma renin activity are characteristic of primary hyperaldosteronism. Elevated serum ACTH and hyperpigmentation are signs of primary adrenal insufficiency (Addison's disease)  or ACTH-dependent Cushing's disease with very high ACTH. High plasma aldosterone and high plasma renin activity are characteristic of secondary hyperaldosteronism."
   },
   {
     "question": "A 68-year-old woman with a history of long-standing adrenal insufficiency, initially diagnosed at age 35, presents with chronic fatigue, weight loss, and diffuse skin hyperpigmentation. She reports that her family has a history of thyroid problems. Laboratory results show: low plasma cortisol, low plasma aldosterone, high plasma ACTH, high plasma MSH, low serum sodium, and high serum potassium. She is currently on hydrocortisone and fludrocortisone replacement therapy. Given her history and current findings, what is the most likely etiology of her adrenal insufficiency?",
@@ -490,5 +442,53 @@
     ],
     "correctAnswer": 1,
     "explanation": "This patient has MEN type 2B, caused by RET proto-oncogene mutations. It presents with pheochromocytomas (hypertension, headaches, palpitations), medullary thyroid carcinoma (neck mass), mucosal neuromas, and marfanoid habitus. MEN type 1 involves menin mutations. APC and P53 are unrelated. HLA-DR3 is associated with PGAS type II, not MEN."
+  },
+  {
+    "question": "A 25-year-old woman at 10 weeks of pregnancy is diagnosed with Graves disease. She is started on medical treatment to control her hyperthyroidism. Which of the following drugs is most appropriate to use during the first trimester of her pregnancy?",
+    "choices": [
+      "Methimazole",
+      "Propylthiouracil",
+      "Potassium iodide",
+      "Radioactive iodine",
+      "Propranolol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Propylthiouracil (PTU) is preferred during the first trimester of pregnancy because methimazole is teratogenic and associated with congenital anomalies when used early in pregnancy. Methimazole is generally preferred in the second and third trimesters due to a better safety profile for liver toxicity. Potassium iodide and radioactive iodine are contraindicated in pregnancy. Propranolol may be used adjunctively for symptom control but is not the primary antithyroid treatment."
+  },
+  {
+    "question": "A 68-year-old man with newly diagnosed hyperthyroidism is treated with high-dose iodide. Which of the following mechanisms best explains the reduction in thyroid hormone production in this patient?",
+    "choices": [
+      "Inhibition of TSH receptor antibodies",
+      "Destruction of thyroid follicular cells",
+      "Inhibition of conversion of T4 to T3 in peripheral tissues",
+      "Inhibition of iodide organification and thyroid hormone release",
+      "Stimulation of calcitonin secretion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "High-dose iodide induces the Wolff-Chaikoff effect, which acutely inhibits thyroid hormone synthesis by blocking iodide organification and release of preformed hormone. This is a transient effect and used short-term (e.g., preoperatively or in thyroid storm). It does not affect TSH receptor antibodies or directly destroy thyroid cells. Peripheral T4-to-T3 conversion is inhibited by beta-blockers and PTU, not by iodide."
+  },
+  {
+    "question": "A 56-year-old woman with postmenopausal osteoporosis is prescribed a drug that inhibits osteoclast function and slows the formation of hydroxyapatite crystals. Which of the following is the most likely medication prescribed?",
+    "choices": [
+      "Calcitonin",
+      "Vitamin D",
+      "Bisphosphonate",
+      "PTH analog",
+      "Calcium carbonate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bisphosphonates inhibit bone resorption by impairing osteoclast function and slow hydroxyapatite crystal formation. They are commonly used to treat osteoporosis, Paget disease, and hypercalcemia of malignancy. Calcitonin also inhibits osteoclasts but is less effective long term. Vitamin D and calcium carbonate support bone formation but do not inhibit resorption. PTH analogs (low-dose intermittent) stimulate bone formation, not inhibit resorption."
+  },
+  {
+    "question": "A 3-year-old child presents with bowed legs and delayed growth. Labs reveal low serum calcium and phosphate with elevated PTH. The child has limited sun exposure and a poor diet. What is the primary mechanism of this condition?",
+    "choices": [
+      "Autoimmune destruction of parathyroid glands",
+      "Defective PTH receptor function",
+      "Deficiency of 7-dehydrocholesterol conversion to vitamin D",
+      "Resistance of osteoclasts to PTH",
+      "Overproduction of calcitonin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "This is nutritional rickets, caused by vitamin D deficiency due to inadequate sun exposure and poor dietary intake. 7-dehydrocholesterol in the skin is the precursor for vitamin D3 synthesis, which is required for calcium and phosphate absorption. Defective conversion or lack of vitamin D leads to hypocalcemia, elevated PTH (secondary hyperparathyroidism), and impaired bone mineralization. Autoimmune parathyroid destruction causes hypocalcemia with low PTH. PTH receptor dysfunction and calcitonin excess are not causes of rickets."
   }
 ]
