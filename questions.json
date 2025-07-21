@@ -1,494 +1,554 @@
 [
   {
-    "question": "A 47-year-old woman is found to have hypercalcemia on routine bloodwork. She reports fatigue and constipation. Labs show elevated PTH and calcium levels, with low phosphate levels. Which of the following additional findings is most likely in this patient?",
+    "question": "A 45-year-old man presents with right-sided facial droop. He is unable to raise his right eyebrow, close his right eye tightly, or smile on the right side. He also reports hyperacusis and decreased taste on the anterior two-thirds of the tongue. Where is the most likely location of the facial nerve lesion?",
     "choices": [
-      "Tetany with carpopedal spasm",
-      "Nephrolithiasis",
-      "Hypopigmentation of the skin",
-      "Increased bone density",
-      "Elevated serum calcitonin"
+      "Stylomastoid foramen",
+      "Geniculate ganglion",
+      "Internal acoustic meatus",
+      "Parotid gland",
+      "Brainstem motor nucleus of CN VII"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A lesion at the internal acoustic meatus affects the facial nerve before it exits the skull, involving all its branches. This includes motor innervation to the face, chorda tympani (taste), and the nerve to stapedius (hyperacusis). A lesion here explains the complete right facial paralysis with taste and auditory symptoms. - A. Stylomastoid foramen: Incorrect. Lesions here cause facial muscle paralysis but do NOT affect taste or hearing.- B. Geniculate ganglion: Incorrect. While taste fibers pass through here, hyperacusis (due to stapedius involvement) would suggest a lesion before the nerve to stapedius branches off.- C. Internal acoustic meatus: Correct. Affects all components of CN VII before it enters the facial canal.- D. Parotid gland: Incorrect. Damage here affects only the terminal branches of CN VII — facial expression muscles — not taste or hearing.- E. Brainstem motor nucleus of CN VII: Incorrect. A lesion here causes a central (upper motor neuron) pattern of facial weakness (spares forehead). This patient has a lower motor neuron pattern."
+  },
+  {
+    "question": "A 17-year-old male presents with periorbital swelling and headache following manipulation of an inflamed pimple on his upper lip. MRI reveals cavernous sinus thrombosis. Which venous route most likely allowed retrograde spread of infection to the cavernous sinus?",
+    "choices": [
+      "Retromandibular vein → external jugular vein",
+      "Facial vein → angular vein → superior ophthalmic vein → cavernous sinus",
+      "Superficial temporal vein → internal jugular vein",
+      "Pterygoid venous plexus → maxillary vein → external jugular vein",
+      "Deep facial vein → facial vein → subclavian vein"
     ],
     "correctAnswer": 1,
-    "explanation": "This patient has primary hyperparathyroidism, characterized by elevated PTH and calcium with low phosphate. Common complications include nephrolithiasis due to hypercalciuria. Tetany occurs in hypocalcemia, not hypercalcemia. Hyperparathyroidism is associated with decreased bone density (osteitis fibrosa cystica), not increased bone density. Skin pigmentation changes and elevated calcitonin are not characteristic features."
+    "explanation": "The valveless facial vein communicates with the angular and ophthalmic veins, which connect directly to the cavernous sinus. This enables retrograde spread of infection from the midface ('danger triangle') to intracranial venous sinuses. - A. Retromandibular vein → external jugular vein: Incorrect. Drains posteriorly and does not communicate with the cavernous sinus.- B. Facial vein → angular vein → superior ophthalmic vein → cavernous sinus: Correct. This is the direct route for spread of infection to the cavernous sinus.- C. Superficial temporal vein → internal jugular vein: Incorrect. Not involved in anterior facial drainage.- D. Pterygoid venous plexus → maxillary vein → external jugular vein: Incorrect. This pathway doesn't lead to the cavernous sinus.- E. Deep facial vein → facial vein → subclavian vein: Incorrect. While the deep facial vein can anastomose with pterygoid plexus, the path to the cavernous sinus involves the superior ophthalmic vein, not this route."
   },
   {
-    "question": "A 35-year-old man presents with central obesity, easy bruising, and new-onset hypertension. Labs reveal elevated cortisol and ACTH levels. MRI shows a pituitary mass. Which of the following explains the patient's hyperpigmentation?",
+    "question": "A 64-year-old woman presents with episodes of sharp, electric shock-like pain over her right cheek and upper lip, often triggered by light touch or brushing teeth. Neurological examination is normal between attacks. Which nerve division is most likely affected?",
     "choices": [
-      "Direct cortisol stimulation of melanocytes",
-      "Excess aldosterone leading to skin sodium loss",
-      "POMC-derived MSH production along with ACTH",
-      "Overproduction of epinephrine from the adrenal medulla",
-      "Upregulation of tyrosine hydroxylase activity"
-    ],
-    "correctAnswer": 2,
-    "explanation": "In Cushing's disease (pituitary ACTH-secreting tumor), POMC is cleaved into ACTH and melanocyte-stimulating hormone (MSH), both of which increase pigmentation. Cortisol does not directly stimulate melanocytes. Aldosterone excess affects sodium retention, not pigmentation. Epinephrine and tyrosine hydroxylase are unrelated to skin pigmentation."
-  },
-  {
-    "question": "A patient with long-standing diabetes is found to have postural hypotension, decreased cortisol, and low aldosterone levels. Further workup confirms Addison’s disease. Which of the following is the most significant clinical concern in this patient?",
-    "choices": [
-      "Hyperkalemia-induced muscle paralysis",
-      "Inability to mount a stress response during infection or surgery",
-      "Risk of hypoglycemia from impaired insulin secretion",
-      "Delayed wound healing due to low androgens",
-      "Excessive vasoconstriction due to epinephrine excess"
+      "Ophthalmic nerve (CN V1)",
+      "Maxillary nerve (CN V2)",
+      "Mandibular nerve (CN V3)",
+      "Facial nerve (CN VII)",
+      "Glossopharyngeal nerve (CN IX)"
     ],
     "correctAnswer": 1,
-    "explanation": "The most serious risk in adrenal insufficiency (Addison's disease) is an Addisonian crisis, triggered by stress when the body cannot produce adequate cortisol. This can be fatal without proper steroid replacement. Hyperkalemia can occur but is not the primary life-threatening issue. Addison’s patients are prone to hypoglycemia due to low cortisol, but the stress response deficit is more dangerous. Wound healing is less affected by adrenal androgens. Epinephrine is typically low or normal in Addison’s."
+    "explanation": "Trigeminal neuralgia most commonly affects the maxillary division (CN V2), which innervates the upper lip and cheek. It presents with paroxysmal, lancinating facial pain often triggered by light stimulation.- A. Ophthalmic nerve (CN V1): Incorrect. This would cause pain in the forehead and upper scalp, not the cheek.- B. Maxillary nerve (CN V2): Correct. Innervates the cheek, upper lip, and lateral nose — classic trigeminal neuralgia location.- C. Mandibular nerve (CN V3): Incorrect. Would affect the jaw, chin, and temple regions, not the midface.- D. Facial nerve (CN VII): Incorrect. Primarily motor to facial muscles, not responsible for somatic facial sensation.- E. Glossopharyngeal nerve (CN IX): Incorrect. Involved in posterior tongue, pharynx, and ear sensation — not facial dermatomes."
   },
+{
+  "question": "A 66-year-old right-handed man is brought in by his daughter, who reports that he only shaves the right side of his face, eats food from the right side of his plate, and ignores people approaching him from the left. Neurologic exam reveals left-sided spatial neglect. Which of the following brain regions is most likely damaged?",
+  "choices": [
+    "Left inferior parietal lobule",
+    "Right inferior parietal lobule",
+    "Left superior temporal gyrus",
+    "Right frontal lobe",
+    "Left cuneus"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This patient's presentation is classic for hemispatial neglect syndrome, typically resulting from a lesion in the non-dominant (right) inferior parietal lobule. This area integrates spatial attention, and right-sided lesions lead to left-sided neglect in most right-handed individuals.- A. Left inferior parietal lobule: Incorrect. A lesion here can affect language functions in the dominant hemisphere but does not cause hemispatial neglect.- B. Right inferior parietal lobule: Correct. Damage here leads to left visual field neglect due to impaired visuospatial attention.- C. Left superior temporal gyrus: Incorrect. Associated with Wernicke’s area and language comprehension, not spatial awareness.- D. Right frontal lobe: Incorrect. While frontal lobe lesions can cause motor or planning deficits, spatial neglect is more commonly linked to the parietal lobe.- E. Left cuneus: Incorrect. Involved in visual processing of the inferior visual field, not responsible for attention or neglect."
+},
+{
+  "question": "A 58-year-old right-handed woman presents with slurred speech but intact comprehension. She is frustrated by her inability to articulate words and frequently struggles to write sentences. Neurological imaging reveals a lesion in the dominant frontal lobe. Which of the following best describes this patient’s condition?",
+  "choices": [
+    "Wernicke's aphasia",
+    "Broca's aphasia",
+    "Conduction aphasia",
+    "Anomic aphasia",
+    "Transcortical sensory aphasia"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This patient has Broca's aphasia, which results from a lesion in the inferior frontal gyrus (pars opercularis and pars triangularis) of the dominant hemisphere. It is characterized by non-fluent, effortful speech with preserved comprehension.- A. Wernicke's aphasia: Incorrect. Wernicke's affects the posterior superior temporal gyrus, causing fluent but meaningless speech and impaired comprehension.- B. Broca's aphasia: Correct. Caused by a lesion in Broca’s area in the dominant frontal lobe, presenting with impaired speech production and writing.- C. Conduction aphasia: Incorrect. This results from arcuate fasciculus damage and primarily affects repetition, not speech production or comprehension.- D. Anomic aphasia: Incorrect. Characterized by word-finding difficulty with preserved fluency and comprehension, usually due to lesions in temporal or parietal regions.- E. Transcortical sensory aphasia: Incorrect. Similar to Wernicke’s but with preserved repetition; comprehension remains impaired."
+},
+{
+  "question": "A 62-year-old man suffers a stroke and is found to have impaired movement and sensation of the contralateral leg, with sparing of the face and arm. Which artery is most likely occluded?",
+  "choices": [
+    "Middle cerebral artery",
+    "Anterior cerebral artery",
+    "Posterior cerebral artery",
+    "Anterior choroidal artery",
+    "Basilar artery"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This is a classic presentation of an anterior cerebral artery (ACA) stroke. The ACA supplies the medial portions of the frontal and parietal lobes, including the paracentral lobule responsible for motor and sensory function of the lower limb.- A. Middle cerebral artery: Incorrect. MCA strokes affect the lateral hemispheres, typically involving the face and arm more than the leg.- B. Anterior cerebral artery: Correct. The ACA supplies the medial frontal and parietal lobes, affecting the lower extremity on the contralateral side.- C. Posterior cerebral artery: Incorrect. Supplies the occipital lobe (visual cortex) and inferior temporal lobe, not motor or sensory cortex.- D. Anterior choroidal artery: Incorrect. Involved in deep structures like the internal capsule and thalamus; deficits would be more widespread.- E. Basilar artery: Incorrect. Supplies the brainstem and cerebellum, not the cerebral cortex."
+},
+{
+  "question": "A 48-year-old man undergoes resection of a benign parotid gland tumor. Postoperatively, he presents with asymmetry of the face, inability to close his right eye tightly, and drooping of the right corner of his mouth. However, salivary secretion from the parotid gland remains intact. Which of the following best explains this pattern of findings?",
+  "choices": [
+    "Damage to postganglionic parasympathetic fibers traveling with the auriculotemporal nerve",
+    "Injury to the facial nerve within the parotid gland, which does not innervate the gland itself",
+    "Transection of the glossopharyngeal nerve proximal to the otic ganglion",
+    "Lesion of the mandibular branch of the trigeminal nerve (CN V3)",
+    "Compression of the external carotid artery within the parotid gland"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This clinical picture reflects injury to the facial nerve (CN VII) within the parotid gland. Although CN VII gives off its five terminal motor branches inside the gland, it does not innervate the gland itself—parasympathetic innervation comes from CN IX via the otic ganglion and auriculotemporal nerve. Thus, facial weakness with preserved parotid function suggests damage to CN VII within the gland.- A. Damage to postganglionic parasympathetic fibers traveling with the auriculotemporal nerve: Incorrect. Would impair salivation but not cause facial droop.- B. Injury to the facial nerve within the parotid gland, which does not innervate the gland itself: Correct. Explains isolated facial muscle weakness with intact salivation.- C. Transection of the glossopharyngeal nerve proximal to the otic ganglion: Incorrect. Would impair parotid secretion”
+},
   {
-    "question": "A 27-year-old man presents with episodic headaches, palpitations, and sweating. Blood pressure is persistently elevated. Plasma metanephrines are markedly increased. Which of the following is the primary source of his symptoms?",
+    "question": "A 63-year-old man presents with new onset hemiparesis and loss of proprioception on the right side of his body. Neurologic exam shows decreased vibration sense and conscious proprioception in the right upper and lower limbs, along with a positive Romberg sign. Which of the following is the most likely location of the lesion?",
     "choices": [
-      "Increased cortisol release from the adrenal cortex",
-      "Unopposed vagal activation",
-      "Excess norepinephrine and epinephrine from a chromaffin cell tumor",
-      "Decreased breakdown of dopamine",
-      "Increased aldosterone-induced sodium retention"
+      "Right lateral corticospinal tract in the cervical spinal cord",
+      "Left dorsal column at the level of the medulla",
+      "Right medial lemniscus in the midbrain",
+      "Left anterior horn of the cervical spinal cord",
+      "Right spinothalamic tract in the thoracic spinal cord"
     ],
-    "correctAnswer": 2,
-    "explanation": "This patient has a pheochromocytoma, a tumor of adrenal medullary chromaffin cells that secretes excess catecholamines (epinephrine and norepinephrine), causing episodic hypertension, headaches, and sweating. Cortisol excess causes Cushing’s syndrome, not these symptoms. Vagal activation lowers heart rate and BP. Dopamine metabolism is not the key issue here. Aldosterone excess causes hypertension but not paroxysmal sympathetic symptoms."
+    "correctAnswer": 1,
+    "explanation": "The patient shows loss of proprioception and vibration sense on the right, suggesting involvement of the dorsal column-medial lemniscus pathway. Because these sensations are carried ipsilaterally in the spinal cord and cross at the medulla, a lesion on the right side of the dorsal column before decussation would cause this presentation.Right lateral corticospinal tract in the cervical spinal cord: Incorrect. This would cause motor weakness but not sensory deficits like loss of proprioception.Left dorsal column at the level of the medulla: Incorrect. Lesion after decussation would affect the right side, but this would be contralateral and at the medullary level, not spinal.Right medial lemniscus in the midbrain: Incorrect. After decussation, medial lemniscus lesions cause contralateral sensory loss.Left anterior horn of the cervical spinal cord: Incorrect. This would result in lower motor neuron signs like flaccid paralysis, not sensory loss.Right spinothalamic tract in the thoracic spinal cord: Incorrect. Spinothalamic tract carries pain and temperature, not proprioception or vibration."
   },
   {
-    "question": "A 34-year-old woman presents with weight loss, heat intolerance, and palpitations. On exam, she has exophthalmos and pretibial myxedema. Her thyroid is diffusely enlarged and non-nodular. Laboratory tests show low TSH and elevated free T4. Which of the following is the primary pathogenic mechanism of this patient’s condition?",
+    "question": "A researcher is tracing afferent sensory pathways and notes that touch and proprioceptive signals from the lower limbs ascend ipsilaterally and terminate in a nucleus before decussating in the medulla. Which nucleus is this signal destined for?",
     "choices": [
-      "Autoantibodies targeting thyroglobulin",
-      "Thyroid follicular cell destruction by cytotoxic T cells",
-      "Inhibitory antibodies to TSH receptor",
-      "Activating antibodies to TSH receptor",
-      "Gain-of-function mutations in the TSH receptor gene"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient has Graves disease, the most common cause of hyperthyroidism. The key pathogenic mechanism is the presence of thyroid-stimulating immunoglobulins (TSI), which are activating antibodies directed at the TSH receptor, causing increased thyroid hormone production and follicular hyperplasia. Destruction by cytotoxic T cells is a feature of Hashimoto thyroiditis. Anti-thyroglobulin antibodies are seen in Hashimoto but do not drive hyperthyroidism. Inhibitory antibodies would cause hypothyroidism. TSHR gene mutations are seen in toxic adenomas or nodules, not in diffuse Graves disease."
-  },
-  {
-    "question": "A 52-year-old woman presents with a firm, painless goiter. Laboratory tests reveal elevated TSH and low free T4. Her serum is positive for anti-thyroid peroxidase and anti-thyroglobulin antibodies. A biopsy would most likely reveal which of the following histologic features?",
-    "choices": [
-      "Follicular hyperplasia with resorbed colloid",
-      "Psammoma bodies with papillary structures",
-      "Oncocytic (Hürthle) cell metaplasia with lymphoid infiltrates",
-      "Undifferentiated pleomorphic giant cells with necrosis",
-      "Medullary carcinoma with amyloid deposition"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This is chronic lymphocytic thyroiditis (Hashimoto thyroiditis), characterized by lymphoplasmacytic infiltrates, germinal centers, follicular cell atrophy, and oncocytic (Hürthle) cell metaplasia. Follicular hyperplasia with colloid resorption is seen in Graves disease. Psammoma bodies and papillary structures are diagnostic for papillary thyroid carcinoma. Pleomorphic giant cells with necrosis describe anaplastic carcinoma. Medullary carcinoma is associated with C-cell proliferation and amyloid deposits."
-  },
-  {
-    "question": "A 60-year-old man presents with a large thyroid mass and rapidly progressing dysphagia and hoarseness. Biopsy shows undifferentiated cells with spindle and giant cell morphology, frequent mitoses, and necrosis. The most likely diagnosis is:",
-    "choices": [
-      "Papillary thyroid carcinoma",
-      "Follicular thyroid carcinoma",
-      "Medullary thyroid carcinoma",
-      "Anaplastic thyroid carcinoma",
-      "Follicular variant of papillary carcinoma"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Anaplastic (undifferentiated) thyroid carcinoma is a highly aggressive tumor seen in older adults. It presents with rapidly growing masses causing compressive symptoms and histologically shows spindle cells, giant cells, pleomorphism, mitoses, and necrosis. Papillary carcinoma is indolent and well-differentiated. Follicular carcinoma requires capsular or vascular invasion but remains differentiated. Medullary carcinoma arises from C cells and stains positive for calcitonin. Follicular variant of papillary carcinoma retains nuclear features of papillary carcinoma and is not undifferentiated."
-  },
-  {
-    "question": "A 25-year-old man is diagnosed with medullary thyroid carcinoma as part of MEN2B syndrome. Which of the following additional clinical findings is most likely in this patient?",
-    "choices": [
-      "Psammoma bodies on histology",
-      "Hurthle cell metaplasia",
-      "Hypocalcemia due to hypoparathyroidism",
-      "Mucosal neuromas",
-      "RET/PTC rearrangement"
-    ],
-    "correctAnswer": 3,
-    "explanation": "MEN2B is associated with medullary thyroid carcinoma, mucosal neuromas, marfanoid habitus, and pheochromocytoma. Psammoma bodies are seen in papillary carcinoma. Hurthle cells are seen in Hashimoto thyroiditis. Hypocalcemia is seen in hypoparathyroidism or post-surgical parathyroid removal. RET/PTC rearrangement is a driver of papillary carcinoma, whereas MEN2B involves germline RET proto-oncogene mutations."
-  },
-  {
-    "question": "A 62-year-old woman presents with fatigue, constipation, muscle weakness, and recurrent nephrolithiasis. Labs reveal elevated serum calcium and PTH levels with low phosphate. A parathyroid mass is surgically removed. Histology shows a hypercellular encapsulated mass composed of chief cells with no appreciable stromal fat and no capsular or vascular invasion. What is the most likely diagnosis?",
-    "choices": [
-      "Parathyroid hyperplasia",
-      "Parathyroid carcinoma",
-      "Primary hyperparathyroidism due to parathyroid adenoma",
-      "Tertiary hyperparathyroidism",
-      "Secondary hyperparathyroidism"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This is classic parathyroid adenoma, the most common cause of primary hyperparathyroidism. Histology typically shows a single, encapsulated hypercellular mass of chief cells with minimal or absent adipose tissue. It lacks the invasive features seen in carcinoma and is distinct from multiglandular hyperplasia. Secondary and tertiary hyperparathyroidism typically involve multiple glands and are associated with chronic renal disease or vitamin D deficiency."
-  },
-  {
-    "question": "A 58-year-old man with end-stage renal disease develops hypercalcemia and markedly elevated PTH levels despite long-term treatment for secondary hyperparathyroidism. Imaging reveals multiple enlarged parathyroid glands. Which of the following best explains the pathogenesis of his condition?",
-    "choices": [
-      "Neoplastic transformation of hyperplastic parathyroid glands",
-      "Autoimmune destruction of parathyroid tissue",
-      "Overexpression of parafibromin",
-      "Reduced intestinal calcium absorption due to loss of villi",
-      "Excess secretion of calcitonin from C-cells"
+      "Gracile nucleus",
+      "Cuneate nucleus",
+      "Ventral posterior lateral nucleus",
+      "Substantia gelatinosa",
+      "Nucleus ambiguus"
     ],
     "correctAnswer": 0,
-    "explanation": "This patient has tertiary hyperparathyroidism, which results from neoplastic transformation of previously hyperplastic parathyroid glands in the setting of chronic secondary hyperparathyroidism. It is marked by autonomous PTH secretion and hypercalcemia, even after the inciting renal disease has been managed. Autoimmunity is seen in hypoparathyroidism, parafibromin is lost (not overexpressed) in parathyroid carcinoma, and calcitonin is secreted by thyroid C-cells, not parathyroid glands."
+    "explanation": "The gracile nucleus in the medulla receives sensory input from the lower half of the body (below T6) via the fasciculus gracilis. Signals decussate after synapsing here and continue via the medial lemniscus.Gracile nucleus: Correct. Receives input from the lower limbs and trunk.Cuneate nucleus: Incorrect. Receives input from the upper limbs and trunk (above T6).Ventral posterior lateral nucleus: Incorrect. This is a thalamic relay station, not the medullary nucleus receiving the first synapse.Substantia gelatinosa: Incorrect. Involved in pain modulation, not proprioception.Nucleus ambiguus: Incorrect. Motor nucleus for CN IX and X, not involved in sensory processing."
   },
   {
-    "question": "A 45-year-old woman undergoes parathyroidectomy for primary hyperparathyroidism. Genetic testing reveals a germline mutation in the MEN1 gene. Which of the following additional tumors is she most at risk of developing?",
+    "question": "A patient suffers a stroke affecting the anterior spinal artery at the mid-thoracic level. Which of the following deficits is most likely seen below the level of the lesion?",
     "choices": [
-      "Pheochromocytoma and medullary thyroid carcinoma",
-      "Mucosal neuromas and medullary thyroid carcinoma",
-      "Pituitary adenoma and pancreatic neuroendocrine tumor",
-      "Lung carcinoid and parathyroid carcinoma",
-      "Adrenal cortical carcinoma and thyroid follicular adenoma"
+      "Ipsilateral loss of fine touch and vibration",
+      "Bilateral flaccid paralysis",
+      "Contralateral pain and temperature loss with preserved fine touch",
+      "Ipsilateral Horner syndrome",
+      "Bilateral loss of proprioception"
     ],
     "correctAnswer": 2,
-    "explanation": "This patient has MEN1, which is characterized by the '3 Ps': parathyroid adenomas, pancreatic neuroendocrine tumors (e.g., insulinomas, gastrinomas), and pituitary adenomas. It is due to a mutation in the MEN1 tumor suppressor gene (menin) on chromosome 11q13. MEN2A and MEN2B involve RET mutations and are associated with pheochromocytoma and medullary thyroid carcinoma. Lung carcinoids and adrenal cortical carcinomas are not hallmark tumors of MEN1."
+    "explanation": "Anterior spinal artery syndrome at the thoracic level affects the spinothalamic tracts (which cross in the anterior white commissure) and lateral corticospinal tracts, sparing the dorsal columns. Therefore, patients exhibit motor weakness and contralateral pain and temperature loss, with preserved fine touch and proprioception.Ipsilateral loss of fine touch and vibration: Incorrect. These modalities are carried in the dorsal columns, which are supplied by the posterior spinal arteries.Bilateral flaccid paralysis: Incorrect. This occurs only at the level of lesion involving anterior horn cells. Below the lesion, paralysis is spastic.Contralateral pain and temperature loss with preserved fine touch: Correct. Spinothalamic tracts are affected, dorsal columns are spared.Ipsilateral Horner syndrome: Incorrect. Only seen with lesions involving the hypothalamospinal tract in the cervical region.Bilateral loss of proprioception: Incorrect. Dorsal columns (which carry proprioception) are not affected in anterior spinal artery syndrome."
   },
   {
-    "question": "A 63-year-old man presents with severe hypercalcemia, bone pain, and a palpable neck mass. Lab results show markedly elevated PTH. Surgical pathology reveals invasion of the tumor into adjacent soft tissue and vascular structures. Immunohistochemistry shows loss of parafibromin staining. What is the most likely diagnosis?",
+    "question": "A 37-year-old man sustains a temporal bone fracture. Shortly after, he develops facial asymmetry, inability to close his left eye, and drooping of the left side of the mouth. However, his ability to wrinkle the forehead on both sides remains intact. Which of the following best describes the location of the nerve lesion?",
     "choices": [
-      "Parathyroid adenoma",
-      "Parathyroid carcinoma",
-      "Atypical parathyroid tumor",
-      "Parathyroid hyperplasia",
-      "Lipoadenoma"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The presence of local tissue invasion, vascular invasion, and loss of parafibromin staining supports the diagnosis of parathyroid carcinoma, a rare but aggressive cause of primary hyperparathyroidism. Parathyroid adenomas are benign and lack invasive features. Atypical parathyroid tumors may have worrisome histology but do not show definitive invasion. Hyperplasia involves multiple glands and is non-invasive. Lipoadenoma is a benign tumor with abundant adipose tissue."
-  },
-{
-  "question": "A 28-year-old female presents to her physician complaining of amenorrhea and galactorrhea. She reports mild headaches but denies any visual changes. Her physical exam is otherwise unremarkable. Laboratory tests show a serum prolactin level of 350 ng/mL (normal < 20 ng/mL) and normal levels of TSH, ACTH, FSH, and LH. An MRI of the pituitary gland reveals a 0.8 cm sellar mass. The patient is prescribed cabergoline, which significantly improves her symptoms and reduces her prolactin level. Which of the following is the most likely pathological characteristic of this patient's pituitary mass?",
-  "choices": [
-    "Basophilic cells that are typically macro-adenomas and less responsive to medical therapy.",
-    "Acidophilic cells that commonly present as macro-adenomas in males and post-menopausal females.",
-    "Basophilic cells that are usually micro-adenomas and are often responsive to dopamine agonist therapy.",
-    "Acidophilic cells that are the second most common functioning adenoma and cause insulin resistance.",
-    "Chromophobe cells, with mass effect symptoms but no significant hormonal excess."
-  ],
-  "correctAnswer": 2,
-  "explanation": "The patient's presentation with amenorrhea, galactorrhea, significantly elevated prolactin (>200 ng/mL is almost always due to a prolactinoma), and a small sellar mass (0.8 cm is a micro-adenoma) is classic for a prolactinoma. Prolactinomas are the most common hyper-functioning pituitary adenomas (~50%). Histologically, prolactinomas are acidophilic (eosinophilic) cells, which can appear basophilic on H&E due to granular cytoplasm, and are predominantly micro-adenomas (90%). They are highly responsive to dopamine (D2R) agonists like cabergoline, which is the first-line medical treatment. Option A describes characteristics of ACTH-secreting adenomas (corticotrophs), which are basophilic but associated with Cushing's and not typically macro-adenomas. Option B correctly identifies prolactinomas as acidophilic cells; however, while males and post-menopausal females may present with macro-adenomas, this is not the most common presentation overall for prolactinomas (which are micro-adenomas). Option D describes growth hormone (somatotroph) adenomas, which are acidophilic and can cause insulin resistance, but the patient's symptoms are inconsistent with GH excess. Option E describes non-functioning adenomas, which do not cause hormonal excess like galactorrhea."
-},
-{
-  "question": "A 68-year-old male presents with a history of increasing fatigue, cold intolerance, and constipation. He reports that his wife has noticed his face appears puffy and his skin feels dry. Laboratory tests reveal markedly decreased free T4 and significantly elevated TSH. Subsequent MRI of the pituitary gland shows diffuse enlargement of the anterior pituitary. Which of the following best describes the pathophysiologic process underlying the pituitary enlargement in this patient?",
-  "choices": [
-    "Pituitary adenoma causing mass effect.",
-    "Physiologic expansion due to elevated estrogen levels.",
-    "Autoimmune lymphocytic infiltration of the anterior pituitary.",
-    "Compensation for target organ failure by increased trophic hormone release.",
-    "Neoplastic transformation of a pre-existing Rathke cleft cyst."
-  ],
-  "correctAnswer": 3,
-  "explanation": "The patient's symptoms (fatigue, cold intolerance, constipation, puffy face, dry skin) and laboratory findings (low free T4, high TSH) are consistent with primary hypothyroidism. In primary hypothyroidism, the thyroid gland (target organ) fails to produce sufficient thyroid hormone. This loss of negative feedback on the pituitary leads to compensatory hypertrophy and hyperplasia of the TSH-producing cells (thyrotrophs) in the anterior pituitary, resulting in pituitary enlargement. Option A is incorrect because the enlargement is reactive (hyperplasia), not an independent neoplastic adenoma. Option B is incorrect as physiologic pituitary expansion due to estrogen is seen in pregnancy, which is irrelevant for this elderly male. Option C describes lymphocytic hypophysitis, an inflammatory condition, but the direct hormonal feedback mechanism is the most common cause of pituitary enlargement in primary hypothyroidism. Option E is incorrect as Rathke cleft cysts are typically benign and do not undergo such neoplastic transformation leading to diffuse pituitary enlargement in response to primary hypothyroidism."
-},
-{
-  "question": "A 55-year-old male presents to the emergency department with a sudden onset of excruciating headache, blurred vision, and diplopia. His medical history includes a known non-functioning pituitary macro-adenoma diagnosed 2 years prior, which he has been monitoring. On examination, he is confused and has bilateral temporal hemianopsia and ophthalmoplegia. MRI reveals an acute hemorrhage within the pituitary mass. Which of the following is the most likely immediate management step for this patient?",
-  "choices": [
-    "Long-term dopamine agonist therapy.",
-    "High-dose glucocorticoids and intravenous fluids.",
-    "Radiation therapy to shrink the tumor.",
-    "Trans-sphenoidal surgical resection as the sole initial treatment.",
-    "Administration of desmopressin (DDAVP)."
-  ],
-  "correctAnswer": 1,
-  "explanation": "This patient's presentation with sudden severe headache, visual disturbances (bitemporal hemianopsia, diplopia), altered consciousness, and a known pituitary mass with acute hemorrhage is classic for pituitary apoplexy. Pituitary apoplexy is an acute infarct +/- hemorrhage in a pituitary adenoma and constitutes a medical emergency. The immediate management involves supportive care with intravenous fluids and, critically, high-dose corticosteroids to prevent adrenal crisis (due to acute ACTH deficiency from pituitary compression/destruction). Option A (dopamine agonists) is primarily for prolactinomas and not the acute management for apoplexy. Option C (radiation therapy) is a long-term treatment, not an emergency intervention. Option D (trans-sphenoidal surgical resection) may be indicated, but it is typically performed after initial medical stabilization with fluids and corticosteroids, not as the sole immediate treatment. Option E (desmopressin) is used for central diabetes insipidus, which can be a complication but is not the immediate, universal treatment for the acute apoplexy itself."
-},
-{
-  "question": "A 10-year-old boy presents with stunted growth and delayed puberty. His parents report he has been experiencing headaches, and he has recently developed bitemporal hemianopsia. Imaging reveals a large cystic-solid suprasellar mass with calcifications. Histology of the resected mass shows well-differentiated squamous islands with cysts, keratin flakes, and calcification. This patient's tumor is embryologically derived from which of the following structures?",
-  "choices": [
-    "Neural crest cells of the adrenal medulla.",
-    "Outpouching of the third ventricle.",
-    "Remnants of Rathke's pouch.",
-    "Specialized cells of the anterior pituitary.",
-    "Neuroglial cells of the posterior pituitary."
-  ],
-  "correctAnswer": 2,
-  "explanation": "The patient's presentation with stunted growth, delayed puberty (endocrine dysfunction), headaches, bitemporal hemianopsia (mass effect on optic chiasm), and a cystic-solid suprasellar mass with calcifications is classic for a craniopharyngioma. The characteristic histology of squamous islands, cysts, keratin flakes, and calcification further confirms this diagnosis. Craniopharyngiomas are benign neoplasms embryologically derived from remnants of Rathke's pouch, which is an extension of the developing oral cavity that forms the anterior pituitary. Option A refers to pheochromocytomas or neuroblastomas. Option B refers to the posterior pituitary (neurohypophysis) embryology. Option D refers to pituitary adenomas. Option E refers to the cellular content of the posterior pituitary, not its embryonic origin."
-},
-{
-  "question": "A public health researcher is analyzing factors contributing to health disparities in the United States. They note that despite significant healthcare expenditures, the U.S. lags behind other developed nations in key health outcomes like life expectancy and has high rates of preventable hospitalizations. The researcher is preparing a presentation on the multiple factors contributing to health outcomes, including health behaviors, clinical care, social and economic factors, and the physical environment. Which of the following statements best describes the financial landscape of public health efforts in the U.S. compared to healthcare expenditures, as presented in the provided data?",
-  "choices": [
-    "State public health expenditures per capita significantly exceed healthcare expenditures per capita, indicating a strong preventative focus.",
-    "Both state public health expenditures and healthcare expenditures have seen significant growth in per capita spending over the last decade.",
-    "Healthcare expenditures per capita are substantially higher than state public health expenditures per capita, with public health spending having decreased or shown no significant growth.",
-    "State public health expenditures per capita are nearly equivalent to healthcare expenditures per capita, suggesting balanced investment.",
-    "Per capita spending on public health has steadily increased since 2008, while healthcare expenditures have remained stagnant."
-  ],
-  "correctAnswer": 2,
-  "explanation": "The provided data highlights a significant imbalance in financial investment between public health and healthcare in the U.S. In 2018, state public health expenditures were $76 per capita, whereas healthcare expenditures were $11,600 per capita. Furthermore, the study results indicate that mean per capita state government spending for public health decreased from $80.40 in 2008 to $75.83 in 2018, and there was no significant growth in states' average per capita spending on public health after accounting for inflation between 2008 and 2018. This demonstrates that healthcare expenditures are vastly higher, and public health funding has not seen significant growth, or has even decreased, relative to inflation. This contrasts sharply with the idea of a strong preventative focus or balanced investment."
-},
-{
-  "question": "A 38-year-old woman presents to the clinic with a 2-month history of fatigue, nervousness, and heat intolerance. She reports a 7-pound unintentional weight loss and frequent loose stools. She denies neck pain. On physical examination, her heart rate is 105 bpm, blood pressure is 130/80 mmHg, and she has a fine hand tremor. Her thyroid gland is diffusely enlarged and non-tender. Laboratory studies reveal: TSH <0.01 µIU/mL (normal 0.4-4.0 µIU/mL) and Free T4 3.8 ng/dL (normal 0.8-1.8 ng/dL). A radioactive iodine uptake (RAIU) scan is performed and shows diffuse, homogenous, increased uptake (48%). Which of the following is the most likely diagnosis?",
-  "choices": [
-    "Subacute thyroiditis",
-    "Factitious thyrotoxicosis",
-    "Toxic multinodular goiter",
-    "Graves' disease",
-    "Toxic adenoma"
-  ],
-  "correctAnswer": 3,
-  "explanation": "This patient's presentation with symptoms of hypermetabolism (fatigue, nervousness, heat intolerance, weight loss, loose stools, tachycardia, tremor) and suppressed TSH with elevated Free T4 indicates thyrotoxicosis. The key differentiating diagnostic step, as outlined in the provided material, is the radioactive iodine uptake (RAIU) scan. Diffuse, homogenous, increased uptake on RAIU is the classic finding for Graves' disease. Graves' disease is an autoimmune condition where thyroid-stimulating immunoglobulins (TSI) stimulate the TSH receptors, leading to diffuse hyperplasia and hyperactivity of the entire thyroid gland. Subacute thyroiditis would typically present with neck pain and, crucially, a markedly decreased radioactive iodine uptake due to destructive inflammation. Factitious thyrotoxicosis (due to exogenous thyroid hormone intake) would also show decreased radioactive iodine uptake as the exogenous hormone suppresses endogenous production. Toxic multinodular goiter would show diffuse inhomogeneous uptake, indicating patchy areas of hyperactivity. A toxic adenoma would present with isolated increased uptake in a single nodule, not diffuse uptake."
-},
-{
-  "question": "A 68-year-old man presents with progressive fatigue, cold intolerance, constipation, and a 10-pound weight gain over the past 6 months. His family notes that his voice has become hoarser. His past medical history includes hyperlipidemia and hypertension. On physical examination, his skin is dry and cool, and he has periorbital edema. His heart rate is 58 bpm and blood pressure is 145/90 mmHg. Deep tendon reflexes show a delayed relaxation phase. Laboratory results are obtained: TSH 15.5 µIU/mL (normal 0.4-4.0 µIU/mL), Free T4 0.4 ng/dL (normal 0.8-1.8 ng/dL). Based on this patient's clinical presentation and laboratory findings, which of the following lipid abnormalities is most likely to be present?",
-  "choices": [
-    "Decreased Total Cholesterol, Decreased LDL Cholesterol, Decreased HDL Cholesterol",
-    "Increased Total Cholesterol, Increased LDL Cholesterol, Increased VLDL Cholesterol",
-    "Increased HDL Cholesterol only",
-    "Decreased Triglycerides, Increased HDL Cholesterol",
-    "Normal lipid profile"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This patient presents with a classic constellation of symptoms and signs consistent with primary hypothyroidism (fatigue, cold intolerance, constipation, weight gain, hoarseness, dry skin, periorbital edema, bradycardia, and delayed deep tendon reflex relaxation). The laboratory results of an elevated TSH and low Free T4 confirm overt primary hypothyroidism. The provided information on Plasma Lipoprotein Changes in Thyroid Disease indicates that hypothyroidism is associated with increased Total Cholesterol, increased LDL Cholesterol, and increased VLDL Cholesterol. This is due to reduced clearance of these lipoproteins. Conversely, hyperthyroidism tends to decrease these lipid levels. Therefore, given the clear diagnosis of hypothyroidism, increased Total, LDL, and VLDL cholesterol are the expected lipid abnormalities."
-},
-{
-  "question": "A 52-year-old woman presents to her physician after discovering a lump in her neck during self-examination. She denies any pain, difficulty swallowing, or changes in voice. Her medical history is unremarkable, and she has no family history of thyroid cancer. However, she notes she received radiation therapy to her neck and chest for Hodgkin lymphoma when she was 15 years old. On physical examination, a solitary, firm, non-tender nodule is palpated in the right lobe of the thyroid. The remainder of the examination is normal. Initial laboratory results show a serum TSH of 1.5 µIU/mL (normal 0.4-4.0 µIU/mL). What is the next most appropriate step in the evaluation of this thyroid nodule?",
-  "choices": [
-    "Order a radioactive iodine uptake (RAIU) scan",
-    "Initiate thyroid hormone suppression therapy",
-    "Perform a fine needle aspiration (FNA) of the nodule",
-    "Observe the nodule with serial ultrasound examinations",
-    "Proceed directly to surgical resection of the nodule"
-  ],
-  "correctAnswer": 2,
-  "explanation": "This patient has a palpable thyroid nodule with a normal serum TSH level. According to the evaluation pathway for thyroid nodules described in the provided material, if the serum TSH concentration is normal or elevated, there is a possibility that the nodule is neoplastic, and fine needle aspiration (FNA) is the next step in diagnosis. The patient's history of neck irradiation for Hodgkin lymphoma is a very significant risk factor for thyroid malignancy, further increasing the suspicion and the need for FNA, even with a normal TSH. A radioactive iodine uptake (RAIU) scan is typically performed when TSH is low to determine if the nodule is 'hot' (hyperfunctioning) or 'cold' (non-functioning), as 'hot' nodules are rarely malignant. Thyroid hormone suppression therapy is sometimes used for benign nodules to attempt to shrink them but is not the initial diagnostic step, especially with a suspicious history. Observation with serial ultrasound is appropriate for very low-risk nodules after initial workup, or if FNA is indeterminate/benign but clinical suspicion remains. Direct surgical resection is not indicated as an initial step without a definitive diagnosis of malignancy via FNA or other strong indicators."
-},
-{
-  "question": "A 25-year-old woman presents with anxiety, palpitations, and heat intolerance. She reports a 10-pound unintentional weight loss. Her laboratory results show a suppressed TSH (<0.01 µIU/mL) and elevated Free T4 (3.2 ng/dL). A radioactive iodine uptake (RAIU) scan reveals a markedly decreased uptake (<5%). Upon further questioning, she denies any history of neck pain or recent viral illness. She is not taking any prescribed thyroid medications. However, her mother, who has hypothyroidism, recently started a new diet supplement, and the patient has been curious about it. Given these findings, what is the most likely explanation for the patient's thyrotoxicosis?",
-  "choices": [
-    "Graves' disease",
-    "Toxic multinodular goiter",
-    "Subacute thyroiditis",
-    "Factitious thyrotoxicosis",
-    "TSH-secreting pituitary adenoma"
-  ],
-  "correctAnswer": 3,
-  "explanation": "This patient presents with thyrotoxicosis (suppressed TSH, elevated Free T4). The crucial diagnostic finding is the markedly decreased radioactive iodine uptake (<5%). This pattern indicates that the thyroid gland is not actively producing excess hormone, but rather that there is an excessive amount of circulating thyroid hormone from an external source or due to release from a damaged gland. Given the absence of neck pain (ruling out painful subacute thyroiditis) and the history of her mother taking a 'diet supplement' for hypothyroidism, the most likely explanation is factitious thyrotoxicosis. This occurs when a patient (sometimes unknowingly or intentionally) ingests exogenous thyroid hormone. The thyroid gland's endogenous production is suppressed, leading to low RAIU. Graves' disease and toxic multinodular goiter would both show increased RAIU, though with different patterns (diffuse homogenous for Graves', inhomogeneous for multinodular). Subacute thyroiditis would also show low RAIU, but it is typically associated with neck pain and a preceding viral illness. A TSH-secreting pituitary adenoma would present with elevated (or inappropriately normal) TSH and elevated thyroid hormones, and would show increased RAIU."
-},
-{
-  "question": "A 65-year-old woman presents to her primary care physician for a routine check-up. She reports feeling generally well but mentions mild fatigue. Her medical history includes well-controlled hypertension on lisinopril. Routine laboratory work reveals: Serum calcium 11.2 mg/dL (normal 8.5-10.5 mg/dL), Serum phosphate 2.0 mg/dL (normal 2.5-4.5 mg/dL), and Intact PTH 95 pg/mL (normal 10-65 pg/mL). Her renal function is normal. Which of the following is the most likely diagnosis?",
-  "choices": [
-    "Familial Hypocalciuric Hypercalcemia (FHH)",
-    "Secondary Hyperparathyroidism due to Vitamin D deficiency",
-    "Primary Hyperparathyroidism",
-    "Hypercalcemia of malignancy",
-    "Hypoparathyroidism"
-  ],
-  "correctAnswer": 2,
-  "explanation": "This patient presents with hypercalcemia (elevated serum calcium), hypophosphatemia (low serum phosphate), and an inappropriately elevated intact PTH level (PTH is high despite high calcium). This combination of findings is characteristic of primary hyperparathyroidism. The parathyroid glands are autonomously secreting PTH, leading to increased calcium reabsorption from bone and kidneys, and increased phosphate excretion. Familial Hypocalciuric Hypercalcemia (FHH) would also show high calcium and normal/modestly elevated PTH, but it is primarily characterized by low 24-hour urinary calcium excretion. Secondary hyperparathyroidism due to Vitamin D deficiency would typically present with hypocalcemia (or low-normal calcium), hyperphosphatemia (if CKD is present), and elevated PTH as a compensatory response. Hypercalcemia of malignancy typically presents with suppressed PTH due to PTHrP secretion or direct bone metastases, and often a more rapid onset of symptoms. Hypoparathyroidism would present with hypocalcemia and low PTH."
-},
-{
-  "question": "A 48-year-old woman with a history of end-stage renal disease (ESRD) on hemodialysis for 5 years presents with worsening generalized bone pain and muscle weakness. Laboratory results show: Serum calcium 7.5 mg/dL (normal 8.5-10.5 mg/dL), Serum phosphate 6.0 mg/dL (normal 2.5-4.5 mg/dL), and Intact PTH 450 pg/mL (normal 10-65 pg/mL). Her 25-hydroxyvitamin D level is 35 ng/mL (normal 30-100 ng/mL). Which of the following best explains the pathophysiology of her elevated parathyroid hormone levels?",
-  "choices": [
-    "Autonomous PTH secretion from a parathyroid adenoma",
-    "Decreased renal synthesis of 1,25-dihydroxyvitamin D and hyperphosphatemia",
-    "Increased parathyroid gland sensitivity to serum calcium",
-    "Impaired degradation of PTH due to renal failure",
-    "Mutations in the calcium-sensing receptor (CASR) gene"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This patient has end-stage renal disease (ESRD) and presents with hypocalcemia, hyperphosphatemia, and significantly elevated intact PTH, which is characteristic of secondary hyperparathyroidism, specifically renal hyperparathyroidism. The primary drivers of elevated PTH in CKD are the kidneys' inability to convert 25-hydroxyvitamin D to its active form, 1,25-dihydroxyvitamin D (calcitriol), and phosphate retention (hyperphosphatemia). Decreased calcitriol synthesis leads to reduced intestinal calcium absorption and loss of calcitriol's direct inhibitory effect on PTH secretion. Hyperphosphatemia further contributes by precipitating calcium, leading to hypocalcemia, and possibly by directly stimulating PTH secretion. Both of these factors lead to chronic stimulation and hyperplasia of the parathyroid glands. Autonomous PTH secretion from a parathyroid adenoma describes primary hyperparathyroidism. Increased parathyroid gland sensitivity to serum calcium is not a primary mechanism here; rather, the glands become less sensitive over time in severe secondary hyperparathyroidism (leading to tertiary hyperparathyroidism). While PTH degradation is impaired in renal failure, the primary pathophysiological trigger for the *elevation* is the altered mineral metabolism. Mutations in the CASR gene cause familial hypocalciuric hypercalcemia, which is a genetic disorder not relevant to this patient's ESRD-related issues."
-},
-{
-  "question": "A 30-year-old woman presents to the emergency department with carpal spasms, perioral numbness, and positive Chvostek and Trousseau signs after undergoing a thyroidectomy for Graves' disease 24 hours prior. Laboratory results show: Serum calcium 6.5 mg/dL (normal 8.5-10.5 mg/dL), Serum phosphate 4.8 mg/dL (normal 2.5-4.5 mg/dL), and Intact PTH 5 pg/mL (normal 10-65 pg/mL). A 24-hour urine calcium collection reveals a calcium excretion of 80 mg/24hr (normal 100-300 mg/24hr). Which of the following is the most likely diagnosis?",
-  "choices": [
-    "Primary hyperparathyroidism",
-    "Secondary hyperparathyroidism due to vitamin D deficiency",
-    "Hypoparathyroidism",
-    "Pseudohypoparathyroidism",
-    "Familial hypocalciuric hypercalcemia (FHH)"
-  ],
-  "correctAnswer": 2,
-  "explanation": "This patient presents with acute, symptomatic hypocalcemia (carpal spasms, perioral numbness, positive Chvostek and Trousseau signs) following thyroidectomy. Her laboratory results show markedly low serum calcium and, critically, a low intact PTH level. This combination of hypocalcemia and inappropriately low PTH is diagnostic of hypoparathyroidism, which in this context is most likely iatrogenic due to accidental removal or damage to the parathyroid glands during thyroid surgery. The 24-hour urine calcium is low, which is expected as the kidneys are attempting to conserve calcium in response to low PTH and hypocalcemia. Primary hyperparathyroidism is characterized by hypercalcemia and elevated PTH. Secondary hyperparathyroidism would show hypocalcemia with *elevated* PTH as a compensatory response. Pseudohypoparathyroidism involves target organ resistance to PTH, leading to hypocalcemia, hyperphosphatemia, and *elevated* PTH. Familial hypocalciuric hypercalcemia (FHH) is a cause of hypercalcemia, not hypocalcemia, and is characterized by low urinary calcium excretion with normal or high PTH."
-},
-{
-  "question": "A 70-year-old asymptomatic man is found to have hypercalcemia on routine laboratory testing, with a serum calcium of 10.9 mg/dL (normal 8.5-10.5 mg/dL) and intact PTH of 80 pg/mL (normal 10-65 pg/mL). His creatinine clearance is 75 ml/min, and a DEXA scan shows a bone mineral density T-score of -1.8 at the hip. He has no history of kidney stones or fractures. An abdominal CT scan performed for an unrelated reason showed no evidence of nephrolithiasis. Considering the current guidelines, which of the following is the most appropriate management for this patient at this time?",
-  "choices": [
-    "Parathyroidectomy",
-    "Administration of bisphosphonates",
-    "Initiation of calcimimetics",
-    "Observation with twice-yearly clinical evaluation",
-    "Dietary calcium restriction"
-  ],
-  "correctAnswer": 3,
-  "explanation": "This patient has primary hyperparathyroidism (elevated calcium, elevated PTH). The question asks for the most appropriate management *at this time* based on current guidelines. While parathyroidectomy is the definitive treatment for primary hyperparathyroidism, it is typically recommended based on specific indications. According to the provided material (slide 13 and 14), indications for surgery include serum calcium >1 mg/dL above upper limit of normal, creatinine clearance <60 ml/min, bone mineral density T score < -2.5, radiologic evidence of vertebral fracture, 24-hour urinary calcium >400 mg with increased stone risk, presence of nephrolithiasis or nephrocalcinosis, or age <50 years. This patient's serum calcium is only slightly above normal (10.9 mg/dL, so <1 mg/dL above normal upper limit of 10.5 mg/dL), his creatinine clearance is 75 ml/min (not <60), his T-score is -1.8 (not < -2.5), he has no history of stones or fractures, and he is older than 50. Therefore, he does not meet current surgical criteria. In the absence of surgical indications, observation with twice-yearly clinical evaluation, ensuring adequate hydration, avoiding thiazide diuretics and extreme calcium diets, and possibly bisphosphonates, is the appropriate management. Bisphosphonates and calcimimetics are medical therapies that may be used, but initial management without surgical indication often begins with observation if the patient remains asymptomatic and does not meet surgical criteria. Dietary calcium restriction is generally not recommended in primary hyperparathyroidism as it can worsen bone health."
-},
-  {
-    "question": "A 60-year-old man presents to the emergency department with episodic headaches, profuse sweating, and a feeling of 'impending doom.' These episodes occur several times a week and are often triggered by exertion or emotional stress. His blood pressure during an episode is 220/120 mmHg. Which of the following laboratory findings would be most specific for the diagnosis of this patient's underlying condition?",
-    "choices": [
-      "Elevated serum cortisol and suppressed ACTH",
-      "Low serum potassium and suppressed plasma renin activity",
-      "Elevated 24-hour urinary metanephrines and normetanephrines",
-      "Elevated serum ACTH and hyperpigmentation",
-      "High plasma aldosterone and high plasma renin activity"
+      "Intracranial lesion affecting the facial nerve nucleus",
+      "Injury to the facial nerve at the stylomastoid foramen",
+      "Cortical stroke affecting the right motor cortex",
+      "Lesion in the internal acoustic meatus affecting CN VIII",
+      "Compression of the mandibular division of the trigeminal nerve"
     ],
     "correctAnswer": 2,
-    "explanation": "The patient's clinical presentation with paroxysmal hypertension, headaches, profuse sweating, and anxiety is highly suggestive of a pheochromocytoma. Pheochromocytomas are tumors of chromaffin cells of the adrenal medulla that secrete excessive catecholamines (norepinephrine and epinephrine). The most specific laboratory test for diagnosing a pheochromocytoma is the measurement of elevated catecholamine metabolites, such as metanephrines and normetanephrines, in a 24-hour urine collection or plasma. Elevated serum cortisol and suppressed ACTH would indicate ACTH-independent Cushing syndrome. Low serum potassium and suppressed plasma renin activity are characteristic of primary hyperaldosteronism. Elevated serum ACTH and hyperpigmentation are signs of primary adrenal insufficiency (Addison's disease) or ACTH-dependent Cushing's disease with very high ACTH. High plasma aldosterone and high plasma renin activity are characteristic of secondary hyperaldosteronism."
+    "explanation": "This presentation describes upper motor neuron facial weakness, where the lower face is affected but the forehead is spared due to bilateral innervation. A cortical stroke (e.g., in the right motor cortex) produces contralateral facial weakness of the lower face only.  Intracranial lesion affecting the facial nerve nucleus: Incorrect. Would cause complete ipsilateral facial paralysis, not forehead sparing. Injury to the facial nerve at the stylomastoid foramen: Incorrect. Would cause lower motor neuron signs with total ipsilateral facial paralysis. Cortical stroke affecting the right motor cortex: Correct. Upper motor neuron lesion causes contralateral lower facial weakness with forehead sparing. Lesion in the internal acoustic meatus affecting CN VIII: Incorrect. Affects both facial and vestibulocochlear nerves, but would produce complete ipsilateral facial paralysis. Compression of the mandibular division of the trigeminal nerve: Incorrect. Affects mastication and facial sensation, not facial expression."
   },
   {
-    "question": "A 40-year-old man presents with a 6-month history of muscle weakness, fatigue, and headaches. He has new-onset hypertension that has been difficult to control despite multiple antihypertensive medications. His serum potassium is consistently low (3.0 mEq/L, normal 3.5-5.0 mEq/L) while his serum sodium is normal. Plasma renin activity is found to be suppressed, and plasma aldosterone levels are elevated. An abdominal CT scan reveals a 2.5 cm unilateral adrenal mass. Which of the following is the most likely diagnosis?",
+    "question": "During an autopsy, a pathologist identifies damage in the region of the foramen rotundum. Which of the following deficits would most likely be observed in a living patient with this lesion?",
     "choices": [
-      "Secondary hyperaldosteronism due to renal artery stenosis",
-      "Adrenal cortical carcinoma",
-      "Cushing's syndrome",
-      "Primary hyperaldosteronism (Conn syndrome)",
-      "Congenital adrenal hyperplasia"
+      "Loss of taste from the anterior two-thirds of the tongue",
+      "Inability to close the eyelid on the affected side",
+      "Loss of general sensation from the midface",
+      "Weakness of the tongue on protrusion",
+      "Absent corneal reflex (motor limb)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The foramen rotundum transmits the maxillary division (V2) of the trigeminal nerve, which provides sensory innervation to the midface, including the lower eyelid, upper lip, and maxillary teeth.  Loss of taste from the anterior two-thirds of the tongue: Incorrect. This is mediated by the chorda tympani branch of the facial nerve (CN VII). Inability to close the eyelid on the affected side: Incorrect. Caused by facial nerve (CN VII) paralysis. Loss of general sensation from the midface: Correct. V2 travels through the foramen rotundum and innervates the midface. Weakness of the tongue on protrusion: Incorrect. Hypoglossal nerve (CN XII) damage causes tongue deviation. Absent corneal reflex (motor limb): Incorrect. The motor limb is via CN VII; V2 is only sensory."
+  },
+  {
+    "question": "A 45-year-old man undergoes skull base surgery and postoperatively presents with hoarseness, difficulty swallowing, and decreased gag reflex. These findings are most likely due to injury involving a cranial nerve that exits the skull through which of the following foramina?",
+    "choices": [
+      "Foramen ovale",
+      "Foramen rotundum",
+      "Hypoglossal canal",
+      "Jugular foramen",
+      "Stylomastoid foramen"
     ],
     "correctAnswer": 3,
-    "explanation": "This patient presents with a classic triad of hypertension, hypokalemia, and normal serum sodium, coupled with suppressed renin and elevated aldosterone. These findings are diagnostic of primary hyperaldosteronism, often referred to as Conn syndrome when caused by an adrenal adenoma. The presence of a unilateral adrenal mass on CT scan supports this diagnosis. Secondary hyperaldosteronism due to renal artery stenosis would present with elevated renin due to decreased renal perfusion. Adrenal cortical carcinoma could produce aldosterone, but it's less common as a sole manifestation and typically presents with more aggressive features or other hormone excesses, and the mass is often much larger. Cushing's syndrome involves cortisol excess and presents with different clinical features (e.g., central obesity, moon facies, striae) and different lab profiles (elevated cortisol, suppressed ACTH). Congenital adrenal hyperplasia involves deficiencies in steroid synthesis enzymes and presents differently, often earlier in life."
+    "explanation": "The jugular foramen transmits cranial nerves IX, X, and XI. Damage to CN X (vagus nerve) results in hoarseness and dysphagia due to impaired function of the laryngeal and pharyngeal muscles. Loss of gag reflex also reflects CN IX and X involvement.  Foramen ovale: Incorrect. Transmits mandibular division (V3) of the trigeminal nerve, affecting mastication. Foramen rotundum: Incorrect. Transmits maxillary division (V2), affects midface sensation. Hypoglossal canal: Incorrect. Transmits CN XII, which affects tongue movement. Jugular foramen: Correct. Transmits CN IX, X, and XI—explaining the swallowing and vocal symptoms. Stylomastoid foramen: Incorrect. Exit point for the facial nerve; would result in facial expression deficits."
   },
   {
-    "question": "A 2-year-old boy presents with severe developmental delay, feeding difficulties, and episodes of dehydration. Physical examination reveals ambiguous genitalia, hyponatremia, and hyperkalemia. His parents report that he was born with external genitalia that made gender assignment difficult. Laboratory studies reveal low serum cortisol and aldosterone levels, and significantly elevated 17-hydroxyprogesterone. This clinical picture is most consistent with a deficiency in which of the following adrenal enzymes?",
+    "question": "A 56-year-old man presents with right-sided loss of vibration and proprioception, left-sided loss of pain and temperature, and right-sided spastic weakness. These symptoms began suddenly after he experienced severe neck pain. Which of the following is the most likely location of the lesion?",
     "choices": [
-      "11-beta-hydroxylase (CYP11B1)",
-      "17-alpha-hydroxylase (CYP17A1)",
-      "21-hydroxylase (CYP21A2)",
-      "3-beta-hydroxysteroid dehydrogenase (HSD3B2)",
-      "Cholesterol desmolase (CYP11A1)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient's presentation with ambiguous genitalia, salt-wasting (hyponatremia, hyperkalemia, dehydration, feeding difficulties, weight loss), and low cortisol and aldosterone is characteristic of the severe, salt-wasting form of congenital adrenal hyperplasia (CAH). The most common cause of CAH, accounting for over 90% of cases, is 21-hydroxylase (CYP21A2) deficiency. This enzyme deficiency blocks the synthesis pathways to cortisol and aldosterone, leading to their deficiency, while steroid precursors are shunted towards androgen production, causing virilization (ambiguous genitalia in females, enlarged genitalia in males). Elevated 17-hydroxyprogesterone is a hallmark of this deficiency. Other enzyme deficiencies like 11-beta-hydroxylase would also cause virilization but typically lead to hypertension due to deoxycorticosterone accumulation. 17-alpha-hydroxylase deficiency causes hypertension and hypokalemia with impaired sex steroid synthesis. 3-beta-hydroxysteroid dehydrogenase deficiency impairs synthesis of all major steroids, leading to ambiguous genitalia in both sexes and salt wasting. Cholesterol desmolase deficiency is a very rare and severe form affecting all steroid synthesis, typically lethal early in life."
-  },
-  {
-    "question": "A 68-year-old woman with a history of long-standing adrenal insufficiency, initially diagnosed at age 35, presents with chronic fatigue, weight loss, and diffuse skin hyperpigmentation. She reports that her family has a history of thyroid problems. Laboratory results show: low plasma cortisol, low plasma aldosterone, high plasma ACTH, high plasma MSH, low serum sodium, and high serum potassium. She is currently on hydrocortisone and fludrocortisone replacement therapy. Given her history and current findings, what is the most likely etiology of her adrenal insufficiency?",
-    "choices": [
-      "Tuberculosis of the adrenal glands",
-      "Metastatic carcinoma to the adrenal glands",
-      "Pituitary adenoma leading to secondary adrenal insufficiency",
-      "Autoimmune adrenalitis",
-      "Adrenal hemorrhage (Waterhouse-Friderichsen Syndrome)"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This patient's clinical picture of chronic adrenal insufficiency (fatigue, weight loss, hypotension, hyponatremia, hyperkalemia) with high ACTH and prominent skin hyperpigmentation (due to elevated MSH co-secreted with ACTH) indicates primary adrenal insufficiency. The long-standing nature of the disease and the presence of skin hyperpigmentation strongly favor a chronic cause. Autoimmune adrenalitis is the most common cause of primary chronic adrenal insufficiency in developed countries (60-70% of cases). The family history of thyroid problems further supports an autoimmune predisposition, as autoimmune adrenalitis can be part of autoimmune polyglandular syndromes (APS). Tuberculosis of the adrenal glands can cause primary adrenal insufficiency, but it is less common in developed countries. Metastatic carcinoma to the adrenal glands can also cause insufficiency but is usually seen in the context of advanced cancer and is less likely to be the cause of long-standing primary adrenal insufficiency diagnosed at a younger age. A pituitary adenoma would lead to secondary adrenal insufficiency, which would present with low ACTH and typically no hyperpigmentation, and usually preserved aldosterone. Adrenal hemorrhage (Waterhouse-Friderichsen Syndrome) is a cause of acute primary adrenal insufficiency, often seen in the context of severe infections like meningococcemia, not a chronic presentation."
-  },
-  {
-    "question": "A 46-year-old woman presents with fatigue, easy bruising, and recent weight gain. Exam shows facial plethora, wide purple striae, proximal muscle weakness, and a supraclavicular fat pad. Labs reveal elevated 24-hour urinary cortisol. Morning ACTH is suppressed. What is the most likely cause of her condition?",
-    "choices": [
-      "Pituitary adenoma",
-      "Ectopic ACTH secretion",
-      "Adrenal adenoma",
-      "Exogenous corticosteroid use",
-      "Ectopic CRH secretion"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient has ACTH-independent Cushing's syndrome, suggested by suppressed ACTH and high cortisol. The most likely cause is an adrenal adenoma or carcinoma secreting cortisol autonomously. Pituitary adenoma and ectopic ACTH would cause elevated ACTH. Exogenous steroid use is also possible, but the case focuses on endogenous production. Ectopic CRH is extremely rare."
-  },
-  {
-    "question": "A 54-year-old man is found to have elevated cortisol and ACTH levels. He undergoes high-dose dexamethasone suppression testing. Morning cortisol decreases by 50%. What is the most likely source of his hypercortisolism?",
-    "choices": [
-      "Adrenal adenoma",
-      "Adrenal carcinoma",
-      "Pituitary ACTH-producing adenoma",
-      "Small cell lung carcinoma",
-      "Islet cell tumor of pancreas"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A 50% reduction in cortisol with high-dose dexamethasone suggests a pituitary adenoma (Cushing disease), which retains partial sensitivity to negative feedback. Adrenal tumors cause ACTH-independent Cushing's with suppressed ACTH. Ectopic ACTH production from small cell lung carcinoma or islet tumors usually does not respond to dexamethasone."
-  },
-  {
-    "question": "A 38-year-old man presents with nausea, vomiting, weight loss, fatigue, and salt craving. He is hypotensive and hyperpigmented. Labs show hyponatremia, hyperkalemia, and low serum cortisol. What is the most likely underlying cause?",
-    "choices": [
-      "Pituitary macroadenoma",
-      "Exogenous steroid withdrawal",
-      "Autoimmune adrenalitis",
-      "Small cell lung carcinoma",
-      "Histoplasma infection of the adrenal gland"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The patient presents with primary adrenal insufficiency (Addison's disease), as evidenced by hyperpigmentation (high ACTH), hyperkalemia, and hyponatremia. Autoimmune adrenalitis accounts for ~80% of cases in the US. Pituitary disease (secondary adrenal insufficiency) does not cause hyperkalemia or hyperpigmentation. Histoplasma is possible, but less likely than autoimmune in the US. Exogenous steroid withdrawal causes secondary adrenal insufficiency."
-  },
-  {
-    "question": "A 50-year-old woman is hospitalized with hypotension, vomiting, and abdominal pain. She has a history of long-term prednisone use for lupus, which was recently stopped. Labs reveal low cortisol and ACTH levels. A rapid ACTH stimulation test shows minimal increase in serum cortisol. What is the most likely diagnosis?",
-    "choices": [
-      "Primary adrenal insufficiency",
-      "Secondary adrenal insufficiency",
-      "Adrenal carcinoma",
-      "Adrenal hemorrhage",
-      "Tertiary adrenal insufficiency"
+      "Right medial medulla",
+      "Left lateral medulla",
+      "Right lateral pons",
+      "Left medial pons",
+      "Right cervical spinal cord hemisection"
     ],
     "correctAnswer": 4,
-    "explanation": "This is tertiary adrenal insufficiency due to hypothalamic suppression from chronic exogenous steroid use. ACTH and cortisol are both low, and the adrenals are atrophic from lack of ACTH stimulation. Primary adrenal insufficiency would show high ACTH and hyperkalemia. Secondary and tertiary both show low ACTH, but tertiary is specifically due to hypothalamic suppression. Adrenal hemorrhage is an acute cause of primary insufficiency but typically with high ACTH."
+    "explanation": "This is a classic presentation of Brown-Séquard syndrome due to a right hemisection of the cervical spinal cord. The lateral corticospinal tract (motor) and dorsal columns (vibration, proprioception) are affected ipsilaterally, while the spinothalamic tract (pain and temperature) is affected contralaterally below the lesion. Right medial medulla is incorrect because it would cause contralateral motor weakness and ipsilateral tongue weakness. Left lateral medulla is incorrect because it would cause ipsilateral loss of facial pain and temperature, contralateral body pain and temperature, and cranial nerve IX/X signs. Right lateral pons is incorrect because it would affect facial sensation and possibly CN VII. Left medial pons is incorrect as it would present with contralateral hemiparesis and possibly facial nerve deficits on the ipsilateral side."
   },
   {
-    "question": "A 9-year-old boy presents with chronic oral thrush and hypocalcemic seizures. Family history reveals consanguinity. Labs show low serum calcium, high phosphate, and undetectable PTH. He is later found to have Addison’s disease. Which of the following is the most likely diagnosis?",
+    "question": "A 70-year-old woman presents with diplopia and drooping of the right eyelid. Examination reveals her right eye is deviated laterally and downward, with a dilated pupil and loss of accommodation. Where is the lesion most likely located?",
     "choices": [
-      "MEN type 1",
-      "MEN type 2A",
-      "MEN type 2B",
-      "Polyglandular autoimmune syndrome type I",
-      "Polyglandular autoimmune syndrome type II"
-    ],
-    "correctAnswer": 3,
-    "explanation": "This is PGAS type I, which presents in childhood with chronic mucocutaneous candidiasis (oral thrush), hypoparathyroidism (hypocalcemia, low PTH), and Addison’s disease (adrenal insufficiency). It is autosomal recessive. PGAS type II typically presents in adults with Addison’s and thyroid or type 1 diabetes. MEN syndromes are neoplastic, not autoimmune, and do not feature candidiasis or hypoparathyroidism."
-  },
-  {
-    "question": "A 35-year-old woman is diagnosed with Addison’s disease. Family history reveals multiple relatives with type 1 diabetes and autoimmune thyroiditis. Genetic testing shows an autosomal dominant pattern of inheritance. What is the most likely syndrome present in this family?",
-    "choices": [
-      "MEN type I",
-      "MEN type IIA",
-      "MEN type IIB",
-      "Polyglandular autoimmune syndrome type I",
-      "Polyglandular autoimmune syndrome type II"
-    ],
-    "correctAnswer": 4,
-    "explanation": "This family has PGAS type II, which commonly presents with Addison’s disease, autoimmune thyroid disease, and type 1 diabetes. It has autosomal dominant inheritance with variable penetrance. PGAS type I presents in childhood and features mucocutaneous candidiasis. MEN syndromes cause tumors, not autoimmune diseases."
-  },
-  {
-    "question": "A 42-year-old man with a history of refractory peptic ulcers and diarrhea is diagnosed with a gastrin-secreting pancreatic tumor. Labs also show elevated calcium and prolactin. Which of the following genetic mutations is most likely present?",
-    "choices": [
-      "RET proto-oncogene mutation on chromosome 10",
-      "Menin gene mutation on chromosome 11",
-      "P53 gene mutation",
-      "APC gene mutation",
-      "BRCA1 gene mutation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "This is MEN type 1, caused by menin gene mutations on chromosome 11. It features parathyroid hyperplasia (hypercalcemia), pancreatic neuroendocrine tumors (such as gastrinomas), and pituitary adenomas (such as prolactinomas). RET mutations cause MEN type 2A and 2B. P53, APC, and BRCA1 mutations are unrelated to MEN syndromes."
-  },
-  {
-    "question": "A 25-year-old man presents with hypertension, episodic headaches, and palpitations. He also has a neck mass, mucosal neuromas, and marfanoid body habitus. Which of the following is the most likely associated genetic abnormality?",
-    "choices": [
-      "Menin gene mutation",
-      "RET proto-oncogene mutation",
-      "APC gene mutation",
-      "P53 gene mutation",
-      "HLA-DR3 association"
-    ],
-    "correctAnswer": 1,
-    "explanation": "This patient has MEN type 2B, caused by RET proto-oncogene mutations. It presents with pheochromocytomas (hypertension, headaches, palpitations), medullary thyroid carcinoma (neck mass), mucosal neuromas, and marfanoid habitus. MEN type 1 involves menin mutations. APC and P53 are unrelated. HLA-DR3 is associated with PGAS type II, not MEN."
-  },
-  {
-    "question": "A 25-year-old woman at 10 weeks of pregnancy is diagnosed with Graves disease. She is started on medical treatment to control her hyperthyroidism. Which of the following drugs is most appropriate to use during the first trimester of her pregnancy?",
-    "choices": [
-      "Methimazole",
-      "Propylthiouracil",
-      "Potassium iodide",
-      "Radioactive iodine",
-      "Propranolol"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Propylthiouracil (PTU) is preferred during the first trimester of pregnancy because methimazole is teratogenic and associated with congenital anomalies when used early in pregnancy. Methimazole is generally preferred in the second and third trimesters due to a better safety profile for liver toxicity. Potassium iodide and radioactive iodine are contraindicated in pregnancy. Propranolol may be used adjunctively for symptom control but is not the primary antithyroid treatment."
-  },
-  {
-    "question": "A 68-year-old man with newly diagnosed hyperthyroidism is treated with high-dose iodide. Which of the following mechanisms best explains the reduction in thyroid hormone production in this patient?",
-    "choices": [
-      "Inhibition of TSH receptor antibodies",
-      "Destruction of thyroid follicular cells",
-      "Inhibition of conversion of T4 to T3 in peripheral tissues",
-      "Inhibition of iodide organification and thyroid hormone release",
-      "Stimulation of calcitonin secretion"
-    ],
-    "correctAnswer": 3,
-    "explanation": "High-dose iodide induces the Wolff-Chaikoff effect, which acutely inhibits thyroid hormone synthesis by blocking iodide organification and release of preformed hormone. This is a transient effect and used short-term (e.g., preoperatively or in thyroid storm). It does not affect TSH receptor antibodies or directly destroy thyroid cells. Peripheral T4-to-T3 conversion is inhibited by beta-blockers and PTU, not by iodide."
-  },
-  {
-    "question": "A 56-year-old woman with postmenopausal osteoporosis is prescribed a drug that inhibits osteoclast function and slows the formation of hydroxyapatite crystals. Which of the following is the most likely medication prescribed?",
-    "choices": [
-      "Calcitonin",
-      "Vitamin D",
-      "Bisphosphonate",
-      "PTH analog",
-      "Calcium carbonate"
+      "Right abducens nucleus in the pons",
+      "Right trochlear nucleus in the midbrain",
+      "Right oculomotor nerve in the midbrain",
+      "Right frontal eye field",
+      "Right facial colliculus"
     ],
     "correctAnswer": 2,
-    "explanation": "Bisphosphonates inhibit bone resorption by impairing osteoclast function and slow hydroxyapatite crystal formation. They are commonly used to treat osteoporosis, Paget disease, and hypercalcemia of malignancy. Calcitonin also inhibits osteoclasts but is less effective long term. Vitamin D and calcium carbonate support bone formation but do not inhibit resorption. PTH analogs (low-dose intermittent) stimulate bone formation, not inhibit resorption."
+    "explanation": "This patient has oculomotor nerve palsy: eye deviated down and out, ptosis, dilated pupil, and accommodation loss. These findings localize the lesion to the oculomotor nerve in the midbrain. Right abducens nucleus is incorrect because it would cause inability to abduct the eye, not a down and out position. Right trochlear nucleus is incorrect because it would cause vertical diplopia especially when looking down. Right frontal eye field is incorrect as lesions there cause conjugate gaze deviation toward the side of the lesion. Right facial colliculus is incorrect because it would cause facial weakness and horizontal gaze palsy, not eye position abnormalities."
   },
   {
-    "question": "A 3-year-old child presents with bowed legs and delayed growth. Labs reveal low serum calcium and phosphate with elevated PTH. The child has limited sun exposure and a poor diet. What is the primary mechanism of this condition?",
+    "question": "A patient presents with right-sided facial weakness, decreased corneal reflex on the right, and hyperacusis. He also has loss of taste on the anterior two-thirds of the tongue. The lesion is most likely at which of the following locations?",
     "choices": [
-      "Autoimmune destruction of parathyroid glands",
-      "Defective PTH receptor function",
-      "Deficiency of 7-dehydrocholesterol conversion to vitamin D",
-      "Resistance of osteoclasts to PTH",
-      "Overproduction of calcitonin"
+      "Facial nerve within the internal acoustic meatus",
+      "Facial nerve after exiting the stylomastoid foramen",
+      "Facial motor nucleus in the pons",
+      "Corticobulbar tract in the internal capsule",
+      "Trigeminal ganglion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "This patient has signs of a complete facial nerve lesion including motor, taste, and parasympathetic components. The lesion must be at or before the facial nerve branches off its components, which occurs within the internal acoustic meatus. Facial nerve after the stylomastoid foramen is incorrect because it would only affect motor fibers. Facial motor nucleus in the pons is incorrect as it would not involve all the additional symptoms such as hyperacusis and taste loss. Corticobulbar tract is incorrect because it would cause forehead sparing. Trigeminal ganglion is incorrect because it controls facial sensation, not motor control or taste."
+  },
+  {
+    "question": "A 72-year-old woman presents to the emergency department with acute right-sided weakness and aphasia. A non-contrast head CT is ordered. The scan shows no evidence of hemorrhage. Which of the following is the most appropriate next step in imaging to evaluate for early ischemic stroke?",
+    "choices": [
+      "Contrast-enhanced head CT",
+      "T1-weighted MRI",
+      "T2-weighted MRI",
+      "Diffusion-weighted MRI",
+      "CT angiography"
     ],
     "correctAnswer": 3,
-    "explanation": "This is nutritional rickets, caused by vitamin D deficiency due to inadequate sun exposure and poor dietary intake. 7-dehydrocholesterol in the skin is the precursor for vitamin D3 synthesis, which is required for calcium and phosphate absorption. Defective conversion or lack of vitamin D leads to hypocalcemia, elevated PTH (secondary hyperparathyroidism), and impaired bone mineralization. Autoimmune parathyroid destruction causes hypocalcemia with low PTH. PTH receptor dysfunction and calcitonin excess are not causes of rickets."
+    "explanation": "Diffusion-weighted MRI is the most sensitive imaging modality for detecting early ischemic changes due to its ability to identify restricted diffusion from cytotoxic edema. Contrast-enhanced head CT is not first-line in stroke unless evaluating for vascular lesions or tumors. T1-weighted MRI is better for anatomical detail, not acute ischemia. T2-weighted MRI may detect subacute stroke but lacks the sensitivity of DWI in the hyperacute phase. CT angiography is helpful for visualizing large vessel occlusion but does not detect ischemic tissue early."
+  },
+  {
+    "question": "A radiologist is reviewing head CT scans of a trauma patient. One image shows a biconvex, hyperdense lesion that does not cross suture lines and is located between the skull and dura mater. Which of the following vessels is most likely involved?",
+    "choices": [
+      "Bridging veins",
+      "Middle cerebral artery",
+      "Anterior cerebral artery",
+      "Middle meningeal artery",
+      "Cortical veins"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A biconvex, lens-shaped hyperdense lesion on CT is classic for an epidural hematoma, which most often results from rupture of the middle meningeal artery, commonly due to temporal bone fracture. Bridging veins are incorrect because they are involved in subdural hematomas, which are crescent-shaped and cross suture lines. The middle and anterior cerebral arteries are intracerebral and would cause intraparenchymal hemorrhage. Cortical veins are not typically associated with the epidural space."
+  },
+  {
+    "question": "A 60-year-old man with a history of chronic hypertension undergoes MRI for progressive neurologic symptoms. T2-weighted images reveal multiple small, hyperintense lesions in the periventricular white matter. FLAIR images suppress CSF signal and highlight the lesions. Which of the following best describes the appearance of these findings on FLAIR compared to T2-weighted images?",
+    "choices": [
+      "Lesions are hypointense due to suppression of fat",
+      "Lesions are isointense because CSF remains bright",
+      "Lesions are obscured by surrounding bright CSF signal",
+      "Lesions remain bright while CSF appears dark",
+      "Lesions are dark and CSF is bright due to water content"
+    ],
+    "correctAnswer": 3,
+    "explanation": "FLAIR suppresses free water signal (such as CSF) while maintaining high signal in pathological tissue. This makes periventricular lesions (such as demyelinating plaques or ischemic changes) easier to visualize. The lesions remain bright while CSF is dark. Hypointense due to suppression of fat is incorrect; fat remains bright on FLAIR. Isointense with bright CSF is incorrect because CSF is suppressed. Obscuration by CSF is incorrect, as the purpose of FLAIR is to avoid this. Lesions being dark with bright CSF describes a T2 image, not FLAIR."
+  },
+  {
+    "question": "A 72-year-old woman presents to the emergency department with acute right-sided weakness and aphasia. A non-contrast head CT is ordered. The scan shows no evidence of hemorrhage. Which of the following is the most appropriate next step in imaging to evaluate for early ischemic stroke?",
+    "choices": [
+      "Contrast-enhanced head CT",
+      "T1-weighted MRI",
+      "T2-weighted MRI",
+      "Diffusion-weighted MRI",
+      "CT angiography"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Diffusion-weighted MRI is the most sensitive imaging modality for detecting early ischemic changes due to its ability to identify restricted diffusion from cytotoxic edema. Contrast-enhanced head CT is not first-line in stroke unless evaluating for vascular lesions or tumors. T1-weighted MRI is better for anatomical detail, not acute ischemia. T2-weighted MRI may detect subacute stroke but lacks the sensitivity of DWI in the hyperacute phase. CT angiography is helpful for visualizing large vessel occlusion but does not detect ischemic tissue early."
+  },
+  {
+    "question": "A radiologist is reviewing head CT scans of a trauma patient. One image shows a biconvex, hyperdense lesion that does not cross suture lines and is located between the skull and dura mater. Which of the following vessels is most likely involved?",
+    "choices": [
+      "Bridging veins",
+      "Middle cerebral artery",
+      "Anterior cerebral artery",
+      "Middle meningeal artery",
+      "Cortical veins"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A biconvex, lens-shaped hyperdense lesion on CT is classic for an epidural hematoma, which most often results from rupture of the middle meningeal artery, commonly due to temporal bone fracture. Bridging veins are incorrect because they are involved in subdural hematomas, which are crescent-shaped and cross suture lines. The middle and anterior cerebral arteries are intracerebral and would cause intraparenchymal hemorrhage. Cortical veins are not typically associated with the epidural space."
+  },
+  {
+    "question": "A 60-year-old man with a history of chronic hypertension undergoes MRI for progressive neurologic symptoms. T2-weighted images reveal multiple small, hyperintense lesions in the periventricular white matter. FLAIR images suppress CSF signal and highlight the lesions. Which of the following best describes the appearance of these findings on FLAIR compared to T2-weighted images?",
+    "choices": [
+      "Lesions are hypointense due to suppression of fat",
+      "Lesions are isointense because CSF remains bright",
+      "Lesions are obscured by surrounding bright CSF signal",
+      "Lesions remain bright while CSF appears dark",
+      "Lesions are dark and CSF is bright due to water content"
+    ],
+    "correctAnswer": 3,
+    "explanation": "FLAIR suppresses free water signal (such as CSF) while maintaining high signal in pathological tissue. This makes periventricular lesions (such as demyelinating plaques or ischemic changes) easier to visualize. The lesions remain bright while CSF is dark. Hypointense due to suppression of fat is incorrect; fat remains bright on FLAIR. Isointense with bright CSF is incorrect because CSF is suppressed. Obscuration by CSF is incorrect, as the purpose of FLAIR is to avoid this. Lesions being dark with bright CSF describes a T2 image, not FLAIR."
+  },
+  {
+    "question": "A 52-year-old man is undergoing thoracic aortic surgery. Postoperatively, he develops flaccid paralysis of both lower limbs, loss of pain and temperature sensation below the lesion, but preserved vibration and proprioception. Which of the following vascular structures was most likely compromised during surgery?",
+    "choices": [
+      "Right posterior spinal artery",
+      "Left posterior spinal artery",
+      "Anterior spinal artery",
+      "Artery of Adamkiewicz",
+      "Vertebral artery"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The artery of Adamkiewicz is a major radiculomedullary artery that provides critical blood supply to the anterior spinal artery in the lower thoracic to upper lumbar region. Injury to this vessel can result in anterior cord syndrome, characterized by loss of motor function and pain/temperature sensation, with preserved dorsal column function. The anterior spinal artery supplies the anterior two-thirds of the spinal cord. While it is directly involved in the syndrome, the artery of Adamkiewicz is the major feeder in this region. Posterior spinal arteries would affect vibration and proprioception. Vertebral artery involvement would affect higher structures and is less localized."
+  },
+  {
+    "question": "A 35-year-old man presents with bilateral loss of pain and temperature sensation over his shoulders and upper arms. Vibration and proprioception are intact. MRI reveals a syrinx at the level of C5-C6. Which of the following spinal cord structures is most likely compressed to cause this sensory loss?",
+    "choices": [
+      "Fasciculus gracilis",
+      "Fasciculus cuneatus",
+      "Anterior white commissure",
+      "Lateral corticospinal tract",
+      "Dorsal horn"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A syrinx in the central canal of the spinal cord compresses the anterior white commissure, where spinothalamic tract fibers cross. This leads to bilateral segmental loss of pain and temperature in a 'cape-like' distribution. Fasciculus gracilis and cuneatus are dorsal column structures carrying proprioception and vibration, which are preserved. The lateral corticospinal tract carries motor fibers and would lead to weakness or spasticity if involved. The dorsal horn contains second-order neurons but not the decussating fibers directly."
+  },
+  {
+    "question": "A patient with a cervical spinal cord lesion exhibits right-sided loss of proprioception and vibration, left-sided loss of pain and temperature sensation below the lesion, and right-sided upper motor neuron weakness. Which of the following best explains this presentation?",
+    "choices": [
+      "Anterior cord syndrome from anterior spinal artery infarct",
+      "Brown-Séquard syndrome from hemisection of the spinal cord",
+      "Posterior cord syndrome from posterior spinal artery infarct",
+      "Syringomyelia causing central cord compression",
+      "Cauda equina syndrome with nerve root compression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is a classic presentation of Brown-Séquard syndrome caused by hemisection of the spinal cord. The corticospinal tract and dorsal columns are damaged ipsilaterally, resulting in motor loss and vibration/proprioception deficits on the same side. The spinothalamic tract crosses in the spinal cord via the anterior white commissure, leading to contralateral pain and temperature loss. Anterior cord syndrome would affect bilateral motor and spinothalamic pathways. Posterior cord syndrome would spare motor and pain/temp pathways. Syringomyelia presents with bilateral pain/temp loss in a cape distribution. Cauda equina syndrome is a lower motor neuron process and presents differently."
+  },
+  {
+    "question": "A 4-month-old infant presents with progressive macrocephaly and irritability. Imaging shows dilated lateral and third ventricles, while the fourth ventricle appears normal. Which of the following is the most likely cause of this condition?",
+    "choices": [
+      "Overproduction of cerebrospinal fluid",
+      "Obstruction of the foramen of Magendie",
+      "Impaired CSF absorption by arachnoid granulations",
+      "Obstruction of the cerebral aqueduct",
+      "Thinning of the arachnoid mater"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Obstruction of the cerebral aqueduct, which connects the third to the fourth ventricle, is a common cause of non-communicating hydrocephalus. This results in dilation of the lateral and third ventricles with a normal fourth ventricle. Overproduction of CSF is rare and not a common cause of hydrocephalus. Obstruction of the foramen of Magendie would cause fourth ventricular dilation. Impaired absorption by arachnoid granulations would result in communicating hydrocephalus, affecting all ventricles. Thinning of the arachnoid mater is not a recognized cause of hydrocephalus."
+  },
+  {
+    "question": "A 67-year-old man presents with progressive gait instability, urinary incontinence, and cognitive decline. Imaging reveals enlarged ventricles with normal opening pressure on lumbar puncture. Which of the following best explains this patient's condition?",
+    "choices": [
+      "Obstruction of the interventricular foramina",
+      "Increased CSF production by the choroid plexus",
+      "Arachnoid granulation dysfunction",
+      "Blocked foramina of Luschka and Magendie",
+      "Decreased venous drainage from dural sinuses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This presentation is characteristic of normal pressure hydrocephalus (NPH), which often results from impaired CSF absorption by the arachnoid granulations. Classic symptoms are gait disturbance, urinary incontinence, and dementia. Obstruction of the foramina of Luschka and Magendie causes obstructive hydrocephalus. Obstruction of the interventricular foramina would dilate only the lateral ventricles. Increased CSF production is not the typical mechanism of NPH. Venous drainage impairment can increase intracranial pressure but is not directly responsible for NPH."
+  },
+  {
+    "question": "A neuroanatomy dissection reveals a thin-walled structure extending from the third to the fourth ventricle in the dorsal midbrain. Which of the following accurately describes this structure's role in cerebrospinal fluid circulation?",
+    "choices": [
+      "It filters CSF from the subarachnoid space into venous sinuses",
+      "It allows CSF to flow from the lateral ventricles into the third ventricle",
+      "It produces CSF using fenestrated capillaries and ependymal cells",
+      "It permits CSF passage between the third and fourth ventricles",
+      "It drains CSF from the spinal cord to the cerebellomedullary cistern"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The cerebral aqueduct connects the third and fourth ventricles, permitting CSF to flow between them. It is a narrow channel within the dorsal midbrain and a common site for obstruction in hydrocephalus. CSF filtration into venous sinuses occurs at arachnoid granulations. Flow from the lateral to third ventricles occurs via the interventricular foramina. CSF production occurs primarily at the choroid plexus. Drainage from the spinal cord involves the central canal, not the aqueduct."
+  },
+  {
+    "question": "A 66-year-old woman is found lethargic with a sudden severe headache. CT reveals subarachnoid hemorrhage secondary to a ruptured aneurysm. An external ventricular drain (EVD) is placed, and her opening pressure is 40 mmHg. What is the primary mechanism of increased intracranial pressure in this patient?",
+    "choices": [
+      "Overproduction of cerebrospinal fluid by the choroid plexus",
+      "Obstruction at the cerebral aqueduct causing non-communicating hydrocephalus",
+      "Decreased CSF reabsorption at the arachnoid granulations",
+      "Tumor mass effect compressing the ventricles",
+      "Cerebral venous thrombosis reducing CSF drainage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In subarachnoid hemorrhage, blood disrupts CSF reabsorption by damaging the arachnoid granulations, leading to communicating hydrocephalus and increased intracranial pressure. Overproduction of CSF is rare and not the mechanism in this case. Obstruction of the cerebral aqueduct would cause non-communicating hydrocephalus, not consistent with SAH findings. A tumor mass effect would be seen on imaging and isn't mentioned. Cerebral venous thrombosis can raise ICP but is not related to this mechanism post-SAH."
+  },
+  {
+    "question": "A 28-year-old obese woman presents with daily headaches and transient vision loss. Fundoscopy reveals papilledema. MRI shows small slit-like ventricles. Lumbar puncture shows an elevated opening pressure. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Normal pressure hydrocephalus",
+      "Idiopathic intracranial hypertension",
+      "Obstructive hydrocephalus due to aqueductal stenosis",
+      "Cerebral venous sinus thrombosis",
+      "Bacterial meningitis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Idiopathic intracranial hypertension (pseudotumor cerebri) commonly presents in obese young women with headache, visual symptoms, papilledema, and elevated CSF pressure with normal imaging other than small ventricles. Normal pressure hydrocephalus presents in the elderly with gait disturbance, incontinence, and dementia. Obstructive hydrocephalus involves ventricular enlargement, not slit ventricles. Cerebral venous thrombosis may elevate ICP but usually shows abnormal imaging findings. Bacterial meningitis presents with systemic signs and CSF pleocytosis, not isolated ICP elevation."
+  },
+  {
+    "question": "A 73-year-old man presents with a 3-month history of gait instability, urinary incontinence, and progressive memory loss. MRI shows enlarged ventricles without sulcal effacement. Lumbar puncture reveals normal opening pressure, and a high-volume CSF tap temporarily improves symptoms. What is the most appropriate next step in management?",
+    "choices": [
+      "Endoscopic third ventriculostomy",
+      "Acetazolamide therapy",
+      "Ventriculoperitoneal shunt placement",
+      "Oral corticosteroids",
+      "Serial lumbar punctures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient has classic signs of normal pressure hydrocephalus (NPH): gait instability, dementia, and urinary incontinence. MRI shows ventriculomegaly, and improvement after high-volume tap confirms the diagnosis. Ventriculoperitoneal (VP) shunting is the definitive treatment. Endoscopic third ventriculostomy is used for obstructive hydrocephalus. Acetazolamide reduces CSF production but is not used for NPH. Corticosteroids are not effective. Serial LPs are not a long-term solution and are used diagnostically."
+  },
+  {
+    "question": "A 61-year-old man presents with right-sided hemiparesis and a spastic gait. Neurological examination reveals increased muscle tone, hyperreflexia, and a positive Babinski sign on the right. Which of the following is the most likely site of the lesion?",
+    "choices": [
+      "Right anterior horn of the cervical spinal cord",
+      "Left internal capsule",
+      "Right pyramids of the medulla",
+      "Right ventral root at C7",
+      "Left dorsal horn of the spinal cord"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This patient has upper motor neuron (UMN) signs including spasticity, hyperreflexia, and Babinski sign, all on the right. The corticospinal tract decussates in the caudal medulla, so a lesion above this level (e.g., in the left internal capsule) would affect the contralateral body. The anterior horn and ventral root lesions would cause lower motor neuron (LMN) signs like flaccid paralysis. The dorsal horn contains sensory neurons. The right pyramids would cause left-sided deficits."
+  },
+  {
+    "question": "A patient presents with flaccid paralysis and muscle atrophy in the left upper limb following poliovirus infection. Which of the following structures is most likely damaged?",
+    "choices": [
+      "Left corticospinal tract in the internal capsule",
+      "Right anterior horn of the cervical spinal cord",
+      "Left anterior horn of the cervical spinal cord",
+      "Left dorsal columns of the spinal cord",
+      "Right lateral corticospinal tract"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Poliovirus primarily targets lower motor neurons in the anterior horn of the spinal cord, leading to flaccid paralysis and atrophy. A lesion on the left side would affect the ipsilateral limb. The corticospinal tract is part of the UMN system and causes spasticity when damaged. The dorsal columns carry sensory information. The right lateral corticospinal tract affects the left side below the level of the lesion."
+  },
+  {
+    "question": "A 23-year-old man suffers a penetrating injury to the lateral corticospinal tract at T10. Which of the following clinical findings is most likely?",
+    "choices": [
+      "Loss of pain and temperature sensation in the left leg",
+      "Spastic paralysis of the left leg",
+      "Flaccid paralysis of the right leg",
+      "Loss of vibration and proprioception in both legs",
+      "Facial droop on the right side"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The lateral corticospinal tract carries UMN fibers that decussate in the medullary pyramids. A lesion at T10 on the left would cause spastic paralysis in the ipsilateral (left) leg. Pain and temperature sensation is carried by the spinothalamic tract, which crosses at the level of spinal entry, so would be affected contralaterally. Flaccid paralysis indicates LMN damage. Vibration and proprioception are carried by the dorsal columns. Facial droop would result from cranial nerve or corticobulbar tract involvement, not spinal injury."
+  },
+  {
+    "question": "A 29-year-old woman presents with fluctuating muscle weakness, most notably with diplopia and difficulty swallowing that worsens throughout the day. Physical examination reveals ptosis that improves after application of an ice pack. Which of the following best describes the pathophysiology of this patient’s condition?",
+    "choices": [
+      "Antibodies against voltage-gated calcium channels at the presynaptic terminal",
+      "Autoimmune destruction of skeletal muscle sarcolemma",
+      "Antibodies against postsynaptic acetylcholine receptors",
+      "Destruction of anterior horn cells in the spinal cord",
+      "Demyelination of peripheral nerves"
+    ],
+    "correctAnswer": 2,
+    "explanation": "This patient has myasthenia gravis, which is caused by autoantibodies against postsynaptic acetylcholine receptors at the neuromuscular junction. This results in fluctuating weakness, particularly in ocular and bulbar muscles, that worsens with activity. The ice pack test improves ptosis by decreasing acetylcholinesterase activity. Antibodies against voltage-gated calcium channels are associated with Lambert-Eaton myasthenic syndrome. Skeletal muscle sarcolemma destruction occurs in dystrophinopathies. Anterior horn cell destruction occurs in motor neuron diseases like ALS. Demyelination is characteristic of Guillain-Barré syndrome."
+  },
+  {
+    "question": "A 67-year-old man presents with difficulty rising from a chair and combing his hair. Physical examination reveals symmetric proximal muscle weakness. Laboratory studies show elevated creatine kinase and anti-signal recognition particle (anti-SRP) antibodies. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Myasthenia gravis",
+      "Polymyositis",
+      "Duchenne muscular dystrophy",
+      "Lambert-Eaton syndrome",
+      "Immune-mediated necrotizing myopathy"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Immune-mediated necrotizing myopathy presents with subacute onset of symmetric proximal muscle weakness and markedly elevated creatine kinase. Anti-SRP antibodies are a specific finding. Myasthenia gravis typically affects ocular and bulbar muscles and has normal CK. Polymyositis may present similarly but involves endomysial inflammation and CD8+ T cells. Duchenne muscular dystrophy presents in childhood and involves dystrophin mutations. Lambert-Eaton syndrome involves weakness that improves with activity and is associated with small cell lung cancer."
+  },
+  {
+    "question": "A 61-year-old woman with lung cancer presents with progressive proximal muscle weakness. Physical exam shows diminished deep tendon reflexes, which improve after brief exercise. EMG reveals incremental response with repetitive nerve stimulation. Which of the following best describes the underlying pathophysiology?",
+    "choices": [
+      "Presynaptic inhibition of acetylcholine release",
+      "Postsynaptic receptor blockade by autoantibodies",
+      "Autoimmune destruction of peripheral nerves",
+      "Decreased presynaptic calcium influx due to autoantibodies",
+      "Degeneration of lower motor neurons"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lambert-Eaton myasthenic syndrome (LEMS) is caused by antibodies against presynaptic P/Q-type voltage-gated calcium channels, leading to impaired acetylcholine release. The hallmark is proximal weakness and diminished reflexes that improve with exercise, and EMG shows incremental response. Postsynaptic receptor blockade occurs in myasthenia gravis. Autoimmune destruction of peripheral nerves describes conditions like Guillain-Barré. Degeneration of LMNs occurs in diseases like spinal muscular atrophy."
+  },
+  {
+    "question": "A 21-year-old man is brought to the emergency department after a high-speed motor vehicle accident. He briefly loses consciousness, then becomes lucid, followed by rapid neurological decline. CT scan reveals a lens-shaped hyperdense collection. Which of the following vessels is most likely injured?",
+    "choices": [
+      "Bridging veins",
+      "Middle meningeal artery",
+      "Anterior cerebral artery",
+      "Superior sagittal sinus",
+      "Cortical veins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This is a classic presentation of an epidural hematoma, which commonly results from rupture of the middle meningeal artery following a temporal bone fracture. The lens-shaped (biconvex) hyperdense appearance on CT is characteristic. Bridging veins cause subdural hematomas. The anterior cerebral artery and cortical veins are intraparenchymal and do not cause epidural collections. The superior sagittal sinus is venous and not typically involved in trauma-induced epidural bleeding."
+  },
+  {
+    "question": "A 70-year-old woman presents with confusion and right-sided hemiparesis after a minor fall. CT scan shows a crescent-shaped hyperdensity crossing suture lines. Which of the following best explains the pathophysiology of this condition?",
+    "choices": [
+      "Tear of middle meningeal artery",
+      "Tear of bridging veins between the cortex and dura",
+      "Rupture of berry aneurysm in the circle of Willis",
+      "Shearing injury of the corpus callosum",
+      "Contusion of the cerebral cortex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The patient has a subdural hematoma, indicated by the crescent-shaped collection that crosses suture lines. It is usually caused by tearing of bridging veins, especially in elderly patients where cerebral atrophy increases tension on these veins. Middle meningeal artery rupture causes epidural hematoma. Berry aneurysm rupture results in subarachnoid hemorrhage. Shearing injury is related to diffuse axonal injury. Cortical contusion causes intraparenchymal hemorrhage."
+  },
+  {
+    "question": "A patient with severe traumatic brain injury is noted to have bradycardia, hypertension, and irregular respirations. CT reveals compression of the basilar cisterns and evidence of transtentorial herniation. Which of the following is the best explanation for these findings?",
+    "choices": [
+      "Cerebral infarction from embolic stroke",
+      "Hydrocephalus from aqueductal stenosis",
+      "Increased intracranial pressure triggering Cushing's reflex",
+      "Posterior cerebral artery infarction from aneurysm rupture",
+      "Subdural hematoma expanding across the midline"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The triad of bradycardia, hypertension, and irregular breathing is Cushing’s triad, a physiologic response to increased intracranial pressure (ICP) that threatens cerebral perfusion. Compression of the basilar cisterns and herniation further support elevated ICP. Embolic stroke, aqueductal stenosis, and PCA aneurysm rupture would not typically present with this triad. A subdural hematoma may cause midline shift but not necessarily Cushing's response unless ICP is markedly elevated."
+  },
+  {
+    "question": "A 65-year-old man presents with progressive bradykinesia, resting tremor, and rigidity. He is diagnosed with Parkinson disease. Which of the following best explains the pathophysiology behind this patient's reduced movement initiation?",
+    "choices": [
+      "Degeneration of GABAergic neurons in the subthalamic nucleus",
+      "Loss of cholinergic input from the basal forebrain",
+      "Degeneration of dopaminergic neurons in the substantia nigra pars compacta",
+      "Destruction of glutamatergic neurons projecting from the thalamus",
+      "Hyperactivity of the striatal D1 pathway due to excess dopamine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Parkinson disease is caused by the degeneration of dopaminergic neurons in the substantia nigra pars compacta, which leads to reduced stimulation of the direct (D1) pathway and less inhibition of the indirect (D2) pathway. This results in overactivity of GPi and increased inhibition of the thalamus, thereby reducing motor cortex activation. GABAergic degeneration in the STN leads to hemiballismus. Loss of cholinergic input is linked to Alzheimer’s disease. Destruction of glutamatergic thalamic neurons would cause widespread motor depression, but this is not the mechanism in Parkinson’s. Excess dopamine would increase movement, not decrease it."
+  },
+  {
+    "question": "A 40-year-old woman presents with progressive involuntary, dance-like movements. MRI reveals enlarged lateral ventricles. Genetic testing confirms a trinucleotide repeat expansion. Which of the following neural pathways is most directly affected in this condition?",
+    "choices": [
+      "Striatum to globus pallidus externus (GPe)",
+      "Subthalamic nucleus to globus pallidus internus (GPi)",
+      "Substantia nigra pars compacta to caudate",
+      "Thalamus to motor cortex",
+      "Globus pallidus internus to thalamus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Huntington disease primarily involves degeneration of the indirect pathway, particularly the GABAergic projections from the striatum to the GPe. This reduces inhibition of the GPe, leading to suppression of the STN and reduced activation of GPi, resulting in decreased thalamic inhibition and hyperkinetic movements. The STN-GPi pathway is spared early. Nigrostriatal degeneration is characteristic of Parkinson's. The thalamus to motor cortex and GPi to thalamus connections are not the primary early sites of pathology in Huntington disease."
+  },
+  {
+    "question": "A 58-year-old man presents with sudden onset of violent, flinging movements of his left arm and leg. Neurological exam confirms hemiballismus. A CT scan is most likely to reveal a lesion in which of the following locations?",
+    "choices": [
+      "Right substantia nigra pars compacta",
+      "Left caudate nucleus",
+      "Right subthalamic nucleus",
+      "Right internal capsule",
+      "Left red nucleus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hemiballismus is classically caused by a lesion in the contralateral subthalamic nucleus, which disinhibits the thalamus by reducing excitation of the GPi. This leads to excessive movement. The right STN lesion results in left-sided hemiballismus. The substantia nigra is associated with Parkinson disease. Caudate lesions affect behavior and cognition in addition to movement. Internal capsule lesions cause contralateral motor and sensory deficits but not typically hemiballismus. Red nucleus lesions result in midbrain syndromes but do not cause flinging movements."
+  },
+  {
+    "question": "A 72-year-old man presents with sudden onset right arm and facial weakness, along with aphasia. CT imaging confirms an ischemic stroke. Which of the following arteries is most likely occluded?",
+    "choices": [
+      "Right anterior cerebral artery",
+      "Left middle cerebral artery",
+      "Right posterior cerebral artery",
+      "Left anterior choroidal artery",
+      "Left superior cerebellar artery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This presentation is classic for a left middle cerebral artery (MCA) stroke, which supplies the lateral surface of the cerebral cortex including motor and sensory areas of the face and upper extremity. It also typically affects language centers in the dominant hemisphere (usually left). The anterior cerebral artery would affect the lower limb more than face and arm. Posterior cerebral artery infarcts affect vision and midbrain structures. Anterior choroidal infarcts impact deep structures but rarely cause cortical aphasia. The superior cerebellar artery affects the cerebellum, leading to ataxia rather than cortical deficits."
+  },
+  {
+    "question": "A 65-year-old woman presents with left leg weakness and urinary incontinence following a fall. MRI reveals an infarct in the medial aspect of the right cerebral hemisphere. Which vascular territory is most likely involved?",
+    "choices": [
+      "Right middle cerebral artery",
+      "Right anterior cerebral artery",
+      "Left anterior cerebral artery",
+      "Right posterior cerebral artery",
+      "Left vertebral artery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The anterior cerebral artery (ACA) supplies the medial surface of the cerebral hemisphere, including the paracentral lobule which controls lower limb motor function and bladder control. A right ACA infarct would cause left leg weakness and possibly incontinence. The MCA would affect face and arm more prominently. The posterior cerebral artery supplies occipital and inferomedial temporal lobes. The vertebral artery supplies the brainstem and cerebellum, not the cerebral cortex."
+  },
+  {
+    "question": "A 60-year-old man presents with visual hallucinations and loss of vision in the left visual field of both eyes. Imaging reveals a right-sided infarct involving the occipital lobe. Which vessel is most likely occluded?",
+    "choices": [
+      "Right anterior cerebral artery",
+      "Right posterior cerebral artery",
+      "Left posterior cerebral artery",
+      "Right middle cerebral artery",
+      "Right superior cerebellar artery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The posterior cerebral artery (PCA) supplies the occipital lobe, which is responsible for visual processing. Infarction here can lead to contralateral homonymous hemianopia. A right PCA infarct would cause left visual field loss in both eyes. The anterior and middle cerebral arteries do not supply the occipital cortex. The superior cerebellar artery supplies the cerebellum and upper brainstem, not the visual cortex."
   }
 ]
