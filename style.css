@@ -20,7 +20,7 @@ body {
 /* Scrollable Question Navigation */
 .question-nav {
     width: 250px;
-    background: #1f1f1f;
+    background: #34ebbd;
     padding: 15px;
     border-radius: 10px;
     overflow-y: auto;
