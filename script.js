@@ -17,32 +17,51 @@ const incorrectText = document.getElementById("incorrect");
 const questionList = document.getElementById("question-list");
 const quizContainer = document.querySelector(".quiz-content");
 const resultsContainer = document.getElementById("results-container");
+const questionNav = document.querySelector(".question-nav");
 
 fetch('questions.json')
     .then(response => response.json())
     .then(data => {
         quizData = data;
-
-        // Reinitialize storage arrays now that we know quizData length
-        answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
-        explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
-        selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
-
-        // Load sidebar questions
-        quizData.forEach((_, index) => {
-            const listItem = document.createElement("li");
-            listItem.textContent = index + 1;
-            listItem.classList.add("question-bubble");
-            listItem.onclick = () => loadQuestion(index);
-            listItem.setAttribute("data-index", index);
-            questionList.appendChild(listItem);
-        });
-
-        // Load first question
+        initializeQuizState(); // Use a function to set up the state
+        renderSidebar();
         loadQuestion(0);
     })
     .catch(error => console.error('Error loading quiz data:', error));
 
+function initializeQuizState() {
+    answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
+    explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
+    selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
+
+    // Recalculate score from session storage on reload
+    correctAnswers = 0;
+    incorrectAnswers = 0;
+    answeredQuestions.forEach((answered, index) => {
+        if (answered) {
+            if (selectedAnswers[index] === quizData[index].correctAnswer) {
+                correctAnswers++;
+            } else {
+                incorrectAnswers++;
+            }
+        }
+    });
+}
+
+function renderSidebar() {
+    questionList.innerHTML = ""; // Clear existing list
+    quizData.forEach((_, index) => {
+        const listItem = document.createElement("li");
+        listItem.textContent = index + 1;
+        listItem.classList.add("question-bubble");
+        if (answeredQuestions[index]) {
+            listItem.style.backgroundColor = selectedAnswers[index] === quizData[index].correctAnswer ? "green" : "red";
+        }
+        listItem.onclick = () => loadQuestion(index);
+        listItem.setAttribute("data-index", index);
+        questionList.appendChild(listItem);
+    });
+}
 
 // Display Hotkey Info Popup
 window.onload = function() {
@@ -59,25 +78,26 @@ function loadQuestion(index) {
 
     currentQuestionIndex = index;
     const q = quizData[index];
-    
+
     questionText.textContent = q.question;
     choicesContainer.innerHTML = "";
-    
+    choicesContainer.classList.remove("answered");
+
     q.choices.forEach((choice, i) => {
         const button = document.createElement("button");
         button.textContent = choice;
         button.onclick = () => checkAnswer(i, button);
         button.classList.add("choice-btn");
-        
-        if (selectedAnswers[currentQuestionIndex] !== null) {
-            if (i === selectedAnswers[currentQuestionIndex]) {
-                button.style.backgroundColor = selectedAnswers[currentQuestionIndex] === q.correctAnswer ? "green" : "red";
+
+        if (answeredQuestions[currentQuestionIndex]) {
+             if (i === q.correctAnswer) {
+                button.classList.add("correct");
+            } else if (i === selectedAnswers[currentQuestionIndex]) {
+                button.classList.add("incorrect");
             }
-            if (i === q.correctAnswer) {
-                button.style.backgroundColor = "green";
-            }
+            choicesContainer.classList.add("answered");
         }
-        
+
         choicesContainer.appendChild(button);
     });
 
@@ -94,42 +114,43 @@ function loadQuestion(index) {
 
 // Check Answer
 function checkAnswer(selectedIndex, button) {
-    if (answeredQuestions[currentQuestionIndex]) return; // Prevent multiple answers
+    if (answeredQuestions[currentQuestionIndex]) return;
 
     const q = quizData[currentQuestionIndex];
     explanationBox.textContent = q.explanation;
     explanationBox.classList.remove("hidden");
+    choicesContainer.classList.add("answered");
 
     const questionBubble = document.querySelector(`.question-bubble[data-index="${currentQuestionIndex}"]`);
 
     if (selectedIndex === q.correctAnswer) {
-        button.style.backgroundColor = "green";
+        button.classList.add("correct");
         questionBubble.style.backgroundColor = "green";
         correctAnswers++;
     } else {
-        button.style.backgroundColor = "red";
+        button.classList.add("incorrect");
         questionBubble.style.backgroundColor = "red";
         incorrectAnswers++;
-        
-        // Highlight correct answer in green
-        const buttons = choicesContainer.getElementsByTagName("button");
-        buttons[q.correctAnswer].style.backgroundColor = "green";
+
+        const correctButton = choicesContainer.children[q.correctAnswer];
+        correctButton.classList.add("correct");
     }
 
-    answeredQuestions[currentQuestionIndex] = true; // Mark as answered
-    explanationsShown[currentQuestionIndex] = true; // Keep explanation visible
+    answeredQuestions[currentQuestionIndex] = true;
+    explanationsShown[currentQuestionIndex] = true;
     selectedAnswers[currentQuestionIndex] = selectedIndex;
-    
+
     sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
     sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
     sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-    
+
     updateProgress();
 }
 
 // Update Progress
 function updateProgress() {
-    progressText.textContent = `${currentQuestionIndex + 1}/${quizData.length}`;
+    const totalAnswered = answeredQuestions.filter(Boolean).length;
+    progressText.textContent = `${totalAnswered}/${quizData.length}`;
     correctText.textContent = correctAnswers;
     incorrectText.textContent = incorrectAnswers;
 }
@@ -137,13 +158,31 @@ function updateProgress() {
 // Show Final Results Popup
 function showResultsPopup() {
     quizContainer.classList.add("hidden");
-    document.querySelector(".quiz-controls").classList.add("hidden");
-    document.querySelector(".question-nav").classList.add("hidden");
+    questionNav.classList.add("hidden");
+
     const scorePercentage = ((correctAnswers / quizData.length) * 100).toFixed(2);
     const finalScoreText = document.getElementById("final-score");
     finalScoreText.textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
+
     resultsContainer.classList.remove("hidden");
 }
+
+// --- NEW AND UPDATED FUNCTIONS ---
+
+// Function to completely restart the quiz
+function restartQuiz() {
+    sessionStorage.clear(); // Clear all saved progress
+    window.location.reload(); // Reload the page
+}
+
+// Function to review the quiz without losing progress
+function reviewQuiz() {
+    resultsContainer.classList.add("hidden"); // Hide the results
+    quizContainer.classList.remove("hidden"); // Show the quiz content
+    questionNav.classList.remove("hidden"); // Show the navigation
+    loadQuestion(0); // Go back to the first question
+}
+
 
 // Navigation Controls
 document.getElementById("next-btn").onclick = () => {
@@ -158,9 +197,9 @@ document.getElementById("prev-btn").onclick = () => loadQuestion(Math.max(curren
 // Hotkey Navigation & Answer Selection
 document.addEventListener("keydown", function(event) {
     if (event.code === "Space") {
-        loadQuestion(currentQuestionIndex + 1);
+        document.getElementById("next-btn").click();
     } else if (event.code === "KeyB") {
-        loadQuestion(Math.max(currentQuestionIndex - 1, 0));
+        document.getElementById("prev-btn").click();
     } else if (event.key >= "1" && event.key <= "5") {
         const answerIndex = parseInt(event.key) - 1;
         if (answerIndex < quizData[currentQuestionIndex].choices.length) {
@@ -171,4 +210,3 @@ document.addEventListener("keydown", function(event) {
         }
     }
 });
-
