@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const choicesContainer = document.getElementById("choices-container");
     const explanationBox = document.getElementById("explanation");
     const progressText = document.getElementById("progress");
+    const progressBar = document.getElementById("progress-bar"); // New progress bar element
     const correctText = document.getElementById("correct");
     const incorrectText = document.getElementById("incorrect");
     const questionList = document.getElementById("question-list");
@@ -139,6 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
         
+        updateProgress(); // Update progress right after answering
         loadQuestion(currentQuestionIndex); // Reload to show correct/incorrect styles
     }
 
@@ -147,6 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
         progressText.textContent = `${totalAnswered}/${quizData.length}`;
         correctText.textContent = correctAnswers;
         incorrectText.textContent = incorrectAnswers;
+
+        // Update the visual progress bar
+        const progressPercentage = quizData.length > 0 ? (totalAnswered / quizData.length) * 100 : 0;
+        progressBar.style.width = `${progressPercentage}%`;
     }
 
     function showResultsPopup() {
@@ -154,9 +160,19 @@ document.addEventListener("DOMContentLoaded", () => {
         questionNav.classList.add("hidden");
         recalculateScore();
         updateProgress();
+
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100).toFixed(2) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
         resultsContainer.classList.remove("hidden");
+
+        // Trigger confetti for scores 80% or higher
+        if (scorePercentage >= 80) {
+            confetti({
+                particleCount: 150,
+                spread: 90,
+                origin: { y: 0.6 }
+            });
+        }
     }
 
     function restartQuiz() {
