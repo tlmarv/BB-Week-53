@@ -124,7 +124,10 @@ header {
 
 /* Results Page */
 #results-container {
-    display: none;
+    flex-grow: 1; /* Add this to make it fill the space */
+    margin-left: 20px; /* Add this to align it like the quiz content */
+    
+    /* Your existing styles below */
     text-align: center;
     background: #222;
     padding: 20px;
