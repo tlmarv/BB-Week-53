@@ -10,13 +10,11 @@
 
     <div class="quiz-container">
         
-        <!-- Scrollable Question Navigation -->
         <nav class="question-nav">
             <h3>Questions</h3>
             <ul id="question-list"></ul>
         </nav>
 
-        <!-- Main Quiz Section -->
         <div class="quiz-content">
             <header>
                 <h1>Week 52 Quiz</h1>
@@ -38,13 +36,14 @@
                 <button id="next-btn">Next ➡</button>
             </div>
 
-            <!-- Results Page (Hidden Initially) -->
-            <div id="results-container" class="hidden">
-                <h2>🎉 Congratulations! 🎉</h2>
-                <p id="final-score"></p>
-                <button onclick="window.location.reload()">Restart Quiz</button>
             </div>
+
+        <div id="results-container" class="hidden">
+            <h2>🎉 Congratulations! 🎉</h2>
+            <p id="final-score"></p>
+            <button onclick="window.location.reload()">Restart Quiz</button>
         </div>
+
     </div>
 
     <script src="script.js"></script>
