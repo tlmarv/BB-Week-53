@@ -136,19 +136,12 @@ function updateProgress() {
 
 // Show Final Results Popup
 function showResultsPopup() {
-    // Hide the main quiz content and controls
     quizContainer.classList.add("hidden");
     document.querySelector(".quiz-controls").classList.add("hidden");
     document.querySelector(".question-nav").classList.add("hidden");
-
-    // Calculate final score
     const scorePercentage = ((correctAnswers / quizData.length) * 100).toFixed(2);
     const finalScoreText = document.getElementById("final-score");
-    
-    // Set the text for the final score
     finalScoreText.textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
-
-    // Show the results container
     resultsContainer.classList.remove("hidden");
 }
 
