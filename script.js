@@ -23,7 +23,7 @@ fetch('questions.json')
     .then(response => response.json())
     .then(data => {
         quizData = data;
-        initializeQuizState(); // Use a function to set up the state
+        initializeQuizState();
         renderSidebar();
         loadQuestion(0);
     })
@@ -33,12 +33,12 @@ function initializeQuizState() {
     answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
     explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
     selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
-
+    
     // Recalculate score from session storage on reload
     correctAnswers = 0;
     incorrectAnswers = 0;
     answeredQuestions.forEach((answered, index) => {
-        if (answered) {
+        if (answered && selectedAnswers[index] !== null) {
             if (selectedAnswers[index] === quizData[index].correctAnswer) {
                 correctAnswers++;
             } else {
@@ -68,7 +68,6 @@ window.onload = function() {
     alert("Welcome to the quiz!\n\nHotkeys Available:\n- Space: Next Question\n- B: Previous Question\n- 1-5: Select Answer Choices\n Anki remotes should be compatible! \n\nGood luck!");
 };
 
-
 // Load Question
 function loadQuestion(index) {
     if (index >= quizData.length) {
@@ -78,26 +77,25 @@ function loadQuestion(index) {
 
     currentQuestionIndex = index;
     const q = quizData[index];
-
+    
     questionText.textContent = q.question;
     choicesContainer.innerHTML = "";
-    choicesContainer.classList.remove("answered");
-
+    
     q.choices.forEach((choice, i) => {
         const button = document.createElement("button");
         button.textContent = choice;
         button.onclick = () => checkAnswer(i, button);
         button.classList.add("choice-btn");
-
-        if (answeredQuestions[currentQuestionIndex]) {
-             if (i === q.correctAnswer) {
-                button.classList.add("correct");
-            } else if (i === selectedAnswers[currentQuestionIndex]) {
-                button.classList.add("incorrect");
+        
+        if (selectedAnswers[currentQuestionIndex] !== null) {
+            if (i === selectedAnswers[currentQuestionIndex]) {
+                button.style.backgroundColor = selectedAnswers[currentQuestionIndex] === q.correctAnswer ? "green" : "red";
             }
-            choicesContainer.classList.add("answered");
+            if (i === q.correctAnswer) {
+                button.style.backgroundColor = "green";
+            }
         }
-
+        
         choicesContainer.appendChild(button);
     });
 
@@ -119,31 +117,30 @@ function checkAnswer(selectedIndex, button) {
     const q = quizData[currentQuestionIndex];
     explanationBox.textContent = q.explanation;
     explanationBox.classList.remove("hidden");
-    choicesContainer.classList.add("answered");
 
     const questionBubble = document.querySelector(`.question-bubble[data-index="${currentQuestionIndex}"]`);
 
     if (selectedIndex === q.correctAnswer) {
-        button.classList.add("correct");
+        button.style.backgroundColor = "green";
         questionBubble.style.backgroundColor = "green";
         correctAnswers++;
     } else {
-        button.classList.add("incorrect");
+        button.style.backgroundColor = "red";
         questionBubble.style.backgroundColor = "red";
         incorrectAnswers++;
-
+        
         const correctButton = choicesContainer.children[q.correctAnswer];
-        correctButton.classList.add("correct");
+        correctButton.style.backgroundColor = "green";
     }
 
     answeredQuestions[currentQuestionIndex] = true;
     explanationsShown[currentQuestionIndex] = true;
     selectedAnswers[currentQuestionIndex] = selectedIndex;
-
+    
     sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
     sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
     sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-
+    
     updateProgress();
 }
 
@@ -163,26 +160,22 @@ function showResultsPopup() {
     const scorePercentage = ((correctAnswers / quizData.length) * 100).toFixed(2);
     const finalScoreText = document.getElementById("final-score");
     finalScoreText.textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
-
+    
     resultsContainer.classList.remove("hidden");
 }
 
-// --- NEW AND UPDATED FUNCTIONS ---
-
-// Function to completely restart the quiz
+// --- Functions for the new buttons ---
 function restartQuiz() {
-    sessionStorage.clear(); // Clear all saved progress
-    window.location.reload(); // Reload the page
+    sessionStorage.clear(); // This clears all saved data
+    window.location.reload(); // This reloads the page for a fresh start
 }
 
-// Function to review the quiz without losing progress
 function reviewQuiz() {
-    resultsContainer.classList.add("hidden"); // Hide the results
-    quizContainer.classList.remove("hidden"); // Show the quiz content
-    questionNav.classList.remove("hidden"); // Show the navigation
-    loadQuestion(0); // Go back to the first question
+    resultsContainer.classList.add("hidden"); // Hide the results screen
+    quizContainer.classList.remove("hidden"); // Show the quiz
+    questionNav.classList.remove("hidden"); // Show the question navigation
+    loadQuestion(0); // Load the first question to start the review
 }
-
 
 // Navigation Controls
 document.getElementById("next-btn").onclick = () => {
