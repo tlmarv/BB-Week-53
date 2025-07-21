@@ -83,11 +83,30 @@ header {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 #choices-container button:hover {
     background: #005f8d;
 }
+
+/* --- NEW and IMPROVED STYLES for answers --- */
+#choices-container.answered button {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#choices-container button.correct {
+    background-color: #28a745 !important;
+    opacity: 1;
+}
+
+#choices-container button.incorrect {
+    background-color: #dc3545 !important;
+    opacity: 1;
+}
+/* --- END of new styles --- */
+
 
 /* Explanation */
 #explanation {
@@ -124,10 +143,8 @@ header {
 
 /* Results Page */
 #results-container {
-    flex-grow: 1; /* Add this to make it fill the space */
-    margin-left: 20px; /* Add this to align it like the quiz content */
-    
-    /* Your existing styles below */
+    flex-grow: 1;
+    margin-left: 20px;
     text-align: center;
     background: #222;
     padding: 20px;
