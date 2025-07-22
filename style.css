@@ -16,7 +16,8 @@ body {
 
 /* Style for the start modal specifically */
 #start-modal .modal-content {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/k682t2W.jpeg);
+    /* Updated, working background image URL */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.imgur.com/Y8t3s4v.png);
     background-size: cover;
     border: 8px solid #6b4d38;
     border-style: outset;
@@ -30,6 +31,14 @@ body {
     text-shadow: 3px 3px #37281B;
 }
 
+#start-modal p {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 2px 2px #37281B;
+}
+
+/* General style for the new game buttons */
 #start-modal .modal-buttons button {
     font-family: 'Press Start 2P', cursive;
     color: white;
