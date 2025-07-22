@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let explanationsShown;
     let selectedAnswers;
     let markedForReview;
-    let isSurvivalMode = false;
-    let lives = 14; // Changed from 3 to 14
 
     // DOM Elements
     const questionText = document.getElementById("question-text");
@@ -20,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const correctText = document.getElementById("correct");
     const incorrectText = document.getElementById("incorrect");
     const questionList = document.getElementById("question-list");
-    const quizContainer = document.querySelector(".quiz-container");
+    const quizContent = document.querySelector(".quiz-content");
     const resultsContainer = document.getElementById("results-container");
     const questionNav = document.querySelector(".question-nav");
     const nextBtn = document.getElementById("next-btn");
@@ -31,22 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const helpBtn = document.getElementById("help-btn");
     const helpModal = document.getElementById("help-modal");
     const closeModalBtn = document.getElementById("close-modal-btn");
-    const startModal = document.getElementById("start-modal");
-    const startNormalBtn = document.getElementById("start-normal-btn");
-    const startSurvivalBtn = document.getElementById("start-survival-btn");
-    const livesContainer = document.getElementById("lives-container");
-    const livesDisplay = document.getElementById("lives-display");
 
-    function beginQuiz(survivalMode = false) {
-        isSurvivalMode = survivalMode;
-        startModal.classList.add("hidden");
-        quizContainer.classList.remove("hidden");
-        
-        if (isSurvivalMode) {
-            livesContainer.classList.remove("hidden");
-            updateLivesDisplay();
-        }
-
+    function startQuiz() {
         fetch('questions.json')
             .then(response => response.json())
             .then(data => {
@@ -151,11 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
         explanationsShown[currentQuestionIndex] = true;
         selectedAnswers[currentQuestionIndex] = selectedIndex;
 
-        if (isSurvivalMode && selectedIndex !== quizData[currentQuestionIndex].correctAnswer) {
-            lives--;
-            updateLivesDisplay();
-        }
-
         recalculateScore();
         
         sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
@@ -163,14 +142,6 @@ document.addEventListener("DOMContentLoaded", () => {
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
         
         loadQuestion(currentQuestionIndex);
-        
-        if (isSurvivalMode && lives <= 0) {
-            showResultsPopup();
-        }
-    }
-
-    function updateLivesDisplay() {
-        livesDisplay.textContent = '❤️'.repeat(lives);
     }
 
     function updateProgress() {
@@ -192,10 +163,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage.toFixed(2)}%)!`;
         
-        if(isSurvivalMode && lives <= 0) {
-            document.getElementById("final-score").textContent += " - Ran out of lives!";
-        }
-
         const highScore = localStorage.getItem("quizHighScore") || 0;
         const highScoreText = document.getElementById("high-score-text");
         if (correctAnswers > highScore) {
@@ -225,9 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     function setupEventListeners() {
-        startNormalBtn.onclick = () => beginQuiz(false);
-        startSurvivalBtn.onclick = () => beginQuiz(true);
-
         nextBtn.onclick = () => {
             if (currentQuestionIndex < quizData.length - 1) {
                 loadQuestion(currentQuestionIndex + 1);
@@ -268,5 +232,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    setupEventListeners();
+    startQuiz();
 });
