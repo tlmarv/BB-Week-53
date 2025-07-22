@@ -18,7 +18,10 @@
 
         <div class="quiz-content">
             <header>
-                <h1>Week 52 Quiz</h1>
+                <div class="header-top-row">
+                    <h1>Week 52 Quiz</h1>
+                    <button id="help-btn" title="Show Keyboard Shortcuts">?</button>
+                </div>
                 <div class="progress-bar-container">
                     <div id="progress-bar"></div>
                 </div>
@@ -48,11 +51,24 @@
         <div id="results-container" class="hidden">
             <h2>🎉 Congratulations! 🎉</h2>
             <p id="final-score"></p>
-            <button id="restart-btn">Restart Quiz</button>
+            <p id="high-score-text"></p> <button id="restart-btn">Restart Quiz</button>
             <button id="review-btn">Review Answers</button>
         </div>
 
     </div>
+
+    <div id="help-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-modal-btn">&times;</button>
+            <h3>Keyboard Shortcuts</h3>
+            <ul>
+                <li><strong>Spacebar</strong>: Next Question</li>
+                <li><strong>B</strong>: Previous Question</li>
+                <li><strong>1-5</strong>: Select Answer Choice</li>
+            </ul>
+        </div>
+    </div>
+
 
     <script src="script.js"></script>
 
