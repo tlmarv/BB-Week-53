@@ -1,20 +1,126 @@
-/* --- New Styles for Mark for Review --- */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #272b47;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Quiz Layout */
+.quiz-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+/* Scrollable Question Navigation */
+.question-nav {
+    width: 250px;
+    background: #4a6958;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.question-nav h3 {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.question-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.question-nav li {
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    border-left: 5px solid transparent; /* For the marked flag */
+}
+
+.question-nav li.active {
+    background-color: #00ff99;
+    color: #222;
+    font-weight: bold;
+}
+
+.question-nav li.marked {
+    border-left-color: #ffc107; /* The yellow flag indicator */
+}
+
+/* Main Quiz Content */
+.quiz-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+/* Progress Bar Styles */
+.progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #00ff99;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.score-tracker {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Question & Choices */
+#question-container {
+    margin: 20px 0;
+    flex-grow: 1; /* Allows this section to fill available space */
+}
+
 .question-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px; /* Adds space between title and button */
+    gap: 15px;
 }
 
 #mark-review-btn {
     background: none;
-    border: 1px solid #ffc107; /* A gold color */
+    border: 1px solid #ffc107;
     color: #ffc107;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
     padding: 5px 10px;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 #mark-review-btn.marked {
@@ -22,7 +128,98 @@
     color: #222;
 }
 
-.question-nav li.marked {
-    border-left: 5px solid #ffc107; /* The flag indicator */
+
+#choices-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
-/* --- End of New Styles --- */
+
+#choices-container button:hover {
+    background: #005f8d;
+}
+
+#choices-container.answered button {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#choices-container button.correct {
+    background-color: #28a745 !important;
+    opacity: 1;
+}
+
+#choices-container button.incorrect {
+    background-color: #dc3545 !important;
+    opacity: 1;
+}
+
+/* Explanation */
+#explanation {
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none !important; /* Use important to ensure it overrides other display properties */
+}
+
+/* Navigation Buttons */
+.quiz-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.quiz-controls button {
+    padding: 10px 20px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.quiz-controls button:hover {
+    background: #005f8d;
+}
+
+/* Results Page */
+#results-container {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#results-container h2 {
+    color: #00ff99;
+}
+
+#results-container button {
+    background: #0077b6;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#results-container button:hover {
+    background: #005f8d;
+}
