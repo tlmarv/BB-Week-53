@@ -43,7 +43,7 @@ body {
     transition: 0.3s;
     border-radius: 5px;
     text-align: center;
-    border-left: 5px solid transparent; /* For the marked flag */
+    border-left: 5px solid transparent;
 }
 
 .question-nav li.active {
@@ -53,7 +53,7 @@ body {
 }
 
 .question-nav li.marked {
-    border-left-color: #ffc107; /* The yellow flag indicator */
+    border-left-color: #ffc107;
 }
 
 /* Main Quiz Content */
@@ -80,7 +80,7 @@ header {
 
 header h1 {
     margin-top: 0;
-    flex-grow: 1; /* Allow title to take space */
+    flex-grow: 1;
 }
 
 #help-btn {
@@ -93,7 +93,19 @@ header h1 {
     cursor: pointer;
     width: 30px;
     height: 30px;
+    margin-left: 10px;
 }
+
+/* --- New Lives Counter Style --- */
+#lives-container {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffc107;
+}
+#lives-display {
+    color: #dc3545; /* Red hearts */
+}
+
 
 /* Progress Bar Styles */
 .progress-bar-container {
@@ -181,11 +193,10 @@ header h1 {
     opacity: 1;
 }
 
-/* --- New Strikethrough Style --- */
 #choices-container button.strikethrough {
     text-decoration: line-through;
     opacity: 0.5;
-    background-color: #555 !important; /* A neutral, dimmed color */
+    background-color: #555 !important;
 }
 
 /* Explanation */
@@ -237,7 +248,7 @@ header h1 {
 }
 
 #high-score-text {
-    color: #ffc107; /* Gold color for high score */
+    color: #ffc107;
     font-weight: bold;
 }
 
@@ -252,7 +263,7 @@ header h1 {
     transition: 0.3s;
 }
 
-/* Help Modal Styles */
+/* Modal Styles */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -273,6 +284,7 @@ header h1 {
     position: relative;
     width: 90%;
     max-width: 400px;
+    text-align: center;
 }
 
 .modal-content h3 {
@@ -286,6 +298,12 @@ header h1 {
 
 .modal-content li {
     padding: 5px 0;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 #close-modal-btn {
