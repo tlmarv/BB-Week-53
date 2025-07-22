@@ -30,16 +30,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const helpModal = document.getElementById("help-modal");
     const closeModalBtn = document.getElementById("close-modal-btn");
 
-
-    fetch('questions.json')
-        .then(response => response.json())
-        .then(data => {
-            quizData = data;
-            initializeQuizState();
-            renderSidebar();
-            loadQuestion(0);
-        })
-        .catch(error => console.error('Error loading quiz data:', error));
+    // --- Main function to start the quiz ---
+    function startQuiz() {
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                quizData = data;
+                initializeQuizState();
+                setupEventListeners(); // Set up all listeners here
+                renderSidebar();
+                loadQuestion(0);
+            })
+            .catch(error => console.error('Error loading quiz data:', error));
+    }
 
     function initializeQuizState() {
         answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
@@ -87,10 +90,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function loadQuestion(index) {
         currentQuestionIndex = index;
-        renderSidebar(); // Redraw sidebar to update active/marked states
+        renderSidebar(); 
 
         const q = quizData[index];
-
         questionText.textContent = q.question;
         choicesContainer.innerHTML = "";
         choicesContainer.className = "";
@@ -154,7 +156,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage.toFixed(2)}%)!`;
         
-        // High Score Logic
         const highScore = localStorage.getItem("quizHighScore") || 0;
         const highScoreText = document.getElementById("high-score-text");
         if (correctAnswers > highScore) {
@@ -173,6 +174,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function restartQuiz() {
         sessionStorage.clear();
+        localStorage.removeItem("quizHighScore"); // Also clear high score on restart
         window.location.reload();
     }
 
@@ -183,44 +185,49 @@ document.addEventListener("DOMContentLoaded", () => {
         loadQuestion(0);
     }
     
-    // --- EVENT LISTENERS ---
-    nextBtn.onclick = () => {
-        if (currentQuestionIndex < quizData.length - 1) {
-            loadQuestion(currentQuestionIndex + 1);
-        } else {
-            showResultsPopup();
-        }
-    };
-    
-    prevBtn.onclick = () => {
-        if (currentQuestionIndex > 0) {
-            loadQuestion(currentQuestionIndex - 1);
-        }
-    };
-
-    restartBtn.onclick = restartQuiz;
-    reviewBtn.onclick = reviewQuiz;
-    
-    markReviewBtn.onclick = () => {
-        markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
-        sessionStorage.setItem("markedForReview", JSON.stringify(markedForReview));
-        renderSidebar();
-        markReviewBtn.classList.toggle("marked", markedForReview[currentQuestionIndex]);
-    };
-
-    helpBtn.onclick = () => helpModal.classList.remove("hidden");
-    closeModalBtn.onclick = () => helpModal.classList.add("hidden");
-    
-    document.addEventListener("keydown", (event) => {
-        if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
-
-        if (event.code === "Space") nextBtn.click();
-        if (event.code === "KeyB") prevBtn.click();
-        if (event.key >= "1" && event.key <= "5") {
-            const answerIndex = parseInt(event.key) - 1;
-            if (choicesContainer.children[answerIndex]) {
-                choicesContainer.children[answerIndex].click();
+    // --- THIS IS THE CORRECTED PART ---
+    function setupEventListeners() {
+        nextBtn.onclick = () => {
+            if (currentQuestionIndex < quizData.length - 1) {
+                loadQuestion(currentQuestionIndex + 1);
+            } else {
+                showResultsPopup();
             }
-        }
-    });
+        };
+        
+        prevBtn.onclick = () => {
+            if (currentQuestionIndex > 0) {
+                loadQuestion(currentQuestionIndex - 1);
+            }
+        };
+
+        restartBtn.onclick = restartQuiz;
+        reviewBtn.onclick = reviewQuiz;
+        
+        markReviewBtn.onclick = () => {
+            markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
+            sessionStorage.setItem("markedForReview", JSON.stringify(markedForReview));
+            renderSidebar();
+            markReviewBtn.classList.toggle("marked", markedForReview[currentQuestionIndex]);
+        };
+
+        helpBtn.onclick = () => helpModal.classList.remove("hidden");
+        closeModalBtn.onclick = () => helpModal.classList.add("hidden");
+        
+        document.addEventListener("keydown", (event) => {
+            if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
+
+            if (event.code === "Space") nextBtn.click();
+            if (event.code === "KeyB") prevBtn.click();
+            if (event.key >= "1" && event.key <= "5") {
+                const answerIndex = parseInt(event.key) - 1;
+                if (choicesContainer.children[answerIndex]) {
+                    choicesContainer.children[answerIndex].click();
+                }
+            }
+        });
+    }
+
+    // Start the quiz
+    startQuiz();
 });
