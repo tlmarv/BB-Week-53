@@ -394,5 +394,29 @@
   ],
   "correctAnswer": 4,
   "explanation": "This patient's resting tremor, bradykinesia, rigidity, and shuffling gait are classic signs of Parkinson disease. The characteristic pathology involves degeneration of dopaminergic neurons in the substantia nigra pars compacta. Anterior horn neurons (choice 0) are affected in ALS. Caudate nucleus (choice 1) is involved in Huntington disease. Cerebellar dysfunction (choice 2) causes ataxia rather than rigidity. The hippocampus (choice 3) is primarily involved in Alzheimer disease."
+},
+{
+  "question": "Tetrabenazine (TBZ) is commonly used for symptomatic relief in Huntington’s disease. Which of the following is the mechanism of action of TBZ?",
+  "choices": [
+    "It is a selective serotonin reuptake inhibitor",
+    "It is a dopamine agonist",
+    "It is a gamma-aminobutyric acid agonist",
+    "It depletes monoamine neurotransmitters and blocks dopamine receptors",
+    "It is an alpha1 adrenergic receptor antagonist"
+  ],
+  "correctAnswer": 3,
+  "explanation": "Tetrabenazine acts by inhibiting vesicular monoamine transporter 2 (VMAT2), which reduces the uptake of monoamines like dopamine into synaptic vesicles. This leads to depletion of dopamine at synapses and helps control chorea in Huntington disease. Choice 0 describes SSRIs. Choice 1 would worsen chorea, not treat it. Choice 2 is incorrect—TBZ does not act on GABA receptors. Choice 4 refers to drugs used in hypertension or PTSD, not movement disorders."
+},
+{
+  "question": "The advantage of combining carbidopa with L-DOPA in the treatment of Parkinson’s disease results from?",
+  "choices": [
+    "Inhibition of the decarboxylation of DOPA in the liver and gastrointestinal tract",
+    "Inhibition of decarboxylation of DOPA in the brain",
+    "Inhibition of the catechol-O-methyltransferase in the periphery",
+    "The capacity of carbidopa to slow the progressive death of dopaminergic neurons in the substantia nigra",
+    "The capacity of carbidopa to antagonize the action of dopamine at alpha1 and beta1-adrenergic receptors in the periphery"
+  ],
+  "correctAnswer": 0,
+  "explanation": "Carbidopa inhibits aromatic L-amino acid decarboxylase in the periphery, preventing the premature conversion of L-DOPA to dopamine outside the CNS. This ensures more L-DOPA reaches the brain where it can be converted to dopamine. Dopamine itself cannot cross the blood-brain barrier. Choice 1 is incorrect because carbidopa does not cross the BBB and thus has no central action. Choice 2 refers to COMT inhibitors, not carbidopa. Choice 3 is not true; carbidopa does not slow neurodegeneration. Choice 4 misrepresents carbidopa’s mechanism—it does not antagonize adrenergic receptors."
 }
 ]
