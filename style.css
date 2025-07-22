@@ -16,9 +16,8 @@ body {
 
 /* Style for the start modal specifically */
 #start-modal .modal-content {
-    /* Updated, working background image URL */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i.imgur.com/Y8t3s4v.png);
-    background-size: cover;
+    /* The background image has been replaced with a solid color */
+    background-color: #37281B; /* A dark, dirt-like brown */
     border: 8px solid #6b4d38;
     border-style: outset;
     font-family: 'Press Start 2P', cursive; /* Apply the pixel font */
@@ -28,14 +27,14 @@ body {
 #start-modal h3 {
     font-size: 1.5rem;
     color: #FFAA00; /* Minecraft Gold color */
-    text-shadow: 3px 3px #37281B;
+    text-shadow: 3px 3px #000;
 }
 
 #start-modal p {
     font-size: 0.7rem;
     line-height: 1.5;
     color: white;
-    text-shadow: 2px 2px #37281B;
+    text-shadow: 2px 2px #000;
 }
 
 /* General style for the new game buttons */
