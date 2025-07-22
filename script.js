@@ -26,6 +26,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const restartBtn = document.getElementById("restart-btn");
     const reviewBtn = document.getElementById("review-btn");
     const markReviewBtn = document.getElementById("mark-review-btn");
+    const helpBtn = document.getElementById("help-btn");
+    const helpModal = document.getElementById("help-modal");
+    const closeModalBtn = document.getElementById("close-modal-btn");
+
 
     fetch('questions.json')
         .then(response => response.json())
@@ -72,6 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
             if (markedForReview[index]) {
                 listItem.classList.add("marked");
             }
+            if (index === currentQuestionIndex) {
+                listItem.classList.add("active");
+            }
 
             listItem.onclick = () => loadQuestion(index);
             questionList.appendChild(listItem);
@@ -79,16 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function loadQuestion(index) {
-        if (index >= quizData.length) {
-            showResultsPopup();
-            return;
-        }
-
-        document.querySelectorAll(".question-nav li").forEach((item, itemIndex) => {
-            item.classList.toggle("active", itemIndex === index);
-        });
-
         currentQuestionIndex = index;
+        renderSidebar(); // Redraw sidebar to update active/marked states
+
         const q = quizData[index];
 
         questionText.textContent = q.question;
@@ -112,13 +112,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        if (explanationsShown[index]) {
-            explanationBox.textContent = q.explanation;
-            explanationBox.classList.remove("hidden");
-        } else {
-            explanationBox.textContent = "";
-            explanationBox.classList.add("hidden");
-        }
+        explanationBox.className = explanationsShown[index] ? "" : "hidden";
+        explanationBox.textContent = explanationsShown[index] ? q.explanation : "";
         
         markReviewBtn.classList.toggle("marked", markedForReview[index]);
         updateProgress();
@@ -137,7 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
         sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
         
-        renderSidebar();
         loadQuestion(currentQuestionIndex);
     }
 
@@ -157,8 +151,19 @@ document.addEventListener("DOMContentLoaded", () => {
         recalculateScore();
         updateProgress();
         
-        const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100).toFixed(2) : 0;
-        document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
+        const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100) : 0;
+        document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage.toFixed(2)}%)!`;
+        
+        // High Score Logic
+        const highScore = localStorage.getItem("quizHighScore") || 0;
+        const highScoreText = document.getElementById("high-score-text");
+        if (correctAnswers > highScore) {
+            localStorage.setItem("quizHighScore", correctAnswers);
+            highScoreText.textContent = "🏆 New High Score!";
+        } else {
+            highScoreText.textContent = `High Score: ${highScore}/${quizData.length}`;
+        }
+        
         resultsContainer.classList.remove("hidden");
         
         if (scorePercentage >= 80) {
@@ -202,8 +207,13 @@ document.addEventListener("DOMContentLoaded", () => {
         renderSidebar();
         markReviewBtn.classList.toggle("marked", markedForReview[currentQuestionIndex]);
     };
+
+    helpBtn.onclick = () => helpModal.classList.remove("hidden");
+    closeModalBtn.onclick = () => helpModal.classList.add("hidden");
     
     document.addEventListener("keydown", (event) => {
+        if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
+
         if (event.code === "Space") nextBtn.click();
         if (event.code === "KeyB") prevBtn.click();
         if (event.key >= "1" && event.key <= "5") {
