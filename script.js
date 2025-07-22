@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+    
     let quizData = [];
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let explanationsShown;
     let selectedAnswers;
     let markedForReview;
+    let isSurvivalMode = false;
+    let lives = 3;
 
     // DOM Elements
     const questionText = document.getElementById("question-text");
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const correctText = document.getElementById("correct");
     const incorrectText = document.getElementById("incorrect");
     const questionList = document.getElementById("question-list");
-    const quizContent = document.querySelector(".quiz-content");
+    const quizContainer = document.querySelector(".quiz-container");
     const resultsContainer = document.getElementById("results-container");
     const questionNav = document.querySelector(".question-nav");
     const nextBtn = document.getElementById("next-btn");
@@ -29,8 +31,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const helpBtn = document.getElementById("help-btn");
     const helpModal = document.getElementById("help-modal");
     const closeModalBtn = document.getElementById("close-modal-btn");
+    const startModal = document.getElementById("start-modal");
+    const startNormalBtn = document.getElementById("start-normal-btn");
+    const startSurvivalBtn = document.getElementById("start-survival-btn");
+    const livesContainer = document.getElementById("lives-container");
+    const livesDisplay = document.getElementById("lives-display");
 
-    function startQuiz() {
+    function beginQuiz(survivalMode = false) {
+        isSurvivalMode = survivalMode;
+        startModal.classList.add("hidden");
+        quizContainer.classList.remove("hidden");
+        
+        if (isSurvivalMode) {
+            livesContainer.classList.remove("hidden");
+            updateLivesDisplay();
+        }
+
         fetch('questions.json')
             .then(response => response.json())
             .then(data => {
@@ -87,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // --- THIS IS THE UPDATED FUNCTION ---
     function loadQuestion(index) {
         currentQuestionIndex = index;
         renderSidebar(); 
@@ -101,11 +116,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const button = document.createElement("button");
             button.textContent = choice;
             button.onclick = () => checkAnswer(i);
-
-            // Add the right-click event listener for strikethrough
+            
             button.addEventListener("contextmenu", (e) => {
-                e.preventDefault(); // This stops the normal right-click menu from appearing
-                if (!answeredQuestions[index]) { // Only allow strikethrough if the question hasn't been answered yet
+                e.preventDefault();
+                if (!answeredQuestions[index]) {
                     button.classList.toggle("strikethrough");
                 }
             });
@@ -125,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         explanationBox.className = explanationsShown[index] ? "" : "hidden";
         explanationBox.textContent = explanationsShown[index] ? q.explanation : "";
-
+        
         markReviewBtn.classList.toggle("marked", markedForReview[index]);
         updateProgress();
     }
@@ -137,13 +151,27 @@ document.addEventListener("DOMContentLoaded", () => {
         explanationsShown[currentQuestionIndex] = true;
         selectedAnswers[currentQuestionIndex] = selectedIndex;
 
-        recalculateScore();
+        // --- Survival Mode Logic ---
+        if (isSurvivalMode && selectedIndex !== quizData[currentQuestionIndex].correctAnswer) {
+            lives--;
+            updateLivesDisplay();
+        }
 
+        recalculateScore();
+        
         sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
         sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-
+        
         loadQuestion(currentQuestionIndex);
+        
+        if (isSurvivalMode && lives <= 0) {
+            showResultsPopup();
+        }
+    }
+
+    function updateLivesDisplay() {
+        livesDisplay.textContent = '❤️'.repeat(lives);
     }
 
     function updateProgress() {
@@ -158,12 +186,16 @@ document.addEventListener("DOMContentLoaded", () => {
     function showResultsPopup() {
         quizContent.classList.add("hidden");
         questionNav.classList.add("hidden");
-
+        
         recalculateScore();
         updateProgress();
-
+        
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage.toFixed(2)}%)!`;
+        
+        if(isSurvivalMode && lives <= 0) {
+            document.getElementById("final-score").textContent += " - Ran out of lives!";
+        }
 
         const highScore = localStorage.getItem("quizHighScore") || 0;
         const highScoreText = document.getElementById("high-score-text");
@@ -173,9 +205,9 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (quizData.length > 0) {
             highScoreText.textContent = `High Score: ${highScore}/${quizData.length}`;
         }
-
+        
         resultsContainer.classList.remove("hidden");
-
+        
         if (scorePercentage >= 80) {
             confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 } });
         }
@@ -183,8 +215,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function restartQuiz() {
         sessionStorage.clear();
-        // Optional: Also clear high score on restart if you want a true reset
-        // localStorage.removeItem("quizHighScore"); 
         window.location.reload();
     }
 
@@ -194,8 +224,11 @@ document.addEventListener("DOMContentLoaded", () => {
         questionNav.classList.remove("hidden");
         loadQuestion(0);
     }
-
+    
     function setupEventListeners() {
+        startNormalBtn.onclick = () => beginQuiz(false);
+        startSurvivalBtn.onclick = () => beginQuiz(true);
+
         nextBtn.onclick = () => {
             if (currentQuestionIndex < quizData.length - 1) {
                 loadQuestion(currentQuestionIndex + 1);
@@ -203,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 showResultsPopup();
             }
         };
-
+        
         prevBtn.onclick = () => {
             if (currentQuestionIndex > 0) {
                 loadQuestion(currentQuestionIndex - 1);
@@ -212,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         restartBtn.onclick = restartQuiz;
         reviewBtn.onclick = reviewQuiz;
-
+        
         markReviewBtn.onclick = () => {
             markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
             sessionStorage.setItem("markedForReview", JSON.stringify(markedForReview));
@@ -222,10 +255,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         helpBtn.onclick = () => helpModal.classList.remove("hidden");
         closeModalBtn.onclick = () => helpModal.classList.add("hidden");
-
+        
         document.addEventListener("keydown", (event) => {
             if (event.target.tagName !== 'BODY') return;
-
             if (event.code === "Space") nextBtn.click();
             if (event.code === "KeyB") prevBtn.click();
             if (event.key >= "1" && event.key <= "5") {
@@ -237,5 +269,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    startQuiz();
+    setupEventListeners();
 });
