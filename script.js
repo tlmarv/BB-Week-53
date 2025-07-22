@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    
     let quizData = [];
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
@@ -6,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let answeredQuestions;
     let explanationsShown;
     let selectedAnswers;
-    let markedForReview; // New variable for marked questions
+    let markedForReview;
 
     // DOM Elements
     const questionText = document.getElementById("question-text");
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         answeredQuestions = JSON.parse(sessionStorage.getItem("answeredQuestions")) || new Array(quizData.length).fill(false);
         explanationsShown = JSON.parse(sessionStorage.getItem("explanationsShown")) || new Array(quizData.length).fill(false);
         selectedAnswers = JSON.parse(sessionStorage.getItem("selectedAnswers")) || new Array(quizData.length).fill(null);
-        markedForReview = JSON.parse(sessionStorage.getItem("markedForReview")) || new Array(quizData.length).fill(false); // Initialize marked state
+        markedForReview = JSON.parse(sessionStorage.getItem("markedForReview")) || new Array(quizData.length).fill(false);
         recalculateScore();
     }
 
@@ -64,12 +65,14 @@ document.addEventListener("DOMContentLoaded", () => {
             const listItem = document.createElement("li");
             listItem.textContent = index + 1;
             listItem.classList.add("question-bubble");
+
             if (answeredQuestions[index]) {
                 listItem.style.backgroundColor = selectedAnswers[index] === quizData[index].correctAnswer ? "green" : "red";
             }
-            if (markedForReview[index]) { // Add the "marked" class if needed
+            if (markedForReview[index]) {
                 listItem.classList.add("marked");
             }
+
             listItem.onclick = () => loadQuestion(index);
             questionList.appendChild(listItem);
         });
@@ -81,7 +84,6 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Highlight current question in sidebar
         document.querySelectorAll(".question-nav li").forEach((item, itemIndex) => {
             item.classList.toggle("active", itemIndex === index);
         });
@@ -105,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const correctChoiceIndex = q.correctAnswer;
             const selectedChoiceIndex = selectedAnswers[index];
             choicesContainer.children[correctChoiceIndex].classList.add("correct");
-            if (selectedChoiceIndex !== correctChoiceIndex) {
+            if (selectedChoiceIndex !== null && selectedChoiceIndex !== correctChoiceIndex) {
                 choicesContainer.children[selectedChoiceIndex].classList.add("incorrect");
             }
         }
@@ -117,25 +119,24 @@ document.addEventListener("DOMContentLoaded", () => {
             explanationBox.textContent = "";
             explanationBox.classList.add("hidden");
         }
-
-        markReviewBtn.classList.toggle("marked", markedForReview[index]); // Update the flag button's appearance
+        
+        markReviewBtn.classList.toggle("marked", markedForReview[index]);
         updateProgress();
     }
 
     function checkAnswer(selectedIndex) {
         if (answeredQuestions[currentQuestionIndex]) return;
-        const q = quizData[currentQuestionIndex];
+
         answeredQuestions[currentQuestionIndex] = true;
         explanationsShown[currentQuestionIndex] = true;
         selectedAnswers[currentQuestionIndex] = selectedIndex;
-        if (selectedIndex === q.correctAnswer) {
-            correctAnswers++;
-        } else {
-            incorrectAnswers++;
-        }
+
+        recalculateScore();
+        
         sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
         sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
+        
         renderSidebar();
         loadQuestion(currentQuestionIndex);
     }
@@ -152,11 +153,14 @@ document.addEventListener("DOMContentLoaded", () => {
     function showResultsPopup() {
         quizContent.classList.add("hidden");
         questionNav.classList.add("hidden");
+        
         recalculateScore();
         updateProgress();
+        
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100).toFixed(2) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage}%)!`;
         resultsContainer.classList.remove("hidden");
+        
         if (scorePercentage >= 80) {
             confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 } });
         }
@@ -173,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         questionNav.classList.remove("hidden");
         loadQuestion(0);
     }
-
+    
     // --- EVENT LISTENERS ---
     nextBtn.onclick = () => {
         if (currentQuestionIndex < quizData.length - 1) {
@@ -182,22 +186,23 @@ document.addEventListener("DOMContentLoaded", () => {
             showResultsPopup();
         }
     };
+    
     prevBtn.onclick = () => {
         if (currentQuestionIndex > 0) {
             loadQuestion(currentQuestionIndex - 1);
         }
     };
+
     restartBtn.onclick = restartQuiz;
     reviewBtn.onclick = reviewQuiz;
-
-    // New event listener for the mark for review button
+    
     markReviewBtn.onclick = () => {
         markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
         sessionStorage.setItem("markedForReview", JSON.stringify(markedForReview));
         renderSidebar();
         markReviewBtn.classList.toggle("marked", markedForReview[currentQuestionIndex]);
     };
-
+    
     document.addEventListener("keydown", (event) => {
         if (event.code === "Space") nextBtn.click();
         if (event.code === "KeyB") prevBtn.click();
