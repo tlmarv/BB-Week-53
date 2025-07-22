@@ -181,6 +181,13 @@ header h1 {
     opacity: 1;
 }
 
+/* --- New Strikethrough Style --- */
+#choices-container button.strikethrough {
+    text-decoration: line-through;
+    opacity: 0.5;
+    background-color: #555 !important; /* A neutral, dimmed color */
+}
+
 /* Explanation */
 #explanation {
     margin-top: 10px;
