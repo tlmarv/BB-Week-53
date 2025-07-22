@@ -1,3 +1,6 @@
+/* Import a fun, pixelated font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -8,6 +11,65 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* --- NEW MINECRAFT-THEMED START MENU STYLES --- */
+
+/* Style for the start modal specifically */
+#start-modal .modal-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.imgur.com/k682t2W.jpeg);
+    background-size: cover;
+    border: 8px solid #6b4d38;
+    border-style: outset;
+    font-family: 'Press Start 2P', cursive; /* Apply the pixel font */
+    text-align: center;
+}
+
+#start-modal h3 {
+    font-size: 1.5rem;
+    color: #FFAA00; /* Minecraft Gold color */
+    text-shadow: 3px 3px #37281B;
+}
+
+#start-modal p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 2px 2px #37281B;
+}
+
+/* General style for the new game buttons */
+#start-modal .modal-buttons button {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    border: 4px solid black;
+    border-style: outset;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin: 10px;
+}
+
+#start-modal .modal-buttons button:hover {
+    filter: brightness(1.1);
+}
+
+#start-modal .modal-buttons button:active {
+    border-style: inset;
+    transform: translateY(2px);
+}
+
+/* Unique color for each button */
+#start-normal-btn {
+    background-color: #5c8734; /* Green like grass/creeper */
+}
+
+#start-survival-btn {
+    background-color: #c72e23; /* Red like redstone/lava */
+}
+
+/* --- End of New Styles --- */
+
 
 /* Main Quiz Layout */
 .quiz-container {
@@ -96,16 +158,14 @@ header h1 {
     margin-left: 10px;
 }
 
-/* --- New Lives Counter Style --- */
 #lives-container {
     font-size: 1.2rem;
     font-weight: bold;
     color: #ffc107;
 }
 #lives-display {
-    color: #dc3545; /* Red hearts */
+    color: #dc3545;
 }
-
 
 /* Progress Bar Styles */
 .progress-bar-container {
