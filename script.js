@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let selectedAnswers;
     let markedForReview;
     let isSurvivalMode = false;
-    let lives = 3;
+    let lives = 14; // Changed from 3 to 14
 
     // DOM Elements
     const questionText = document.getElementById("question-text");
@@ -151,7 +151,6 @@ document.addEventListener("DOMContentLoaded", () => {
         explanationsShown[currentQuestionIndex] = true;
         selectedAnswers[currentQuestionIndex] = selectedIndex;
 
-        // --- Survival Mode Logic ---
         if (isSurvivalMode && selectedIndex !== quizData[currentQuestionIndex].correctAnswer) {
             lives--;
             updateLivesDisplay();
