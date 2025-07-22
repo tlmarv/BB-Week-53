@@ -9,7 +9,17 @@
 </head>
 <body>
 
-    <div class="quiz-container">
+    <div id="start-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Choose Your Mode</h3>
+            <div class="modal-buttons">
+                <button id="start-normal-btn">Practice Mode</button>
+                <button id="start-survival-btn">Survival Mode (3 Lives)</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="quiz-container hidden">
         
         <nav class="question-nav">
             <h3>Questions</h3>
@@ -20,6 +30,9 @@
             <header>
                 <div class="header-top-row">
                     <h1>Week 52 Quiz</h1>
+                    <div id="lives-container" class="hidden">
+                        Lives: <span id="lives-display"></span>
+                    </div>
                     <button id="help-btn" title="Show Keyboard Shortcuts">?</button>
                 </div>
                 <div class="progress-bar-container">
@@ -51,7 +64,7 @@
         <div id="results-container" class="hidden">
             <h2>🎉 Congratulations! 🎉</h2>
             <p id="final-score"></p>
-            <p id="high-score-text"></p> 
+            <p id="high-score-text"></p>
             <button id="restart-btn">Restart Quiz</button>
             <button id="review-btn">Review Answers</button>
         </div>
@@ -71,8 +84,6 @@
         </div>
     </div>
 
-
     <script src="script.js"></script>
-
 </body>
 </html>
