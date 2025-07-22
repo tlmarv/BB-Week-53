@@ -1,554 +1,398 @@
 [
   {
-    "question": "A 45-year-old man presents with right-sided facial droop. He is unable to raise his right eyebrow, close his right eye tightly, or smile on the right side. He also reports hyperacusis and decreased taste on the anterior two-thirds of the tongue. Where is the most likely location of the facial nerve lesion?",
+    "question": "A 68-year-old man presents with a 2-year history of progressive bradykinesia, resting tremor in his right hand, and postural instability. Neurological examination reveals masked facies, decreased arm swing, and cogwheel rigidity. He is started on carbidopa-levodopa therapy, which initially improves his symptoms. However, 6 years later, he develops involuntary, dance-like movements in his limbs, especially when the medication is at peak effectiveness. What is the most likely cause of his new symptoms?",
     "choices": [
-      "Stylomastoid foramen",
-      "Geniculate ganglion",
-      "Internal acoustic meatus",
-      "Parotid gland",
-      "Brainstem motor nucleus of CN VII"
+      "Disease progression causing worsening of bradykinesia",
+      "Exaggerated dopaminergic stimulation from peak levodopa levels",
+      "Development of multiple system atrophy",
+      "Underlying Huntington's disease",
+      "Co-administration of a COMT inhibitor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This patient has developed levodopa-induced dyskinesia (LID), which occurs due to exaggerated dopaminergic stimulation, especially when plasma levodopa concentrations are at their peak. Dyskinesia often manifests as involuntary writhing or choreiform movements and is a common complication in advanced Parkinson’s disease treated with dopaminergic therapy. A is incorrect—disease progression worsens rigidity and bradykinesia, not dyskinesia. C is incorrect—multiple system atrophy is characterized by poor levodopa response and autonomic dysfunction. D is incorrect—Huntington’s disease has earlier onset and genetic etiology. E is incorrect—COMT inhibitors extend levodopa's half-life but do not directly cause dyskinesias."
+  },
+  {
+    "question": "A 30-year-old woman develops involuntary, slow, writhing movements of her hands and face 3 weeks after recovering from a sore throat. Physical exam shows no rigidity or bradykinesia. MRI is normal. Labs are negative for copper metabolism defects. What is the most likely diagnosis?",
+    "choices": [
+      "Huntington’s disease",
+      "Sydenham’s chorea",
+      "Wilson’s disease",
+      "Essential tremor",
+      "Dystonia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sydenham’s chorea is an autoimmune post-streptococcal complication, typically occurring in children and adolescents, characterized by rapid, irregular, purposeless movements that may present weeks to months after a Group A streptococcal infection. A is incorrect—Huntington’s chorea has autosomal dominant inheritance and psychiatric features, typically in the fourth decade. C is incorrect—Wilson’s disease presents with hepatic, psychiatric, and neurologic symptoms, and is diagnosed by low ceruloplasmin and high urinary copper. D is incorrect—essential tremor is action-related, not choreiform. E is incorrect—dystonia involves sustained, twisting postures rather than rapid movements."
+  },
+  {
+    "question": "A 45-year-old man with schizophrenia presents with involuntary facial grimacing, tongue protrusion, and lip smacking. He has been on haloperidol for the past 4 years. Examination shows repetitive, purposeless oral movements. Which of the following is the most likely underlying mechanism?",
+    "choices": [
+      "Decreased GABAergic output from the striatum",
+      "Progressive neuronal degeneration in the substantia nigra",
+      "Autoimmune destruction of the subthalamic nucleus",
+      "Dopamine receptor supersensitivity",
+      "Accumulation of copper in basal ganglia"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tardive dyskinesia results from long-term dopamine receptor blockade (e.g., antipsychotics), leading to upregulation and hypersensitivity of postsynaptic dopamine receptors in the basal ganglia. This manifests as involuntary, repetitive movements, particularly in the oral-buccal-lingual region. A is incorrect—this is a feature of Huntington’s disease. B is incorrect—seen in Parkinson’s disease. C is incorrect—associated with hemiballismus. E is incorrect—relevant in Wilson’s disease."
+  },
+  {
+    "question": "A 61-year-old man presents with a 3-year history of resting tremor, bradykinesia, and postural instability. Postmortem examination reveals depigmentation of the substantia nigra and eosinophilic cytoplasmic inclusions in neurons that stain positive for alpha-synuclein. Which of the following best describes the pathophysiologic mechanism of this condition?",
+    "choices": [
+      "Loss of upper and lower motor neurons with Bunina bodies",
+      "Trinucleotide repeat expansion causing caudate degeneration",
+      "Abnormal protein aggregation disrupting ubiquitin-proteasome and autophagy pathways",
+      "Impaired DNA repair due to ATM gene mutation",
+      "Excessive copper accumulation due to ATP7B mutation"
     ],
     "correctAnswer": 2,
-    "explanation": "A lesion at the internal acoustic meatus affects the facial nerve before it exits the skull, involving all its branches. This includes motor innervation to the face, chorda tympani (taste), and the nerve to stapedius (hyperacusis). A lesion here explains the complete right facial paralysis with taste and auditory symptoms. - A. Stylomastoid foramen: Incorrect. Lesions here cause facial muscle paralysis but do NOT affect taste or hearing.- B. Geniculate ganglion: Incorrect. While taste fibers pass through here, hyperacusis (due to stapedius involvement) would suggest a lesion before the nerve to stapedius branches off.- C. Internal acoustic meatus: Correct. Affects all components of CN VII before it enters the facial canal.- D. Parotid gland: Incorrect. Damage here affects only the terminal branches of CN VII — facial expression muscles — not taste or hearing.- E. Brainstem motor nucleus of CN VII: Incorrect. A lesion here causes a central (upper motor neuron) pattern of facial weakness (spares forehead). This patient has a lower motor neuron pattern."
+    "explanation": "This patient's findings are classic for idiopathic Parkinson disease. Alpha-synuclein misfolds and aggregates into Lewy bodies and neurites, disrupting neuronal degradation pathways including the ubiquitin-proteasome and lysosomal-autophagy systems. Choice 1 describes ALS. Choice 2 is Huntington disease. Choice 4 describes ataxia-telangiectasia. Choice 5 refers to Wilson disease."
   },
   {
-    "question": "A 17-year-old male presents with periorbital swelling and headache following manipulation of an inflamed pimple on his upper lip. MRI reveals cavernous sinus thrombosis. Which venous route most likely allowed retrograde spread of infection to the cavernous sinus?",
+    "question": "A 38-year-old man presents with progressive jerky movements and irritability. His father had similar symptoms in his 50s. MRI shows atrophy of the caudate and putamen. Genetic analysis confirms CAG repeat expansion on chromosome 4. Which of the following best explains the mechanism of this disease?",
     "choices": [
-      "Retromandibular vein → external jugular vein",
-      "Facial vein → angular vein → superior ophthalmic vein → cavernous sinus",
-      "Superficial temporal vein → internal jugular vein",
-      "Pterygoid venous plexus → maxillary vein → external jugular vein",
-      "Deep facial vein → facial vein → subclavian vein"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The valveless facial vein communicates with the angular and ophthalmic veins, which connect directly to the cavernous sinus. This enables retrograde spread of infection from the midface ('danger triangle') to intracranial venous sinuses. - A. Retromandibular vein → external jugular vein: Incorrect. Drains posteriorly and does not communicate with the cavernous sinus.- B. Facial vein → angular vein → superior ophthalmic vein → cavernous sinus: Correct. This is the direct route for spread of infection to the cavernous sinus.- C. Superficial temporal vein → internal jugular vein: Incorrect. Not involved in anterior facial drainage.- D. Pterygoid venous plexus → maxillary vein → external jugular vein: Incorrect. This pathway doesn't lead to the cavernous sinus.- E. Deep facial vein → facial vein → subclavian vein: Incorrect. While the deep facial vein can anastomose with pterygoid plexus, the path to the cavernous sinus involves the superior ophthalmic vein, not this route."
-  },
-  {
-    "question": "A 64-year-old woman presents with episodes of sharp, electric shock-like pain over her right cheek and upper lip, often triggered by light touch or brushing teeth. Neurological examination is normal between attacks. Which nerve division is most likely affected?",
-    "choices": [
-      "Ophthalmic nerve (CN V1)",
-      "Maxillary nerve (CN V2)",
-      "Mandibular nerve (CN V3)",
-      "Facial nerve (CN VII)",
-      "Glossopharyngeal nerve (CN IX)"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Trigeminal neuralgia most commonly affects the maxillary division (CN V2), which innervates the upper lip and cheek. It presents with paroxysmal, lancinating facial pain often triggered by light stimulation.- A. Ophthalmic nerve (CN V1): Incorrect. This would cause pain in the forehead and upper scalp, not the cheek.- B. Maxillary nerve (CN V2): Correct. Innervates the cheek, upper lip, and lateral nose — classic trigeminal neuralgia location.- C. Mandibular nerve (CN V3): Incorrect. Would affect the jaw, chin, and temple regions, not the midface.- D. Facial nerve (CN VII): Incorrect. Primarily motor to facial muscles, not responsible for somatic facial sensation.- E. Glossopharyngeal nerve (CN IX): Incorrect. Involved in posterior tongue, pharynx, and ear sensation — not facial dermatomes."
-  },
-{
-  "question": "A 66-year-old right-handed man is brought in by his daughter, who reports that he only shaves the right side of his face, eats food from the right side of his plate, and ignores people approaching him from the left. Neurologic exam reveals left-sided spatial neglect. Which of the following brain regions is most likely damaged?",
-  "choices": [
-    "Left inferior parietal lobule",
-    "Right inferior parietal lobule",
-    "Left superior temporal gyrus",
-    "Right frontal lobe",
-    "Left cuneus"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This patient's presentation is classic for hemispatial neglect syndrome, typically resulting from a lesion in the non-dominant (right) inferior parietal lobule. This area integrates spatial attention, and right-sided lesions lead to left-sided neglect in most right-handed individuals.- A. Left inferior parietal lobule: Incorrect. A lesion here can affect language functions in the dominant hemisphere but does not cause hemispatial neglect.- B. Right inferior parietal lobule: Correct. Damage here leads to left visual field neglect due to impaired visuospatial attention.- C. Left superior temporal gyrus: Incorrect. Associated with Wernicke’s area and language comprehension, not spatial awareness.- D. Right frontal lobe: Incorrect. While frontal lobe lesions can cause motor or planning deficits, spatial neglect is more commonly linked to the parietal lobe.- E. Left cuneus: Incorrect. Involved in visual processing of the inferior visual field, not responsible for attention or neglect."
-},
-{
-  "question": "A 58-year-old right-handed woman presents with slurred speech but intact comprehension. She is frustrated by her inability to articulate words and frequently struggles to write sentences. Neurological imaging reveals a lesion in the dominant frontal lobe. Which of the following best describes this patient’s condition?",
-  "choices": [
-    "Wernicke's aphasia",
-    "Broca's aphasia",
-    "Conduction aphasia",
-    "Anomic aphasia",
-    "Transcortical sensory aphasia"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This patient has Broca's aphasia, which results from a lesion in the inferior frontal gyrus (pars opercularis and pars triangularis) of the dominant hemisphere. It is characterized by non-fluent, effortful speech with preserved comprehension.- A. Wernicke's aphasia: Incorrect. Wernicke's affects the posterior superior temporal gyrus, causing fluent but meaningless speech and impaired comprehension.- B. Broca's aphasia: Correct. Caused by a lesion in Broca’s area in the dominant frontal lobe, presenting with impaired speech production and writing.- C. Conduction aphasia: Incorrect. This results from arcuate fasciculus damage and primarily affects repetition, not speech production or comprehension.- D. Anomic aphasia: Incorrect. Characterized by word-finding difficulty with preserved fluency and comprehension, usually due to lesions in temporal or parietal regions.- E. Transcortical sensory aphasia: Incorrect. Similar to Wernicke’s but with preserved repetition; comprehension remains impaired."
-},
-{
-  "question": "A 62-year-old man suffers a stroke and is found to have impaired movement and sensation of the contralateral leg, with sparing of the face and arm. Which artery is most likely occluded?",
-  "choices": [
-    "Middle cerebral artery",
-    "Anterior cerebral artery",
-    "Posterior cerebral artery",
-    "Anterior choroidal artery",
-    "Basilar artery"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This is a classic presentation of an anterior cerebral artery (ACA) stroke. The ACA supplies the medial portions of the frontal and parietal lobes, including the paracentral lobule responsible for motor and sensory function of the lower limb.- A. Middle cerebral artery: Incorrect. MCA strokes affect the lateral hemispheres, typically involving the face and arm more than the leg.- B. Anterior cerebral artery: Correct. The ACA supplies the medial frontal and parietal lobes, affecting the lower extremity on the contralateral side.- C. Posterior cerebral artery: Incorrect. Supplies the occipital lobe (visual cortex) and inferior temporal lobe, not motor or sensory cortex.- D. Anterior choroidal artery: Incorrect. Involved in deep structures like the internal capsule and thalamus; deficits would be more widespread.- E. Basilar artery: Incorrect. Supplies the brainstem and cerebellum, not the cerebral cortex."
-},
-{
-  "question": "A 48-year-old man undergoes resection of a benign parotid gland tumor. Postoperatively, he presents with asymmetry of the face, inability to close his right eye tightly, and drooping of the right corner of his mouth. However, salivary secretion from the parotid gland remains intact. Which of the following best explains this pattern of findings?",
-  "choices": [
-    "Damage to postganglionic parasympathetic fibers traveling with the auriculotemporal nerve",
-    "Injury to the facial nerve within the parotid gland, which does not innervate the gland itself",
-    "Transection of the glossopharyngeal nerve proximal to the otic ganglion",
-    "Lesion of the mandibular branch of the trigeminal nerve (CN V3)",
-    "Compression of the external carotid artery within the parotid gland"
-  ],
-  "correctAnswer": 1,
-  "explanation": "This clinical picture reflects injury to the facial nerve (CN VII) within the parotid gland. Although CN VII gives off its five terminal motor branches inside the gland, it does not innervate the gland itself—parasympathetic innervation comes from CN IX via the otic ganglion and auriculotemporal nerve. Thus, facial weakness with preserved parotid function suggests damage to CN VII within the gland.- A. Damage to postganglionic parasympathetic fibers traveling with the auriculotemporal nerve: Incorrect. Would impair salivation but not cause facial droop.- B. Injury to the facial nerve within the parotid gland, which does not innervate the gland itself: Correct. Explains isolated facial muscle weakness with intact salivation.- C. Transection of the glossopharyngeal nerve proximal to the otic ganglion: Incorrect. Would impair parotid secretion."
-},
-  {
-    "question": "A 63-year-old man presents with new onset hemiparesis and loss of proprioception on the right side of his body. Neurologic exam shows decreased vibration sense and conscious proprioception in the right upper and lower limbs, along with a positive Romberg sign. Which of the following is the most likely location of the lesion?",
-    "choices": [
-      "Right lateral corticospinal tract in the cervical spinal cord",
-      "Left dorsal column at the level of the medulla",
-      "Right medial lemniscus in the midbrain",
-      "Left anterior horn of the cervical spinal cord",
-      "Right spinothalamic tract in the thoracic spinal cord"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The patient shows loss of proprioception and vibration sense on the right, suggesting involvement of the dorsal column-medial lemniscus pathway. Because these sensations are carried ipsilaterally in the spinal cord and cross at the medulla, a lesion on the right side of the dorsal column before decussation would cause this presentation.Right lateral corticospinal tract in the cervical spinal cord: Incorrect. This would cause motor weakness but not sensory deficits like loss of proprioception.Left dorsal column at the level of the medulla: Incorrect. Lesion after decussation would affect the right side, but this would be contralateral and at the medullary level, not spinal.Right medial lemniscus in the midbrain: Incorrect. After decussation, medial lemniscus lesions cause contralateral sensory loss.Left anterior horn of the cervical spinal cord: Incorrect. This would result in lower motor neuron signs like flaccid paralysis, not sensory loss.Right spinothalamic tract in the thoracic spinal cord: Incorrect. Spinothalamic tract carries pain and temperature, not proprioception or vibration."
-  },
-  {
-    "question": "A researcher is tracing afferent sensory pathways and notes that touch and proprioceptive signals from the lower limbs ascend ipsilaterally and terminate in a nucleus before decussating in the medulla. Which nucleus is this signal destined for?",
-    "choices": [
-      "Gracile nucleus",
-      "Cuneate nucleus",
-      "Ventral posterior lateral nucleus",
-      "Substantia gelatinosa",
-      "Nucleus ambiguus"
+      "Toxic gain of function from mutant huntingtin protein",
+      "Copper accumulation in basal ganglia due to transport defect",
+      "Loss of alpha motor neurons in the spinal cord",
+      "Failure of bilirubin conjugation in hepatocytes",
+      "Deposition of alpha-synuclein in cortical neurons"
     ],
     "correctAnswer": 0,
-    "explanation": "The gracile nucleus in the medulla receives sensory input from the lower half of the body (below T6) via the fasciculus gracilis. Signals decussate after synapsing here and continue via the medial lemniscus.Gracile nucleus: Correct. Receives input from the lower limbs and trunk.Cuneate nucleus: Incorrect. Receives input from the upper limbs and trunk (above T6).Ventral posterior lateral nucleus: Incorrect. This is a thalamic relay station, not the medullary nucleus receiving the first synapse.Substantia gelatinosa: Incorrect. Involved in pain modulation, not proprioception.Nucleus ambiguus: Incorrect. Motor nucleus for CN IX and X, not involved in sensory processing."
+    "explanation": "Huntington disease is caused by a toxic gain of function from an expanded CAG repeat in the HTT gene, leading to formation of mutant huntingtin protein aggregates. Choice 1 is correct. Choice 2 describes Wilson disease. Choice 3 refers to ALS. Choice 4 pertains to kernicterus. Choice 5 is seen in dementia with Lewy bodies or Parkinson disease."
   },
   {
-    "question": "A patient suffers a stroke affecting the anterior spinal artery at the mid-thoracic level. Which of the following deficits is most likely seen below the level of the lesion?",
+    "question": "A 63-year-old woman presents with progressive weakness in her hands and legs, spasticity in the lower extremities, and difficulty speaking. Examination shows tongue fasciculations, hyperreflexia, and a positive Babinski sign. MRI shows corticospinal tract hyperintensity. Which of the following histopathologic findings is most specific to this condition?",
     "choices": [
-      "Ipsilateral loss of fine touch and vibration",
-      "Bilateral flaccid paralysis",
-      "Contralateral pain and temperature loss with preserved fine touch",
-      "Ipsilateral Horner syndrome",
-      "Bilateral loss of proprioception"
+      "Atrophy of caudate nucleus and boxcar ventricles",
+      "Lewy bodies in substantia nigra",
+      "Bunina bodies in anterior horn cells",
+      "Copper deposits in lenticular nucleus",
+      "Bilirubin deposition in cerebellum and medulla"
     ],
     "correctAnswer": 2,
-    "explanation": "Anterior spinal artery syndrome at the thoracic level affects the spinothalamic tracts (which cross in the anterior white commissure) and lateral corticospinal tracts, sparing the dorsal columns. Therefore, patients exhibit motor weakness and contralateral pain and temperature loss, with preserved fine touch and proprioception.Ipsilateral loss of fine touch and vibration: Incorrect. These modalities are carried in the dorsal columns, which are supplied by the posterior spinal arteries.Bilateral flaccid paralysis: Incorrect. This occurs only at the level of lesion involving anterior horn cells. Below the lesion, paralysis is spastic.Contralateral pain and temperature loss with preserved fine touch: Correct. Spinothalamic tracts are affected, dorsal columns are spared.Ipsilateral Horner syndrome: Incorrect. Only seen with lesions involving the hypothalamospinal tract in the cervical region.Bilateral loss of proprioception: Incorrect. Dorsal columns (which carry proprioception) are not affected in anterior spinal artery syndrome."
-  },
+    "explanation": "This patient's mixed upper and lower motor neuron findings are characteristic of ALS. Bunina bodies, composed of TDP-43, are a specific histologic finding in surviving anterior horn neurons. Choice 1 is Huntington disease. Choice 2 is Parkinson disease. Choice 4 is Wilson disease. Choice 5 is kernicterus."
+  }.
   {
-    "question": "A 37-year-old man sustains a temporal bone fracture. Shortly after, he develops facial asymmetry, inability to close his left eye, and drooping of the left side of the mouth. However, his ability to wrinkle the forehead on both sides remains intact. Which of the following best describes the location of the nerve lesion?",
+    "question": "A 72-year-old woman presents with a 2-year history of memory loss and difficulty managing her finances. Neurologic exam shows no focal deficits. Cognitive testing reveals poor delayed recall and impaired executive function. CSF analysis shows decreased amyloid-β42 and increased phosphorylated tau. Which of the following brain structures is most directly associated with early pathologic changes in this disease?",
     "choices": [
-      "Intracranial lesion affecting the facial nerve nucleus",
-      "Injury to the facial nerve at the stylomastoid foramen",
-      "Cortical stroke affecting the right motor cortex",
-      "Lesion in the internal acoustic meatus affecting CN VIII",
-      "Compression of the mandibular division of the trigeminal nerve"
+      "Subthalamic nucleus",
+      "Basal nucleus of Meynert",
+      "Amygdala",
+      "Cerebellar vermis",
+      "Red nucleus"
     ],
-    "correctAnswer": 2,
-    "explanation": "This presentation describes upper motor neuron facial weakness, where the lower face is affected but the forehead is spared due to bilateral innervation. A cortical stroke (e.g., in the right motor cortex) produces contralateral facial weakness of the lower face only.  Intracranial lesion affecting the facial nerve nucleus: Incorrect. Would cause complete ipsilateral facial paralysis, not forehead sparing. Injury to the facial nerve at the stylomastoid foramen: Incorrect. Would cause lower motor neuron signs with total ipsilateral facial paralysis. Cortical stroke affecting the right motor cortex: Correct. Upper motor neuron lesion causes contralateral lower facial weakness with forehead sparing. Lesion in the internal acoustic meatus affecting CN VIII: Incorrect. Affects both facial and vestibulocochlear nerves, but would produce complete ipsilateral facial paralysis. Compression of the mandibular division of the trigeminal nerve: Incorrect. Affects mastication and facial sensation, not facial expression."
+    "correctAnswer": 1,
+    "explanation": "Alzheimer’s disease typically begins with degeneration of the basal nucleus of Meynert, which provides widespread cholinergic input to the cortex. This structure is one of the earliest affected in AD and is linked to impaired attention and memory. The subthalamic nucleus is affected in hemiballismus. The amygdala may be affected later but is not the earliest site. The cerebellar vermis is involved in truncal coordination. The red nucleus is involved in motor control and not primarily affected in Alzheimer’s disease."
   },
   {
-    "question": "During an autopsy, a pathologist identifies damage in the region of the foramen rotundum. Which of the following deficits would most likely be observed in a living patient with this lesion?",
+    "question": "A 65-year-old man presents with progressive visual hallucinations, fluctuating attention, and recent development of parkinsonian gait. His symptoms began with cognitive changes prior to the motor findings. Which of the following findings would most likely be seen on histopathologic examination?",
     "choices": [
-      "Loss of taste from the anterior two-thirds of the tongue",
-      "Inability to close the eyelid on the affected side",
-      "Loss of general sensation from the midface",
-      "Weakness of the tongue on protrusion",
-      "Absent corneal reflex (motor limb)"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The foramen rotundum transmits the maxillary division (V2) of the trigeminal nerve, which provides sensory innervation to the midface, including the lower eyelid, upper lip, and maxillary teeth.  Loss of taste from the anterior two-thirds of the tongue: Incorrect. This is mediated by the chorda tympani branch of the facial nerve (CN VII). Inability to close the eyelid on the affected side: Incorrect. Caused by facial nerve (CN VII) paralysis. Loss of general sensation from the midface: Correct. V2 travels through the foramen rotundum and innervates the midface. Weakness of the tongue on protrusion: Incorrect. Hypoglossal nerve (CN XII) damage causes tongue deviation. Absent corneal reflex (motor limb): Incorrect. The motor limb is via CN VII; V2 is only sensory."
-  },
-  {
-    "question": "A 45-year-old man undergoes skull base surgery and postoperatively presents with hoarseness, difficulty swallowing, and decreased gag reflex. These findings are most likely due to injury involving a cranial nerve that exits the skull through which of the following foramina?",
-    "choices": [
-      "Foramen ovale",
-      "Foramen rotundum",
-      "Hypoglossal canal",
-      "Jugular foramen",
-      "Stylomastoid foramen"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The jugular foramen transmits cranial nerves IX, X, and XI. Damage to CN X (vagus nerve) results in hoarseness and dysphagia due to impaired function of the laryngeal and pharyngeal muscles. Loss of gag reflex also reflects CN IX and X involvement.  Foramen ovale: Incorrect. Transmits mandibular division (V3) of the trigeminal nerve, affecting mastication. Foramen rotundum: Incorrect. Transmits maxillary division (V2), affects midface sensation. Hypoglossal canal: Incorrect. Transmits CN XII, which affects tongue movement. Jugular foramen: Correct. Transmits CN IX, X, and XI—explaining the swallowing and vocal symptoms. Stylomastoid foramen: Incorrect. Exit point for the facial nerve; would result in facial expression deficits."
-  },
-  {
-    "question": "A 56-year-old man presents with right-sided loss of vibration and proprioception, left-sided loss of pain and temperature, and right-sided spastic weakness. These symptoms began suddenly after he experienced severe neck pain. Which of the following is the most likely location of the lesion?",
-    "choices": [
-      "Right medial medulla",
-      "Left lateral medulla",
-      "Right lateral pons",
-      "Left medial pons",
-      "Right cervical spinal cord hemisection"
-    ],
-    "correctAnswer": 4,
-    "explanation": "This is a classic presentation of Brown-Séquard syndrome due to a right hemisection of the cervical spinal cord. The lateral corticospinal tract (motor) and dorsal columns (vibration, proprioception) are affected ipsilaterally, while the spinothalamic tract (pain and temperature) is affected contralaterally below the lesion. Right medial medulla is incorrect because it would cause contralateral motor weakness and ipsilateral tongue weakness. Left lateral medulla is incorrect because it would cause ipsilateral loss of facial pain and temperature, contralateral body pain and temperature, and cranial nerve IX/X signs. Right lateral pons is incorrect because it would affect facial sensation and possibly CN VII. Left medial pons is incorrect as it would present with contralateral hemiparesis and possibly facial nerve deficits on the ipsilateral side."
-  },
-  {
-    "question": "A 70-year-old woman presents with diplopia and drooping of the right eyelid. Examination reveals her right eye is deviated laterally and downward, with a dilated pupil and loss of accommodation. Where is the lesion most likely located?",
-    "choices": [
-      "Right abducens nucleus in the pons",
-      "Right trochlear nucleus in the midbrain",
-      "Right oculomotor nerve in the midbrain",
-      "Right frontal eye field",
-      "Right facial colliculus"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient has oculomotor nerve palsy: eye deviated down and out, ptosis, dilated pupil, and accommodation loss. These findings localize the lesion to the oculomotor nerve in the midbrain. Right abducens nucleus is incorrect because it would cause inability to abduct the eye, not a down and out position. Right trochlear nucleus is incorrect because it would cause vertical diplopia especially when looking down. Right frontal eye field is incorrect as lesions there cause conjugate gaze deviation toward the side of the lesion. Right facial colliculus is incorrect because it would cause facial weakness and horizontal gaze palsy, not eye position abnormalities."
-  },
-  {
-    "question": "A patient presents with right-sided facial weakness, decreased corneal reflex on the right, and hyperacusis. He also has loss of taste on the anterior two-thirds of the tongue. The lesion is most likely at which of the following locations?",
-    "choices": [
-      "Facial nerve within the internal acoustic meatus",
-      "Facial nerve after exiting the stylomastoid foramen",
-      "Facial motor nucleus in the pons",
-      "Corticobulbar tract in the internal capsule",
-      "Trigeminal ganglion"
+      "Intracytoplasmic inclusions positive for alpha-synuclein in cortical neurons",
+      "Periventricular plaques and tangles with demyelination",
+      "Ballooned neurons with tau accumulation in frontal cortex",
+      "Spongiform changes with 14-3-3 protein in CSF",
+      "Neurofibrillary tangles in hippocampal neurons"
     ],
     "correctAnswer": 0,
-    "explanation": "This patient has signs of a complete facial nerve lesion including motor, taste, and parasympathetic components. The lesion must be at or before the facial nerve branches off its components, which occurs within the internal acoustic meatus. Facial nerve after the stylomastoid foramen is incorrect because it would only affect motor fibers. Facial motor nucleus in the pons is incorrect as it would not involve all the additional symptoms such as hyperacusis and taste loss. Corticobulbar tract is incorrect because it would cause forehead sparing. Trigeminal ganglion is incorrect because it controls facial sensation, not motor control or taste."
+    "explanation": "This patient has dementia with Lewy bodies, characterized by early cognitive changes, visual hallucinations, fluctuating cognition, and later parkinsonism. The hallmark histology is cortical Lewy bodies composed of alpha-synuclein. Option 1 is correct. Option 2 describes multiple sclerosis. Option 3 is seen in frontotemporal dementia. Option 4 is characteristic of Creutzfeldt-Jakob disease. Option 5 is associated with Alzheimer’s disease."
   },
   {
-    "question": "A 72-year-old woman presents to the emergency department with acute right-sided weakness and aphasia. A non-contrast head CT is ordered. The scan shows no evidence of hemorrhage. Which of the following is the most appropriate next step in imaging to evaluate for early ischemic stroke?",
+    "question": "A 55-year-old man with a history of hypertension and diabetes presents with a stepwise decline in memory and executive function. MRI reveals multiple small infarcts in the deep white matter. Which of the following treatment strategies is most appropriate to reduce further cognitive decline in this patient?",
     "choices": [
-      "Contrast-enhanced head CT",
-      "T1-weighted MRI",
-      "T2-weighted MRI",
-      "Diffusion-weighted MRI",
-      "CT angiography"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Diffusion-weighted MRI is the most sensitive imaging modality for detecting early ischemic changes due to its ability to identify restricted diffusion from cytotoxic edema. Contrast-enhanced head CT is not first-line in stroke unless evaluating for vascular lesions or tumors. T1-weighted MRI is better for anatomical detail, not acute ischemia. T2-weighted MRI may detect subacute stroke but lacks the sensitivity of DWI in the hyperacute phase. CT angiography is helpful for visualizing large vessel occlusion but does not detect ischemic tissue early."
-  },
-  {
-    "question": "A radiologist is reviewing head CT scans of a trauma patient. One image shows a biconvex, hyperdense lesion that does not cross suture lines and is located between the skull and dura mater. Which of the following vessels is most likely involved?",
-    "choices": [
-      "Bridging veins",
-      "Middle cerebral artery",
-      "Anterior cerebral artery",
-      "Middle meningeal artery",
-      "Cortical veins"
-    ],
-    "correctAnswer": 3,
-    "explanation": "A biconvex, lens-shaped hyperdense lesion on CT is classic for an epidural hematoma, which most often results from rupture of the middle meningeal artery, commonly due to temporal bone fracture. Bridging veins are incorrect because they are involved in subdural hematomas, which are crescent-shaped and cross suture lines. The middle and anterior cerebral arteries are intracerebral and would cause intraparenchymal hemorrhage. Cortical veins are not typically associated with the epidural space."
-  },
-  {
-    "question": "A 60-year-old man with a history of chronic hypertension undergoes MRI for progressive neurologic symptoms. T2-weighted images reveal multiple small, hyperintense lesions in the periventricular white matter. FLAIR images suppress CSF signal and highlight the lesions. Which of the following best describes the appearance of these findings on FLAIR compared to T2-weighted images?",
-    "choices": [
-      "Lesions are hypointense due to suppression of fat",
-      "Lesions are isointense because CSF remains bright",
-      "Lesions are obscured by surrounding bright CSF signal",
-      "Lesions remain bright while CSF appears dark",
-      "Lesions are dark and CSF is bright due to water content"
-    ],
-    "correctAnswer": 3,
-    "explanation": "FLAIR suppresses free water signal (such as CSF) while maintaining high signal in pathological tissue. This makes periventricular lesions (such as demyelinating plaques or ischemic changes) easier to visualize. The lesions remain bright while CSF is dark. Hypointense due to suppression of fat is incorrect; fat remains bright on FLAIR. Isointense with bright CSF is incorrect because CSF is suppressed. Obscuration by CSF is incorrect, as the purpose of FLAIR is to avoid this. Lesions being dark with bright CSF describes a T2 image, not FLAIR."
-  },
-  {
-    "question": "A 72-year-old woman presents to the emergency department with acute right-sided weakness and aphasia. A non-contrast head CT is ordered. The scan shows no evidence of hemorrhage. Which of the following is the most appropriate next step in imaging to evaluate for early ischemic stroke?",
-    "choices": [
-      "Contrast-enhanced head CT",
-      "T1-weighted MRI",
-      "T2-weighted MRI",
-      "Diffusion-weighted MRI",
-      "CT angiography"
-    ],
-    "correctAnswer": 3,
-    "explanation": "Diffusion-weighted MRI is the most sensitive imaging modality for detecting early ischemic changes due to its ability to identify restricted diffusion from cytotoxic edema. Contrast-enhanced head CT is not first-line in stroke unless evaluating for vascular lesions or tumors. T1-weighted MRI is better for anatomical detail, not acute ischemia. T2-weighted MRI may detect subacute stroke but lacks the sensitivity of DWI in the hyperacute phase. CT angiography is helpful for visualizing large vessel occlusion but does not detect ischemic tissue early."
-  },
-  {
-    "question": "A radiologist is reviewing head CT scans of a trauma patient. One image shows a biconvex, hyperdense lesion that does not cross suture lines and is located between the skull and dura mater. Which of the following vessels is most likely involved?",
-    "choices": [
-      "Bridging veins",
-      "Middle cerebral artery",
-      "Anterior cerebral artery",
-      "Middle meningeal artery",
-      "Cortical veins"
-    ],
-    "correctAnswer": 3,
-    "explanation": "A biconvex, lens-shaped hyperdense lesion on CT is classic for an epidural hematoma, which most often results from rupture of the middle meningeal artery, commonly due to temporal bone fracture. Bridging veins are incorrect because they are involved in subdural hematomas, which are crescent-shaped and cross suture lines. The middle and anterior cerebral arteries are intracerebral and would cause intraparenchymal hemorrhage. Cortical veins are not typically associated with the epidural space."
-  },
-  {
-    "question": "A 60-year-old man with a history of chronic hypertension undergoes MRI for progressive neurologic symptoms. T2-weighted images reveal multiple small, hyperintense lesions in the periventricular white matter. FLAIR images suppress CSF signal and highlight the lesions. Which of the following best describes the appearance of these findings on FLAIR compared to T2-weighted images?",
-    "choices": [
-      "Lesions are hypointense due to suppression of fat",
-      "Lesions are isointense because CSF remains bright",
-      "Lesions are obscured by surrounding bright CSF signal",
-      "Lesions remain bright while CSF appears dark",
-      "Lesions are dark and CSF is bright due to water content"
-    ],
-    "correctAnswer": 3,
-    "explanation": "FLAIR suppresses free water signal (such as CSF) while maintaining high signal in pathological tissue. This makes periventricular lesions (such as demyelinating plaques or ischemic changes) easier to visualize. The lesions remain bright while CSF is dark. Hypointense due to suppression of fat is incorrect; fat remains bright on FLAIR. Isointense with bright CSF is incorrect because CSF is suppressed. Obscuration by CSF is incorrect, as the purpose of FLAIR is to avoid this. Lesions being dark with bright CSF describes a T2 image, not FLAIR."
-  },
-  {
-    "question": "A 52-year-old man is undergoing thoracic aortic surgery. Postoperatively, he develops flaccid paralysis of both lower limbs, loss of pain and temperature sensation below the lesion, but preserved vibration and proprioception. Which of the following vascular structures was most likely compromised during surgery?",
-    "choices": [
-      "Right posterior spinal artery",
-      "Left posterior spinal artery",
-      "Anterior spinal artery",
-      "Artery of Adamkiewicz",
-      "Vertebral artery"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The artery of Adamkiewicz is a major radiculomedullary artery that provides critical blood supply to the anterior spinal artery in the lower thoracic to upper lumbar region. Injury to this vessel can result in anterior cord syndrome, characterized by loss of motor function and pain/temperature sensation, with preserved dorsal column function. The anterior spinal artery supplies the anterior two-thirds of the spinal cord. While it is directly involved in the syndrome, the artery of Adamkiewicz is the major feeder in this region. Posterior spinal arteries would affect vibration and proprioception. Vertebral artery involvement would affect higher structures and is less localized."
-  },
-  {
-    "question": "A 35-year-old man presents with bilateral loss of pain and temperature sensation over his shoulders and upper arms. Vibration and proprioception are intact. MRI reveals a syrinx at the level of C5-C6. Which of the following spinal cord structures is most likely compressed to cause this sensory loss?",
-    "choices": [
-      "Fasciculus gracilis",
-      "Fasciculus cuneatus",
-      "Anterior white commissure",
-      "Lateral corticospinal tract",
-      "Dorsal horn"
-    ],
-    "correctAnswer": 2,
-    "explanation": "A syrinx in the central canal of the spinal cord compresses the anterior white commissure, where spinothalamic tract fibers cross. This leads to bilateral segmental loss of pain and temperature in a 'cape-like' distribution. Fasciculus gracilis and cuneatus are dorsal column structures carrying proprioception and vibration, which are preserved. The lateral corticospinal tract carries motor fibers and would lead to weakness or spasticity if involved. The dorsal horn contains second-order neurons but not the decussating fibers directly."
-  },
-  {
-    "question": "A patient with a cervical spinal cord lesion exhibits right-sided loss of proprioception and vibration, left-sided loss of pain and temperature sensation below the lesion, and right-sided upper motor neuron weakness. Which of the following best explains this presentation?",
-    "choices": [
-      "Anterior cord syndrome from anterior spinal artery infarct",
-      "Brown-Séquard syndrome from hemisection of the spinal cord",
-      "Posterior cord syndrome from posterior spinal artery infarct",
-      "Syringomyelia causing central cord compression",
-      "Cauda equina syndrome with nerve root compression"
+      "Memantine and donepezil",
+      "Tight glycemic and blood pressure control",
+      "Monoclonal antibody therapy targeting amyloid",
+      "Dopaminergic agents and physical therapy",
+      "Low-dose corticosteroids and immunosuppressants"
     ],
     "correctAnswer": 1,
-    "explanation": "This is a classic presentation of Brown-Séquard syndrome caused by hemisection of the spinal cord. The corticospinal tract and dorsal columns are damaged ipsilaterally, resulting in motor loss and vibration/proprioception deficits on the same side. The spinothalamic tract crosses in the spinal cord via the anterior white commissure, leading to contralateral pain and temperature loss. Anterior cord syndrome would affect bilateral motor and spinothalamic pathways. Posterior cord syndrome would spare motor and pain/temp pathways. Syringomyelia presents with bilateral pain/temp loss in a cape distribution. Cauda equina syndrome is a lower motor neuron process and presents differently."
+    "explanation": "The clinical presentation and imaging are consistent with vascular cognitive impairment (VCI), a type of dementia caused by cerebrovascular disease. The mainstay of treatment is addressing modifiable vascular risk factors such as hypertension and diabetes. Memantine and donepezil may be helpful in mixed dementia but are not first-line for pure vascular dementia. Monoclonal antibodies target amyloid and are used in early Alzheimer’s disease. Dopaminergic therapy is used for Parkinson’s. Corticosteroids and immunosuppressants are used in inflammatory or autoimmune conditions."
   },
   {
-    "question": "A 4-month-old infant presents with progressive macrocephaly and irritability. Imaging shows dilated lateral and third ventricles, while the fourth ventricle appears normal. Which of the following is the most likely cause of this condition?",
+    "question": "A 29-year-old man suffers a traumatic brain injury resulting in bilateral medial temporal lobe damage. He is unable to form new episodic memories but can still learn new motor tasks like riding a bicycle. Which of the following types of memory is most likely preserved in this patient?",
     "choices": [
-      "Overproduction of cerebrospinal fluid",
-      "Obstruction of the foramen of Magendie",
-      "Impaired CSF absorption by arachnoid granulations",
-      "Obstruction of the cerebral aqueduct",
-      "Thinning of the arachnoid mater"
+      "Episodic memory",
+      "Semantic memory",
+      "Working memory",
+      "Procedural memory",
+      "Explicit memory"
     ],
     "correctAnswer": 3,
-    "explanation": "Obstruction of the cerebral aqueduct, which connects the third to the fourth ventricle, is a common cause of non-communicating hydrocephalus. This results in dilation of the lateral and third ventricles with a normal fourth ventricle. Overproduction of CSF is rare and not a common cause of hydrocephalus. Obstruction of the foramen of Magendie would cause fourth ventricular dilation. Impaired absorption by arachnoid granulations would result in communicating hydrocephalus, affecting all ventricles. Thinning of the arachnoid mater is not a recognized cause of hydrocephalus."
+    "explanation": "This clinical scenario is consistent with anterograde amnesia due to medial temporal lobe damage, as famously seen in patient H.M. Procedural memory, which involves skills and habits and is mediated by the striatum and cerebellum, remains intact. Episodic and semantic memory are types of explicit memory, which are impaired. Working memory depends on the prefrontal cortex and may be spared but is distinct from procedural memory."
   },
   {
-    "question": "A 67-year-old man presents with progressive gait instability, urinary incontinence, and cognitive decline. Imaging reveals enlarged ventricles with normal opening pressure on lumbar puncture. Which of the following best explains this patient's condition?",
+    "question": "A 67-year-old woman with early Alzheimer’s disease shows impaired recent memory but can still recall distant events. Which brain region is most associated with this memory gradient?",
     "choices": [
-      "Obstruction of the interventricular foramina",
-      "Increased CSF production by the choroid plexus",
-      "Arachnoid granulation dysfunction",
-      "Blocked foramina of Luschka and Magendie",
-      "Decreased venous drainage from dural sinuses"
+      "Basolateral amygdala",
+      "Prefrontal cortex",
+      "Hippocampus and adjacent temporal cortex",
+      "Striatum and thalamus",
+      "Cerebellum"
     ],
     "correctAnswer": 2,
-    "explanation": "This presentation is characteristic of normal pressure hydrocephalus (NPH), which often results from impaired CSF absorption by the arachnoid granulations. Classic symptoms are gait disturbance, urinary incontinence, and dementia. Obstruction of the foramina of Luschka and Magendie causes obstructive hydrocephalus. Obstruction of the interventricular foramina would dilate only the lateral ventricles. Increased CSF production is not the typical mechanism of NPH. Venous drainage impairment can increase intracranial pressure but is not directly responsible for NPH."
+    "explanation": "Alzheimer’s disease preferentially affects the hippocampus and adjacent medial temporal structures, which are essential for encoding and consolidating new memories. This leads to an anterograde and temporally graded retrograde amnesia, with recent memories more affected. The basolateral amygdala modulates emotional memory. The striatum and cerebellum mediate procedural learning. The prefrontal cortex is more important in working memory and executive function."
   },
   {
-    "question": "A neuroanatomy dissection reveals a thin-walled structure extending from the third to the fourth ventricle in the dorsal midbrain. Which of the following accurately describes this structure's role in cerebrospinal fluid circulation?",
+    "question": "A 60-year-old man with Parkinson’s disease is asked to perform a probabilistic card prediction task. He fails to learn the card-outcome associations, though he remembers the details of the task. Which of the following best explains his difficulty with the task?",
     "choices": [
-      "It filters CSF from the subarachnoid space into venous sinuses",
-      "It allows CSF to flow from the lateral ventricles into the third ventricle",
-      "It produces CSF using fenestrated capillaries and ependymal cells",
-      "It permits CSF passage between the third and fourth ventricles",
-      "It drains CSF from the spinal cord to the cerebellomedullary cistern"
+      "Hippocampal dysfunction due to dopaminergic depletion",
+      "Impairment of amygdala-dependent emotional learning",
+      "Lesion of dorsolateral prefrontal cortex affecting working memory",
+      "Damage to the striatum impairing implicit learning",
+      "Cortical atrophy impairing semantic knowledge"
     ],
     "correctAnswer": 3,
-    "explanation": "The cerebral aqueduct connects the third and fourth ventricles, permitting CSF to flow between them. It is a narrow channel within the dorsal midbrain and a common site for obstruction in hydrocephalus. CSF filtration into venous sinuses occurs at arachnoid granulations. Flow from the lateral to third ventricles occurs via the interventricular foramina. CSF production occurs primarily at the choroid plexus. Drainage from the spinal cord involves the central canal, not the aqueduct."
+    "explanation": "Patients with Parkinson’s disease have degeneration of the dopaminergic neurons projecting to the striatum, which is essential for implicit learning tasks like probabilistic classification. Unlike amnesics, Parkinson’s patients typically have intact declarative memory. The hippocampus, amygdala, and cortical areas are not primarily responsible for this specific type of procedural learning."
   },
   {
-    "question": "A 66-year-old woman is found lethargic with a sudden severe headache. CT reveals subarachnoid hemorrhage secondary to a ruptured aneurysm. An external ventricular drain (EVD) is placed, and her opening pressure is 40 mmHg. What is the primary mechanism of increased intracranial pressure in this patient?",
+    "question": "A 65-year-old man presents with a resting tremor in his right hand, difficulty initiating movement, and a stooped posture. Neurological examination reveals bradykinesia, rigidity, and a masked facial expression. The tremor improves with purposeful movement. Levodopa therapy is initiated with excellent symptom control. Over the next few years, he develops involuntary, writhing movements of his limbs, especially during peak medication efficacy. Which of the following best explains this new symptom?",
     "choices": [
-      "Overproduction of cerebrospinal fluid by the choroid plexus",
-      "Obstruction at the cerebral aqueduct causing non-communicating hydrocephalus",
-      "Decreased CSF reabsorption at the arachnoid granulations",
-      "Tumor mass effect compressing the ventricles",
-      "Cerebral venous thrombosis reducing CSF drainage"
-    ],
-    "correctAnswer": 2,
-    "explanation": "In subarachnoid hemorrhage, blood disrupts CSF reabsorption by damaging the arachnoid granulations, leading to communicating hydrocephalus and increased intracranial pressure. Overproduction of CSF is rare and not the mechanism in this case. Obstruction of the cerebral aqueduct would cause non-communicating hydrocephalus, not consistent with SAH findings. A tumor mass effect would be seen on imaging and isn't mentioned. Cerebral venous thrombosis can raise ICP but is not related to this mechanism post-SAH."
-  },
-  {
-    "question": "A 28-year-old obese woman presents with daily headaches and transient vision loss. Fundoscopy reveals papilledema. MRI shows small slit-like ventricles. Lumbar puncture shows an elevated opening pressure. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Normal pressure hydrocephalus",
-      "Idiopathic intracranial hypertension",
-      "Obstructive hydrocephalus due to aqueductal stenosis",
-      "Cerebral venous sinus thrombosis",
-      "Bacterial meningitis"
+      "Progression of Parkinson’s disease",
+      "Excess dopamine in the striatum",
+      "Neurodegeneration of the substantia nigra",
+      "Blockade of dopamine receptors",
+      "Withdrawal of dopamine agonists"
     ],
     "correctAnswer": 1,
-    "explanation": "Idiopathic intracranial hypertension (pseudotumor cerebri) commonly presents in obese young women with headache, visual symptoms, papilledema, and elevated CSF pressure with normal imaging other than small ventricles. Normal pressure hydrocephalus presents in the elderly with gait disturbance, incontinence, and dementia. Obstructive hydrocephalus involves ventricular enlargement, not slit ventricles. Cerebral venous thrombosis may elevate ICP but usually shows abnormal imaging findings. Bacterial meningitis presents with systemic signs and CSF pleocytosis, not isolated ICP elevation."
+    "explanation": "The patient developed levodopa-induced dyskinesias, which are involuntary movements due to peak-dose dopamine levels exceeding the therapeutic window. This is a classic complication in Parkinson's disease patients treated with levodopa over time. Progression of PD and degeneration of the substantia nigra are central to the disease itself but do not directly cause dyskinesias. Dopamine receptor blockade would cause parkinsonism, not dyskinesia. Withdrawal of agonists might cause 'off' symptoms, not hyperkinesia."
   },
   {
-    "question": "A 73-year-old man presents with a 3-month history of gait instability, urinary incontinence, and progressive memory loss. MRI shows enlarged ventricles without sulcal effacement. Lumbar puncture reveals normal opening pressure, and a high-volume CSF tap temporarily improves symptoms. What is the most appropriate next step in management?",
+    "question": "A 38-year-old woman presents with involuntary flinging movements of her left arm that started suddenly. Neurologic exam confirms large amplitude, proximal, violent, irregular movements. MRI reveals a small lesion in the contralateral subthalamic nucleus. Which of the following best describes the mechanism of her symptoms?",
     "choices": [
-      "Endoscopic third ventriculostomy",
-      "Acetazolamide therapy",
-      "Ventriculoperitoneal shunt placement",
-      "Oral corticosteroids",
-      "Serial lumbar punctures"
+      "Loss of GABAergic inhibition in the caudate",
+      "Increased dopaminergic activity in the striatum",
+      "Disinhibition of the thalamus via globus pallidus internus",
+      "Damage to cerebellar Purkinje cells",
+      "Decreased cortical output from the premotor cortex"
     ],
     "correctAnswer": 2,
-    "explanation": "This patient has classic signs of normal pressure hydrocephalus (NPH): gait instability, dementia, and urinary incontinence. MRI shows ventriculomegaly, and improvement after high-volume tap confirms the diagnosis. Ventriculoperitoneal (VP) shunting is the definitive treatment. Endoscopic third ventriculostomy is used for obstructive hydrocephalus. Acetazolamide reduces CSF production but is not used for NPH. Corticosteroids are not effective. Serial LPs are not a long-term solution and are used diagnostically."
+    "explanation": "The clinical description is consistent with hemiballismus, classically caused by lesions of the contralateral subthalamic nucleus, which leads to decreased excitation of the GPi. The result is reduced inhibition of the thalamus, promoting excessive, involuntary movement. GABAergic loss in the caudate is more associated with Huntington’s disease. Dopamine excess can cause chorea but not hemiballismus. Cerebellar damage causes ataxia, not flinging movements. Cortical output loss would lead to paresis or apraxia, not hyperkinesia."
   },
   {
-    "question": "A 61-year-old man presents with right-sided hemiparesis and a spastic gait. Neurological examination reveals increased muscle tone, hyperreflexia, and a positive Babinski sign on the right. Which of the following is the most likely site of the lesion?",
+    "question": "A 10-year-old girl presents with involuntary, irregular, purposeless movements involving her limbs and face. Her parents note she has had recent emotional lability and clumsiness. History reveals a sore throat 2 months ago. On exam, there is milkmaid grip and darting tongue movements. What is the most appropriate next diagnostic step?",
     "choices": [
-      "Right anterior horn of the cervical spinal cord",
-      "Left internal capsule",
-      "Right pyramids of the medulla",
-      "Right ventral root at C7",
-      "Left dorsal horn of the spinal cord"
-    ],
-    "correctAnswer": 1,
-    "explanation": "This patient has upper motor neuron (UMN) signs including spasticity, hyperreflexia, and Babinski sign, all on the right. The corticospinal tract decussates in the caudal medulla, so a lesion above this level (e.g., in the left internal capsule) would affect the contralateral body. The anterior horn and ventral root lesions would cause lower motor neuron (LMN) signs like flaccid paralysis. The dorsal horn contains sensory neurons. The right pyramids would cause left-sided deficits."
-  },
-  {
-    "question": "A patient presents with flaccid paralysis and muscle atrophy in the left upper limb following poliovirus infection. Which of the following structures is most likely damaged?",
-    "choices": [
-      "Left corticospinal tract in the internal capsule",
-      "Right anterior horn of the cervical spinal cord",
-      "Left anterior horn of the cervical spinal cord",
-      "Left dorsal columns of the spinal cord",
-      "Right lateral corticospinal tract"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Poliovirus primarily targets lower motor neurons in the anterior horn of the spinal cord, leading to flaccid paralysis and atrophy. A lesion on the left side would affect the ipsilateral limb. The corticospinal tract is part of the UMN system and causes spasticity when damaged. The dorsal columns carry sensory information. The right lateral corticospinal tract affects the left side below the level of the lesion."
-  },
-  {
-    "question": "A 23-year-old man suffers a penetrating injury to the lateral corticospinal tract at T10. Which of the following clinical findings is most likely?",
-    "choices": [
-      "Loss of pain and temperature sensation in the left leg",
-      "Spastic paralysis of the left leg",
-      "Flaccid paralysis of the right leg",
-      "Loss of vibration and proprioception in both legs",
-      "Facial droop on the right side"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The lateral corticospinal tract carries UMN fibers that decussate in the medullary pyramids. A lesion at T10 on the left would cause spastic paralysis in the ipsilateral (left) leg. Pain and temperature sensation is carried by the spinothalamic tract, which crosses at the level of spinal entry, so would be affected contralaterally. Flaccid paralysis indicates LMN damage. Vibration and proprioception are carried by the dorsal columns. Facial droop would result from cranial nerve or corticobulbar tract involvement, not spinal injury."
-  },
-  {
-    "question": "A 29-year-old woman presents with fluctuating muscle weakness, most notably with diplopia and difficulty swallowing that worsens throughout the day. Physical examination reveals ptosis that improves after application of an ice pack. Which of the following best describes the pathophysiology of this patient’s condition?",
-    "choices": [
-      "Antibodies against voltage-gated calcium channels at the presynaptic terminal",
-      "Autoimmune destruction of skeletal muscle sarcolemma",
-      "Antibodies against postsynaptic acetylcholine receptors",
-      "Destruction of anterior horn cells in the spinal cord",
-      "Demyelination of peripheral nerves"
-    ],
-    "correctAnswer": 2,
-    "explanation": "This patient has myasthenia gravis, which is caused by autoantibodies against postsynaptic acetylcholine receptors at the neuromuscular junction. This results in fluctuating weakness, particularly in ocular and bulbar muscles, that worsens with activity. The ice pack test improves ptosis by decreasing acetylcholinesterase activity. Antibodies against voltage-gated calcium channels are associated with Lambert-Eaton myasthenic syndrome. Skeletal muscle sarcolemma destruction occurs in dystrophinopathies. Anterior horn cell destruction occurs in motor neuron diseases like ALS. Demyelination is characteristic of Guillain-Barré syndrome."
-  },
-  {
-    "question": "A 67-year-old man presents with difficulty rising from a chair and combing his hair. Physical examination reveals symmetric proximal muscle weakness. Laboratory studies show elevated creatine kinase and anti-signal recognition particle (anti-SRP) antibodies. Which of the following is the most likely diagnosis?",
-    "choices": [
-      "Myasthenia gravis",
-      "Polymyositis",
-      "Duchenne muscular dystrophy",
-      "Lambert-Eaton syndrome",
-      "Immune-mediated necrotizing myopathy"
-    ],
-    "correctAnswer": 4,
-    "explanation": "Immune-mediated necrotizing myopathy presents with subacute onset of symmetric proximal muscle weakness and markedly elevated creatine kinase. Anti-SRP antibodies are a specific finding. Myasthenia gravis typically affects ocular and bulbar muscles and has normal CK. Polymyositis may present similarly but involves endomysial inflammation and CD8+ T cells. Duchenne muscular dystrophy presents in childhood and involves dystrophin mutations. Lambert-Eaton syndrome involves weakness that improves with activity and is associated with small cell lung cancer."
-  },
-  {
-    "question": "A 61-year-old woman with lung cancer presents with progressive proximal muscle weakness. Physical exam shows diminished deep tendon reflexes, which improve after brief exercise. EMG reveals incremental response with repetitive nerve stimulation. Which of the following best describes the underlying pathophysiology?",
-    "choices": [
-      "Presynaptic inhibition of acetylcholine release",
-      "Postsynaptic receptor blockade by autoantibodies",
-      "Autoimmune destruction of peripheral nerves",
-      "Decreased presynaptic calcium influx due to autoantibodies",
-      "Degeneration of lower motor neurons"
+      "Serum ceruloplasmin",
+      "MRI of the brain",
+      "Throat culture",
+      "Antistreptolysin O titer",
+      "Genetic testing for trinucleotide repeats"
     ],
     "correctAnswer": 3,
-    "explanation": "Lambert-Eaton myasthenic syndrome (LEMS) is caused by antibodies against presynaptic P/Q-type voltage-gated calcium channels, leading to impaired acetylcholine release. The hallmark is proximal weakness and diminished reflexes that improve with exercise, and EMG shows incremental response. Postsynaptic receptor blockade occurs in myasthenia gravis. Autoimmune destruction of peripheral nerves describes conditions like Guillain-Barré. Degeneration of LMNs occurs in diseases like spinal muscular atrophy."
+    "explanation": "The girl’s symptoms are classic for Sydenham’s chorea, a post-streptococcal autoimmune movement disorder associated with acute rheumatic fever. ASO titers help confirm recent group A Streptococcus infection. Ceruloplasmin is used for Wilson’s disease, MRI may be used but is not first line here, throat culture is not useful weeks after infection, and trinucleotide testing is for Huntington's disease, which presents later in life."
   },
   {
-    "question": "A 21-year-old man is brought to the emergency department after a high-speed motor vehicle accident. He briefly loses consciousness, then becomes lucid, followed by rapid neurological decline. CT scan reveals a lens-shaped hyperdense collection. Which of the following vessels is most likely injured?",
+    "question": "A 55-year-old man exhibits socially inappropriate behavior, compulsive overeating, and apathy. Over the next two years, he develops expressive aphasia and impaired comprehension. MRI reveals frontal and anterior temporal lobe atrophy. Which of the following is the most likely histopathologic hallmark of his condition?",
     "choices": [
-      "Bridging veins",
-      "Middle meningeal artery",
-      "Anterior cerebral artery",
-      "Superior sagittal sinus",
-      "Cortical veins"
-    ],
-    "correctAnswer": 1,
-    "explanation": "This is a classic presentation of an epidural hematoma, which commonly results from rupture of the middle meningeal artery following a temporal bone fracture. The lens-shaped (biconvex) hyperdense appearance on CT is characteristic. Bridging veins cause subdural hematomas. The anterior cerebral artery and cortical veins are intraparenchymal and do not cause epidural collections. The superior sagittal sinus is venous and not typically involved in trauma-induced epidural bleeding."
-  },
-  {
-    "question": "A 70-year-old woman presents with confusion and right-sided hemiparesis after a minor fall. CT scan shows a crescent-shaped hyperdensity crossing suture lines. Which of the following best explains the pathophysiology of this condition?",
-    "choices": [
-      "Tear of middle meningeal artery",
-      "Tear of bridging veins between the cortex and dura",
-      "Rupture of berry aneurysm in the circle of Willis",
-      "Shearing injury of the corpus callosum",
-      "Contusion of the cerebral cortex"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The patient has a subdural hematoma, indicated by the crescent-shaped collection that crosses suture lines. It is usually caused by tearing of bridging veins, especially in elderly patients where cerebral atrophy increases tension on these veins. Middle meningeal artery rupture causes epidural hematoma. Berry aneurysm rupture results in subarachnoid hemorrhage. Shearing injury is related to diffuse axonal injury. Cortical contusion causes intraparenchymal hemorrhage."
-  },
-  {
-    "question": "A patient with severe traumatic brain injury is noted to have bradycardia, hypertension, and irregular respirations. CT reveals compression of the basilar cisterns and evidence of transtentorial herniation. Which of the following is the best explanation for these findings?",
-    "choices": [
-      "Cerebral infarction from embolic stroke",
-      "Hydrocephalus from aqueductal stenosis",
-      "Increased intracranial pressure triggering Cushing's reflex",
-      "Posterior cerebral artery infarction from aneurysm rupture",
-      "Subdural hematoma expanding across the midline"
+      "Lewy bodies positive for alpha-synuclein",
+      "Neuritic plaques composed of beta-amyloid",
+      "Pick bodies positive for hyperphosphorylated tau",
+      "Spongiform changes with no inflammation",
+      "Perivascular tau accumulation at depths of cortical sulci"
     ],
     "correctAnswer": 2,
-    "explanation": "The triad of bradycardia, hypertension, and irregular breathing is Cushing’s triad, a physiologic response to increased intracranial pressure (ICP) that threatens cerebral perfusion. Compression of the basilar cisterns and herniation further support elevated ICP. Embolic stroke, aqueductal stenosis, and PCA aneurysm rupture would not typically present with this triad. A subdural hematoma may cause midline shift but not necessarily Cushing's response unless ICP is markedly elevated."
+    "explanation": "This is a classic presentation of frontotemporal dementia (Pick's disease), characterized by early behavioral disinhibition and language deficits. The most specific histopathologic hallmark is the presence of Pick bodies, which are round intracytoplasmic inclusions containing hyperphosphorylated tau. Lewy bodies (choice A) are associated with dementia with Lewy bodies. Neuritic plaques (choice B) are characteristic of Alzheimer disease. Spongiform changes (choice D) are typical of prion diseases. Perivascular tau (choice E) is found in chronic traumatic encephalopathy."
   },
   {
-    "question": "A 65-year-old man presents with progressive bradykinesia, resting tremor, and rigidity. He is diagnosed with Parkinson disease. Which of the following best explains the pathophysiology behind this patient's reduced movement initiation?",
+    "question": "A 68-year-old woman has progressive cognitive decline characterized by memory loss and executive dysfunction. Imaging shows diffuse cerebral atrophy, predominantly in the temporal and parietal lobes. Histology reveals neuritic plaques and neurofibrillary tangles. Which biomarker pattern is most supportive of her diagnosis?",
     "choices": [
-      "Degeneration of GABAergic neurons in the subthalamic nucleus",
-      "Loss of cholinergic input from the basal forebrain",
-      "Degeneration of dopaminergic neurons in the substantia nigra pars compacta",
-      "Destruction of glutamatergic neurons projecting from the thalamus",
-      "Hyperactivity of the striatal D1 pathway due to excess dopamine"
+      "CSF Aβ42 low, CSF tau low",
+      "CSF Aβ42 high, CSF p-tau low",
+      "CSF Aβ42 low, CSF p-tau high",
+      "CSF Aβ42/Aβ40 ratio high, CSF p-tau low",
+      "Normal CSF Aβ42 and tau levels"
     ],
     "correctAnswer": 2,
-    "explanation": "Parkinson disease is caused by the degeneration of dopaminergic neurons in the substantia nigra pars compacta, which leads to reduced stimulation of the direct (D1) pathway and less inhibition of the indirect (D2) pathway. This results in overactivity of GPi and increased inhibition of the thalamus, thereby reducing motor cortex activation. GABAergic degeneration in the STN leads to hemiballismus. Loss of cholinergic input is linked to Alzheimer’s disease. Destruction of glutamatergic thalamic neurons would cause widespread motor depression, but this is not the mechanism in Parkinson’s. Excess dopamine would increase movement, not decrease it."
+    "explanation": "The combination of low CSF Aβ42 and elevated phosphorylated tau (p-tau) is the most supportive biomarker profile for Alzheimer disease. Low Aβ42 indicates amyloid plaque accumulation, while high p-tau reflects neurofibrillary tangle pathology. Choices A and B are inconsistent with Alzheimer pathology. A high Aβ42/Aβ40 ratio (choice D) suggests normal amyloid metabolism. Normal biomarkers (choice E) would not support the diagnosis in a symptomatic individual."
   },
   {
-    "question": "A 40-year-old woman presents with progressive involuntary, dance-like movements. MRI reveals enlarged lateral ventricles. Genetic testing confirms a trinucleotide repeat expansion. Which of the following neural pathways is most directly affected in this condition?",
+    "question": "A 70-year-old man with poorly controlled hypertension presents with sudden-onset confusion and memory impairment following a recent stroke. Neuroimaging reveals multiple small infarcts in the subcortical white matter and basal ganglia. What is the most likely mechanism underlying his cognitive impairment?",
     "choices": [
-      "Striatum to globus pallidus externus (GPe)",
-      "Subthalamic nucleus to globus pallidus internus (GPi)",
-      "Substantia nigra pars compacta to caudate",
-      "Thalamus to motor cortex",
-      "Globus pallidus internus to thalamus"
+      "Perivascular deposition of amyloid beta",
+      "Cortical spongiform degeneration",
+      "Strategic infarction of hippocampus and thalamus",
+      "Lacunar infarcts and white matter axonal degeneration",
+      "TDP43-positive neuronal inclusions"
     ],
-    "correctAnswer": 0,
-    "explanation": "Huntington disease primarily involves degeneration of the indirect pathway, particularly the GABAergic projections from the striatum to the GPe. This reduces inhibition of the GPe, leading to suppression of the STN and reduced activation of GPi, resulting in decreased thalamic inhibition and hyperkinetic movements. The STN-GPi pathway is spared early. Nigrostriatal degeneration is characteristic of Parkinson's. The thalamus to motor cortex and GPi to thalamus connections are not the primary early sites of pathology in Huntington disease."
+    "correctAnswer": 3,
+    "explanation": "This patient most likely has subcortical vascular dementia due to small vessel disease. The typical mechanism is lacunar infarcts and diffuse white matter axonal damage affecting connectivity between brain regions. Amyloid deposition (choice A) is characteristic of cerebral amyloid angiopathy. Spongiform changes (choice B) are seen in prion disease. Strategic infarcts (choice C) cause cortical vascular dementia. TDP43 inclusions (choice E) are associated with frontotemporal dementia and ALS."
   },
   {
-    "question": "A 58-year-old man presents with sudden onset of violent, flinging movements of his left arm and leg. Neurological exam confirms hemiballismus. A CT scan is most likely to reveal a lesion in which of the following locations?",
+    "question": "A 67-year-old man with a history of type 2 diabetes and hypertension presents with episodes of transient left-sided numbness lasting 30 minutes to an hour. MRI-DWI shows no acute infarct. Which of the following most accurately describes the current definition of his condition?",
     "choices": [
-      "Right substantia nigra pars compacta",
-      "Left caudate nucleus",
-      "Right subthalamic nucleus",
-      "Right internal capsule",
-      "Left red nucleus"
+      "Cerebral ischemia lasting less than 24 hours with imaging evidence of infarction",
+      "Neurologic symptoms from ischemia lasting less than 1 hour without infarction",
+      "Transient symptoms due to hemorrhagic stroke",
+      "Recurrent seizures presenting as focal neurologic deficits",
+      "Cerebral dysfunction from embolic infarct with rapid recovery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The modern definition of a transient ischemic attack (TIA) includes neurological symptoms of presumed ischemic origin lasting less than 1 hour and no evidence of infarction on imaging. The older definition used a 24-hour time limit but is now replaced to account for MRI findings. Choices 1 and 5 incorrectly imply infarction. Choice 3 is a hemorrhagic event, and choice 4 describes seizure-related symptoms."
+  },
+  {
+    "question": "A 70-year-old man with hypertension presents with sudden-onset right hemiparesis and aphasia. Noncontrast CT rules out hemorrhage. IV tPA is administered 2 hours after symptom onset. What is the primary therapeutic target of tPA in this setting?",
+    "choices": [
+      "Neurons in the ischemic core",
+      "Restoring perfusion to the ischemic penumbra",
+      "Reducing long-term atherosclerosis",
+      "Preventing hemorrhagic transformation",
+      "Lowering systemic blood pressure acutely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ischemic penumbra is the area of brain tissue that is functionally impaired but structurally viable. The goal of IV tPA is to restore perfusion to this region and salvage brain tissue. The core is already infarcted and not recoverable (choice 0). tPA does not reduce atherosclerosis or acutely prevent hemorrhagic transformation (choices 2 and 3). BP lowering (choice 4) is done cautiously and is not the goal of tPA administration."
+  },
+  {
+    "question": "A 58-year-old woman with atrial fibrillation presents with left-sided weakness and right gaze deviation. Her NIH Stroke Scale score is 20. CT angiogram reveals a proximal right MCA occlusion. She receives IV tPA at 90 minutes and is transferred for endovascular therapy. What feature most strongly supports her eligibility for mechanical thrombectomy?",
+    "choices": [
+      "NIHSS score above 10",
+      "Any proximal MCA occlusion within 24 hours",
+      "Large vessel occlusion with favorable collateral circulation",
+      "History of atrial fibrillation",
+      "Absence of hemorrhage on CT"
     ],
     "correctAnswer": 2,
-    "explanation": "Hemiballismus is classically caused by a lesion in the contralateral subthalamic nucleus, which disinhibits the thalamus by reducing excitation of the GPi. This leads to excessive movement. The right STN lesion results in left-sided hemiballismus. The substantia nigra is associated with Parkinson disease. Caudate lesions affect behavior and cognition in addition to movement. Internal capsule lesions cause contralateral motor and sensory deficits but not typically hemiballismus. Red nucleus lesions result in midbrain syndromes but do not cause flinging movements."
+    "explanation": "Mechanical thrombectomy is indicated in patients with large vessel occlusion (like MCA M1) and favorable imaging findings, particularly good collateral circulation or a large mismatch on perfusion imaging. NIHSS >10 (choice 0) suggests severity but is not sufficient alone. Atrial fibrillation (choice 3) increases stroke risk but does not determine thrombectomy eligibility. CT without hemorrhage (choice 4) is needed for tPA, not thrombectomy specifically."
   },
   {
-    "question": "A 72-year-old man presents with sudden onset right arm and facial weakness, along with aphasia. CT imaging confirms an ischemic stroke. Which of the following arteries is most likely occluded?",
+    "question": "A 68-year-old man presents with sudden-onset right-sided weakness and expressive aphasia. Non-contrast CT scan is negative for hemorrhage. He is given tPA within 3 hours of symptom onset. An MRI later shows a left-sided infarct in the distribution of the middle cerebral artery. Which of the following pathologic processes most likely underlies the damage seen in this patient?",
     "choices": [
-      "Right anterior cerebral artery",
-      "Left middle cerebral artery",
-      "Right posterior cerebral artery",
-      "Left anterior choroidal artery",
-      "Left superior cerebellar artery"
+      "Atherosclerotic occlusion of lenticulostriate arteries",
+      "Amyloid deposition in cortical vessels",
+      "Thromboembolic occlusion of a large artery",
+      "Charcot-Bouchard microaneurysm rupture",
+      "Fibrinoid necrosis of penetrating arterioles"
     ],
-    "correctAnswer": 1,
-    "explanation": "This presentation is classic for a left middle cerebral artery (MCA) stroke, which supplies the lateral surface of the cerebral cortex including motor and sensory areas of the face and upper extremity. It also typically affects language centers in the dominant hemisphere (usually left). The anterior cerebral artery would affect the lower limb more than face and arm. Posterior cerebral artery infarcts affect vision and midbrain structures. Anterior choroidal infarcts impact deep structures but rarely cause cortical aphasia. The superior cerebellar artery affects the cerebellum, leading to ataxia rather than cortical deficits."
+    "correctAnswer": 2,
+    "explanation": "This patient presents with symptoms of a large-vessel stroke involving the MCA, consistent with a thromboembolic event. This type of stroke commonly results from emboli originating in the heart or large arteries. Choice 0 describes small vessel disease leading to lacunar strokes. Choice 1 is associated with lobar hemorrhages, not infarction. Choice 3 involves hemorrhagic strokes due to microaneurysm rupture. Choice 4 is seen in malignant hypertension leading to hemorrhage."
   },
   {
-    "question": "A 65-year-old woman presents with left leg weakness and urinary incontinence following a fall. MRI reveals an infarct in the medial aspect of the right cerebral hemisphere. Which vascular territory is most likely involved?",
+    "question": "A 72-year-old woman is brought to the ER after collapsing at home. She had complained of the 'worst headache of her life' moments before losing consciousness. CT scan shows blood in the basal cisterns and ventricles. Which of the following underlying vascular abnormalities is most likely responsible?",
     "choices": [
-      "Right middle cerebral artery",
-      "Right anterior cerebral artery",
-      "Left anterior cerebral artery",
-      "Right posterior cerebral artery",
-      "Left vertebral artery"
+      "Charcot-Bouchard microaneurysm",
+      "Arteriovenous malformation",
+      "Saccular aneurysm at a branch point of the Circle of Willis",
+      "Fibrinoid necrosis of penetrating arteries",
+      "Atherosclerotic occlusion of internal carotid artery"
     ],
-    "correctAnswer": 1,
-    "explanation": "The anterior cerebral artery (ACA) supplies the medial surface of the cerebral hemisphere, including the paracentral lobule which controls lower limb motor function and bladder control. A right ACA infarct would cause left leg weakness and possibly incontinence. The MCA would affect face and arm more prominently. The posterior cerebral artery supplies occipital and inferomedial temporal lobes. The vertebral artery supplies the brainstem and cerebellum, not the cerebral cortex."
+    "correctAnswer": 2,
+    "explanation": "This presentation is classic for subarachnoid hemorrhage, most commonly due to rupture of a saccular (Berry) aneurysm at branch points of the Circle of Willis. Charcot-Bouchard aneurysms (choice 0) lead to deep intraparenchymal hemorrhage. AVMs (choice 1) are less common causes. Fibrinoid necrosis (choice 3) and atherosclerosis (choice 4) are more associated with hypertensive or ischemic strokes respectively."
   },
   {
-    "question": "A 60-year-old man presents with visual hallucinations and loss of vision in the left visual field of both eyes. Imaging reveals a right-sided infarct involving the occipital lobe. Which vessel is most likely occluded?",
+    "question": "A 66-year-old man with a history of poorly controlled hypertension and smoking presents with right hemiparesis and slurred speech. CT scan reveals a small infarct (<1.5 cm) in the internal capsule. What is the most likely underlying histopathological finding in this patient?",
     "choices": [
-      "Right anterior cerebral artery",
-      "Right posterior cerebral artery",
-      "Left posterior cerebral artery",
-      "Right middle cerebral artery",
-      "Right superior cerebellar artery"
+      "Red neuron formation in the hippocampus",
+      "Arteriolosclerosis with lipohyalinosis in deep penetrating arteries",
+      "Atherosclerotic plaque rupture with distal embolization",
+      "Charcot-Bouchard aneurysm rupture",
+      "Cerebral amyloid angiopathy"
     ],
     "correctAnswer": 1,
-    "explanation": "The posterior cerebral artery (PCA) supplies the occipital lobe, which is responsible for visual processing. Infarction here can lead to contralateral homonymous hemianopia. A right PCA infarct would cause left visual field loss in both eyes. The anterior and middle cerebral arteries do not supply the occipital cortex. The superior cerebellar artery supplies the cerebellum and upper brainstem, not the visual cortex."
-  }
+    "explanation": "This is a classic lacunar stroke caused by small vessel disease from chronic hypertension. The characteristic finding is arteriolosclerosis with lipohyalinosis in the small penetrating arteries. Choice 0 describes early ischemic neuron changes but is not specific. Choice 2 describes embolic infarcts. Choice 3 leads to hemorrhagic stroke, and choice 4 causes lobar hemorrhages in the elderly."
+  },
+  {
+    "question": "A 5-week-old embryo demonstrates a neural tube defect with failure of the anterior neuropore to close. This results in the absence of a forebrain and skull. Which of the following neural derivatives would fail to develop in this embryo?",
+    "choices": [
+      "Midbrain tectum",
+      "Diencephalon",
+      "Cerebellum",
+      "Pons",
+      "Medulla oblongata"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The failure of the anterior (rostral) neuropore to close results in anencephaly, a lethal condition marked by the absence of the forebrain. The diencephalon, a derivative of the prosencephalon (forebrain), would be absent. The midbrain (choice 0), pons (choice 3), medulla (choice 4), and cerebellum (choice 2) develop from more caudal regions and would not be affected by anterior neuropore closure failure."
+  },
+  {
+    "question": "A newborn presents with a midline neck mass and a sinus tract that discharges clear fluid. Imaging reveals a persistent tract lined with neural tissue. This defect most likely results from abnormal development of which of the following structures?",
+    "choices": [
+      "Surface ectoderm",
+      "Neural crest",
+      "Mesoderm",
+      "Neural tube",
+      "Endoderm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A sinus tract with neural elements suggests a dermal sinus resulting from incomplete separation of the cutaneous ectoderm from the neural tube during neurulation. This implicates defective neural tube closure. Surface ectoderm (choice 0) gives rise to skin but does not produce neural tissue. Neural crest (choice 1) contributes to peripheral nerves and melanocytes. Mesoderm (choice 2) gives rise to bone and muscle, and endoderm (choice 4) forms gut lining."
+  },
+  {
+    "question": "A researcher is studying the effect of retinoic acid on early neural development. Exposure of embryos to high levels of retinoic acid results in failure of the caudal neural tube to form. Which structure derived from the secondary neurulation process would be affected?",
+    "choices": [
+      "Telencephalon",
+      "Mesencephalon",
+      "Myelencephalon",
+      "Sacral spinal cord",
+      "Diencephalon"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Secondary neurulation forms the most caudal portions of the neural tube, including the sacral and coccygeal spinal cord. High levels of retinoic acid can disrupt this process, leading to caudal regression. The telencephalon (choice 0), mesencephalon (choice 1), myelencephalon (choice 2), and diencephalon (choice 4) all derive from the primary neurulation process and would not be directly affected."
+  },
+{
+  "question": "A 62-year-old female is brought to the clinic for rapidly increasing forgetfulness over the past 3 months. She also has ataxia and develops jerky movements of her legs in response to loud noise. MRI shows hyperintensity, and EEG shows intermittent high voltage spikes on the background of slow waves. The most likely pathologic finding would be:",
+  "choices": [
+    "Amyloid plaques and tangles",
+    "Caudate atrophy",
+    "Lewy bodies",
+    "Multiple infarcts",
+    "Spongiform change caused by prions"
+  ],
+  "correctAnswer": 4,
+  "explanation": "This patient has clinical signs of Creutzfeldt-Jakob disease (CJD), a rapidly progressive neurodegenerative disorder. Key findings include myoclonus (especially triggered by stimuli), ataxia, periodic sharp wave complexes on EEG, and cortical ribboning on MRI. The pathognomonic pathology is spongiform change caused by prion proteins. Amyloid plaques (choice 0) are seen in Alzheimer disease. Caudate atrophy (choice 1) is typical of Huntington disease. Lewy bodies (choice 2) are seen in dementia with Lewy bodies. Multiple infarcts (choice 3) suggest vascular dementia."
+},
+{
+  "question": "A 65-year-old male has new-onset hallucinations. His wife notes that, for the past few weeks, he has thrashed around in the bed needing to sleep in a different room. He has become forgetful about appointments and no longer pays bills on time. Physical examination reveals resting tremor, rigidity, and bradykinesia. Mini-Mental State Examination reveals deficits in memory. The most likely pathologic finding would be:",
+  "choices": [
+    "Caudate atrophy",
+    "Lewy bodies",
+    "Multiple infarcts",
+    "Plaques and tangles",
+    "Selective fronto-temporal atrophy"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This patient's combination of visual hallucinations, fluctuating cognition, REM sleep behavior disorder (acting out dreams), and parkinsonian features is characteristic of dementia with Lewy bodies. The defining pathologic finding is Lewy bodies, which are eosinophilic inclusions composed of alpha-synuclein in cortical neurons. Caudate atrophy (choice 0) is seen in Huntington disease. Multiple infarcts (choice 2) point to vascular dementia. Plaques and tangles (choice 3) are hallmark findings in Alzheimer disease. Selective frontotemporal atrophy (choice 4) is typical of frontotemporal dementia."
+},
+{
+  "question": "A 65-year-old male diagnosed with dementia 5 years ago no longer pays bills on time and is noticed wandering about his neighborhood trying to find his home. His neighbors are happy to help him. He dies a year later of pneumonia. Gross examination of brain is likely to reveal:",
+  "choices": [
+    "Selective fronto-temporal atrophy",
+    "Diffuse cerebral atrophy",
+    "Pallor of substantia nigra",
+    "Atrophy of caudate nucleus",
+    "Multiple infarcts"
+  ],
+  "correctAnswer": 1,
+  "explanation": "This patient had progressive dementia with memory loss and functional decline over several years, consistent with Alzheimer disease. The classic gross pathologic finding in Alzheimer disease is diffuse cerebral atrophy, particularly affecting the hippocampus and association cortices. Choice 0 is characteristic of frontotemporal dementia. Choice 2 is typical in Parkinson disease. Choice 3 is seen in Huntington disease. Choice 4 suggests vascular dementia."
+},
+{
+  "question": "A 40-year-old man has become increasingly restless over the past 2 years. Recently, he has been making jerky, dancelike movements with his arms and legs and is unable to control his extremities during these episodes. He also has become forgetful with trouble completing tasks. His father had similar symptoms in his sixties and later developed dementia. His CNS is most likely to show:",
+  "choices": [
+    "Atrophy of caudate nuclei with box-car ventricles",
+    "Cerebellar degeneration",
+    "Degeneration of anterior horn neurons",
+    "Loss of pigmented neurons",
+    "Spongiform encephalopathy"
+  ],
+  "correctAnswer": 0,
+  "explanation": "This patient likely has Huntington disease, an autosomal dominant neurodegenerative disorder characterized by chorea, behavioral changes, and dementia. The hallmark pathology is atrophy of the caudate nucleus, leading to enlargement of the lateral ventricles, often described as 'boxcar ventricles.' Cerebellar degeneration (choice 1) is associated with ataxias. Degeneration of anterior horn neurons (choice 2) is seen in ALS. Loss of pigmented neurons (choice 3) is seen in Parkinson disease. Spongiform encephalopathy (choice 4) is characteristic of prion diseases such as CJD."
+},
+{
+  "question": "A 60-year-old previously healthy construction worker has progressive difficulty in holding his tools. Two years later he has weakness of extremities with spasticity, difficulty in walking, speaking and swallowing. On examination, some of the reflexes are reduced, but others are exaggerated. Fasciculations of tongue, as well as Babinski sign are noted. His CNS is most likely to show:",
+  "choices": [
+    "Atrophy of caudate nuclei with box-car ventricles",
+    "Cerebellar degeneration",
+    "Degeneration of anterior horn neurons",
+    "Loss of pigmented neurons",
+    "Spongiform encephalopathy"
+  ],
+  "correctAnswer": 2,
+  "explanation": "This patient's progressive mixed upper and lower motor neuron signs, including spasticity, tongue fasciculations, and Babinski sign, point to amyotrophic lateral sclerosis (ALS). The hallmark pathologic feature of ALS is degeneration of anterior horn neurons (LMNs) and corticospinal tracts (UMNs). Choice 0 corresponds to Huntington disease. Choice 1 refers to cerebellar ataxias. Choice 3 indicates Parkinson disease, and choice 4 is seen in prion diseases such as Creutzfeldt-Jakob disease."
+},
+{
+  "question": "A 78-year-old man is brought because of frequent falls over the past 2 months. Physical examination reveals a shuffling gait, marked rigidity at his knees and elbows, an upper extremity tremor, and bradykinesia on finger-to-nose testing. His muscle strength is intact. Which of the following structures is most likely affected in this patient?",
+  "choices": [
+    "Anterior horn neurons",
+    "Caudate nuclei",
+    "Cerebellum",
+    "Hippocampus",
+    "Substantia nigra"
+  ],
+  "correctAnswer": 4,
+  "explanation": "This patient's resting tremor, bradykinesia, rigidity, and shuffling gait are classic signs of Parkinson disease. The characteristic pathology involves degeneration of dopaminergic neurons in the substantia nigra pars compacta. Anterior horn neurons (choice 0) are affected in ALS. Caudate nucleus (choice 1) is involved in Huntington disease. Cerebellar dysfunction (choice 2) causes ataxia rather than rigidity. The hippocampus (choice 3) is primarily involved in Alzheimer disease."
+}
 ]
