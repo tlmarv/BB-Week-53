@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+
     let quizData = [];
     let currentQuestionIndex = 0;
     let correctAnswers = 0;
@@ -30,14 +30,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const helpModal = document.getElementById("help-modal");
     const closeModalBtn = document.getElementById("close-modal-btn");
 
-    // --- Main function to start the quiz ---
     function startQuiz() {
         fetch('questions.json')
             .then(response => response.json())
             .then(data => {
                 quizData = data;
                 initializeQuizState();
-                setupEventListeners(); // Set up all listeners here
+                setupEventListeners();
                 renderSidebar();
                 loadQuestion(0);
             })
@@ -88,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // --- THIS IS THE UPDATED FUNCTION ---
     function loadQuestion(index) {
         currentQuestionIndex = index;
         renderSidebar(); 
@@ -101,6 +101,15 @@ document.addEventListener("DOMContentLoaded", () => {
             const button = document.createElement("button");
             button.textContent = choice;
             button.onclick = () => checkAnswer(i);
+
+            // Add the right-click event listener for strikethrough
+            button.addEventListener("contextmenu", (e) => {
+                e.preventDefault(); // This stops the normal right-click menu from appearing
+                if (!answeredQuestions[index]) { // Only allow strikethrough if the question hasn't been answered yet
+                    button.classList.toggle("strikethrough");
+                }
+            });
+
             choicesContainer.appendChild(button);
         });
 
@@ -116,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         explanationBox.className = explanationsShown[index] ? "" : "hidden";
         explanationBox.textContent = explanationsShown[index] ? q.explanation : "";
-        
+
         markReviewBtn.classList.toggle("marked", markedForReview[index]);
         updateProgress();
     }
@@ -129,11 +138,11 @@ document.addEventListener("DOMContentLoaded", () => {
         selectedAnswers[currentQuestionIndex] = selectedIndex;
 
         recalculateScore();
-        
+
         sessionStorage.setItem("answeredQuestions", JSON.stringify(answeredQuestions));
         sessionStorage.setItem("explanationsShown", JSON.stringify(explanationsShown));
         sessionStorage.setItem("selectedAnswers", JSON.stringify(selectedAnswers));
-        
+
         loadQuestion(currentQuestionIndex);
     }
 
@@ -149,24 +158,24 @@ document.addEventListener("DOMContentLoaded", () => {
     function showResultsPopup() {
         quizContent.classList.add("hidden");
         questionNav.classList.add("hidden");
-        
+
         recalculateScore();
         updateProgress();
-        
+
         const scorePercentage = quizData.length > 0 ? ((correctAnswers / quizData.length) * 100) : 0;
         document.getElementById("final-score").textContent = `You scored ${correctAnswers} out of ${quizData.length} (${scorePercentage.toFixed(2)}%)!`;
-        
+
         const highScore = localStorage.getItem("quizHighScore") || 0;
         const highScoreText = document.getElementById("high-score-text");
         if (correctAnswers > highScore) {
             localStorage.setItem("quizHighScore", correctAnswers);
             highScoreText.textContent = "🏆 New High Score!";
-        } else {
+        } else if (quizData.length > 0) {
             highScoreText.textContent = `High Score: ${highScore}/${quizData.length}`;
         }
-        
+
         resultsContainer.classList.remove("hidden");
-        
+
         if (scorePercentage >= 80) {
             confetti({ particleCount: 150, spread: 90, origin: { y: 0.6 } });
         }
@@ -174,7 +183,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function restartQuiz() {
         sessionStorage.clear();
-        localStorage.removeItem("quizHighScore"); // Also clear high score on restart
+        // Optional: Also clear high score on restart if you want a true reset
+        // localStorage.removeItem("quizHighScore"); 
         window.location.reload();
     }
 
@@ -184,8 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
         questionNav.classList.remove("hidden");
         loadQuestion(0);
     }
-    
-    // --- THIS IS THE CORRECTED PART ---
+
     function setupEventListeners() {
         nextBtn.onclick = () => {
             if (currentQuestionIndex < quizData.length - 1) {
@@ -194,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 showResultsPopup();
             }
         };
-        
+
         prevBtn.onclick = () => {
             if (currentQuestionIndex > 0) {
                 loadQuestion(currentQuestionIndex - 1);
@@ -203,7 +212,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         restartBtn.onclick = restartQuiz;
         reviewBtn.onclick = reviewQuiz;
-        
+
         markReviewBtn.onclick = () => {
             markedForReview[currentQuestionIndex] = !markedForReview[currentQuestionIndex];
             sessionStorage.setItem("markedForReview", JSON.stringify(markedForReview));
@@ -213,9 +222,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         helpBtn.onclick = () => helpModal.classList.remove("hidden");
         closeModalBtn.onclick = () => helpModal.classList.add("hidden");
-        
+
         document.addEventListener("keydown", (event) => {
-            if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') return;
+            if (event.target.tagName !== 'BODY') return;
 
             if (event.code === "Space") nextBtn.click();
             if (event.code === "KeyB") prevBtn.click();
@@ -228,6 +237,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Start the quiz
     startQuiz();
 });
