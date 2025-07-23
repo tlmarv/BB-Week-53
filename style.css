@@ -1,4 +1,4 @@
-/* Import a fun, pixelated font from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* General Styles */
@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #272b47;
+    background-color: #003359;
     color: white;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
 /* Scrollable Question Navigation */
 .question-nav {
     width: 250px;
-    background: #4a6958;
+    background: #222;
     padding: 15px;
     border-radius: 10px;
     overflow-y: auto;
@@ -50,8 +50,8 @@ body {
 }
 
 .question-nav li.active {
-    background-color: #00ff99;
-    color: #222;
+    background-color: #0077b6;
+    color: #ffffff;
     font-weight: bold;
 }
 
